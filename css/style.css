@@ -1,0 +1,26 @@
+@-moz-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-o-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1; }
+
+@viewport {
+  width: device-width;
+  scale: 1; }
+
+/* line 7, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%; }
