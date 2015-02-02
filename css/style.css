@@ -52,3 +52,15 @@ html {
 .nav-item a:hover {
   color: #fff;
   background: #ccc; }
+
+/* line 43, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.site-wrap {
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+  padding: 1em 4em 4em 4em;
+  background-size: 200%; }
