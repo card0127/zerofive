@@ -126,3 +126,9 @@ label[for="nav-trigger"] {
 /* line 113, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 [data-state='slide-open'] {
   overflow: visible; }
+
+/* line 117, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.img-flex {
+  width: 250px;
+  display: block;
+  margin: 0 auto; }
