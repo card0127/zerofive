@@ -145,8 +145,7 @@ html, body {
 /* line 123, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .primary-btn {
   background-color: #ccc;
-  border-radius: 3px;
-  padding: 0.5em 1em;
+  padding: 1em 1.5em;
   margin: 1em;
   display: inline-block;
   text-decoration: none;
@@ -154,6 +153,6 @@ html, body {
   position: absolute;
   right: 1em;
   top: 2em; }
-  /* line 11, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/mixins */
+  /* line 10, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/mixins */
   .primary-btn:hover {
-    background-color: #FEDC5A; }
+    background-color: #222; }
