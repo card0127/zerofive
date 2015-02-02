@@ -51,3 +51,20 @@ html {
   padding: 1em 4em 4em 4em;
   background-size: 200%;
 }
+
+.nav-trigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+  position: fixed;
+  left: 2em;
+  top: 3em;
+  z-index: 2;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  background-size: contain;
+  background-image: url('../../images/i-menu.svg');
+}
