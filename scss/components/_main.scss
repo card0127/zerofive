@@ -17,6 +17,11 @@ body {
   font-family: helvetica;
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 h1, h3, p {
   max-width: 600px;
   margin: 0 auto 1em;
@@ -91,4 +96,12 @@ label[for="nav-trigger"] {
 .nav-trigger:checked + label {
   left: 215px;
   background-image: url('../../images/i-close.svg');
+}
+
+*,*:before,*:after {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
 }
