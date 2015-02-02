@@ -23,3 +23,19 @@ html {
   z-index: 0;
   list-style: none;
 }
+
+.nav-item {
+  width: 200px;
+  border-bottom: 1px solid $light-grey;
+}
+
+.nav-item a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: $text-color;
+  background: $light-grey;
+}
