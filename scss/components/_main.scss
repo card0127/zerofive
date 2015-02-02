@@ -105,3 +105,11 @@ label[for="nav-trigger"] {
   margin:0;
   padding:0;
 }
+
+&[data-state='slide-open'] .site-wrap {
+    transform: translateX(-100%);
+}
+
+&[data-state='slide-open']{
+  overflow: visible;
+}
