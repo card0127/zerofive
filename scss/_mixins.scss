@@ -1,13 +1,14 @@
 // Mixins
 
-@mixin button($bg-color, $color, $hover-color){
-  background-color: $bg-color;
-  padding: 1em 1.5em;
+@mixin button($border-color, $color, $hover-color){
+  border: 5px solid $border-color;
+  padding: .5em 1.5em;
   margin: 1em;
   display: inline-block;
   text-decoration: none;
   color: $color;
   &:hover {
-    background-color: $hover-color;
+    border-color: $hover-color;
+    color: $hover-color;
   }
 }
