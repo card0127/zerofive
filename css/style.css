@@ -596,7 +596,7 @@ footer {
 
   /* line 313, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
   .feature {
-    padding: 2em; }
+    padding: 4em; }
 
   /* line 317, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
   .carousel {
@@ -617,6 +617,10 @@ footer {
   .site-wrapper .slide-menu {
     width: 10%;
     left: -10%; }
+
+  /* line 342, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+  .feature {
+    padding: 8em; }
  }
 
 /* Slider */

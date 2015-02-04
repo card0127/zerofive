@@ -311,7 +311,7 @@ a.col-3:active {
 }
 
   .feature {
-    padding: 2em;
+    padding: 4em;
   }
 
    .carousel {
@@ -337,6 +337,10 @@ a.col-3:active {
   width: 10%;
   left: -10%;
     }
+  }
+
+  .feature {
+    padding: 8em;
   }
 
 } // End of Media Query
