@@ -1,10 +1,19 @@
 @font-face {
+<<<<<<< HEAD
   font-family: 'custom-font';
   src: url('../fonts/custom-font.eot?66398870');
   src: url('../fonts/custom-font.eot?66398870#iefix') format('embedded-opentype'),
        url('../fonts/custom-font.woff?66398870') format('woff'),
        url('../fonts/custom-font.ttf?66398870') format('truetype'),
        url('../fonts/custom-font.svg?66398870#custom-font') format('svg');
+=======
+  font-family: 'fontello';
+  src: url('../font/custom-font.eot?61199414');
+  src: url('../font/custom-font.eot?61199414#iefix') format('embedded-opentype'),
+       url('../font/custom-font.woff?61199414') format('woff'),
+       url('../font/custom-font.ttf?61199414') format('truetype'),
+       url('../font/custom-font.svg?61199414') format('svg');
+>>>>>>> FETCH_HEAD
   font-weight: normal;
   font-style: normal;
 }
@@ -13,24 +22,38 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
+<<<<<<< HEAD
     font-family: 'custom-font';
     src: url('../font/custom-font.svg?66398870#custom-font') format('svg');
   }
 }
 */
 
+=======
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?61199414#fontello') format('svg');
+  }
+}
+*/
+ 
+>>>>>>> FETCH_HEAD
  [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "custom-font";
   font-style: normal;
   font-weight: normal;
   speak: none;
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> FETCH_HEAD
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
+<<<<<<< HEAD
 
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
@@ -103,3 +126,73 @@
 .icon-art-gallery:before { content: '\e832'; } /* '' */
 .icon-lightbulb:before { content: '\e833'; } /* '' */
 .icon-chat:before { content: '\e834'; } /* '' */
+=======
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-a:before { content: '\e800'; } /* '' */
+.icon-s:before { content: '\e801'; } /* '' */
+.icon-star:before { content: '\e802'; } /* '' */
+.icon-emo-grin:before { content: '\e803'; } /* '' */
+.icon-emo-laugh:before { content: '\e804'; } /* '' */
+.icon-emo-wink:before { content: '\e805'; } /* '' */
+.icon-search:before { content: '\e806'; } /* '' */
+.icon-heart:before { content: '\e807'; } /* '' */
+.icon-star-1:before { content: '\e808'; } /* '' */
+.icon-mail-alt:before { content: '\e809'; } /* '' */
+.icon-ok-circled:before { content: '\e80a'; } /* '' */
+.icon-cancel:before { content: '\e80b'; } /* '' */
+.icon-plus-circled:before { content: '\e80c'; } /* '' */
+.icon-minus-circled:before { content: '\e80d'; } /* '' */
+.icon-help-circled:before { content: '\e80e'; } /* '' */
+.icon-info-circled:before { content: '\e80f'; } /* '' */
+.icon-link:before { content: '\e810'; } /* '' */
+.icon-lock:before { content: '\e811'; } /* '' */
+.icon-pin:before { content: '\e812'; } /* '' */
+.icon-bookmark:before { content: '\e813'; } /* '' */
+.icon-thumbs-up-alt:before { content: '\e814'; } /* '' */
+.icon-reply:before { content: '\e815'; } /* '' */
+.icon-forward:before { content: '\e816'; } /* '' */
+.icon-quote-left:before { content: '\e817'; } /* '' */
+.icon-quote-right:before { content: '\e818'; } /* '' */
+.icon-comment:before { content: '\e819'; } /* '' */
+.icon-trash:before { content: '\e81a'; } /* '' */
+.icon-menu:before { content: '\e81b'; } /* '' */
+.icon-mic:before { content: '\e81c'; } /* '' */
+.icon-angle-circled-right:before { content: '\e81d'; } /* '' */
+.icon-angle-circled-left:before { content: '\e81e'; } /* '' */
+.icon-angle-circled-up:before { content: '\e81f'; } /* '' */
+.icon-angle-circled-down:before { content: '\e820'; } /* '' */
+.icon-play-circled:before { content: '\e821'; } /* '' */
+.icon-facebook-squared:before { content: '\e822'; } /* '' */
+.icon-vine:before { content: '\e823'; } /* '' */
+.icon-vimeo-squared:before { content: '\e824'; } /* '' */
+.icon-tumblr-squared:before { content: '\e825'; } /* '' */
+.icon-facebook:before { content: '\e826'; } /* '' */
+.icon-twitter:before { content: '\e827'; } /* '' */
+.icon-youtube-squared:before { content: '\e828'; } /* '' */
+.icon-youtube:before { content: '\e829'; } /* '' */
+.icon-camera:before { content: '\e82a'; } /* '' */
+.icon-comment-inv-alt2:before { content: '\e82b'; } /* '' */
+.icon-user-pair:before { content: '\e82c'; } /* '' */
+.icon-pencil:before { content: '\e82d'; } /* '' */
+.icon-art-gallery:before { content: '\e82e'; } /* '' */
+.icon-lightbulb:before { content: '\e82f'; } /* '' */
+.icon-chat:before { content: '\e830'; } /* '' */
+>>>>>>> FETCH_HEAD
