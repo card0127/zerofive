@@ -226,13 +226,17 @@ a.col-3:active {
   }
 
 // Media Queries - Tablet Size
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px){
 
+  h2 {
+    color: red;
+  }
 
-&[data-state='slide-open'] .sliding-canvas{
+  .site-wrapper {
+
+    &[data-state='slide-open'] .sliding-canvas{
         transform: translateX(30%);
-} // data-state
-
+    } // data-state
 
   .slide-menu {
   width: 30%;
@@ -241,33 +245,36 @@ a.col-3:active {
 
   }
 
-}
+} // End of Media Query
+
 
 // Media Queries - Desktop Size
 @media only screen and (min-width: 992px){
 
-  &[data-state='slide-open'] .sliding-canvas{
+  .site-wrapper {
+
+    &[data-state='slide-open'] .sliding-canvas{
         transform: translateX(20%);
-  } // data-state
+    } // data-state
 
   .slide-menu {
   width: 20%;
   left: -20%;
-
   }
 
   }
 
+} // End of Media Query
 
-}
 
 // Media Queries - Large Desktop Size
 @media only screen and (min-wight: 1200px){
 
-  &[data-state='slide-open'] .sliding-canvas{
-        transform: translateX(10%);
-  } // data-state
+  .site-wrapper {
 
+    &[data-state='slide-open'] .sliding-canvas{
+        transform: translateX(10%);
+    } // data-state
 
   .slide-menu {
   width: 10%;
@@ -276,6 +283,6 @@ a.col-3:active {
 
   }
 
-}
+} // End of Media Query
 
 
