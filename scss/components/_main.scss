@@ -58,6 +58,10 @@ p {
   padding: 0;
 }
 
+.intro-text {
+  padding: 0 2em;
+}
+
 
 header {
   padding: 0 1em;
@@ -77,9 +81,6 @@ cite {
   display: block;
   text-transform: uppercase;
 }
-
-
-
 
 .primary-btn {
   @include button($light-grey, #ccc, $hover-color);
@@ -257,6 +258,13 @@ a.col-3:active {
 
   }
 
+  .intro-text {
+  padding: 0 3em;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
   // Carousel
 
   .carousel {
@@ -296,6 +304,11 @@ a.col-3:active {
   }
 
   }
+
+    .intro-text {
+  padding: 0 4em;
+  max-width: 60%;
+}
 
   .feature {
     padding: 2em;
