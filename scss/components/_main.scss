@@ -10,30 +10,77 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
 }
 
-body {
-  overflow-x: hidden;
-  font-family: 'Lato', helvetica, arial, sans-serif;
-    /* Font-weight: 300 (light), 400 (normal), 400 italic (normal italic), 700 (bold) */
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-// Headers
+
+body{
+  font-family: 'Lato', arial, helvetica, sans-serif;
+  @include zero;
+  // Hides close button if there is no js
+  &.noscript .close-btn,
+  &.noscript .toggle-btn{
+    display: none;
+
+  }
+}
+
+h1 {
+  text-align: center;
+  margin: 0;
+
+}
 
 h2 {
   font-size: 40pt;
   font-weight: 300;
-  text-align: center;
+  margin-bottom: .25em;
 }
 
-// Content
+h2, p {
+  text-align: center;
+}
 
 p {
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 
-// Navigation
+header {
+  padding: 0 1em;
+  position: relative;
+}
+
+main {
+  padding: 5px;
+}
+
+blockquote {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+cite {
+  display: block;
+  text-transform: uppercase;
+}
+
+
+
+
+.primary-btn {
+  @include button($light-grey, #ccc, $hover-color);
+}
+
+.centered {
+  text-align: center;
+}
 
 .navigation ul {
   @include zero;
@@ -46,6 +93,7 @@ p {
       border-bottom: 1px solid $light-grey;
       text-decoration: none;
       font-weight: $thin-weight;
+      text-align: right;
     }
     &:first-child a{
       border-top: 1px solid $light-grey;
@@ -53,119 +101,133 @@ p {
   }
 }
 
-// Site Wrap
-/* This allows the nav to push the content properly*/
-
-.site-wrap {
-
-  background-color: white;
-  position: relative;
-  top: 0;
-  bottom: 100%;
-  left: 0;
-  z-index: 1;
-  padding: 1em 4em 7em 4em;
-  background-size: 200%;
+a,
+a:link,
+a:visited  {
+  color: $text-color;
 }
 
-// Links
-
-
-
-
-// Nav Trigger
-
-.nav-trigger {
-  position: absolute;
-  clip: rect(0, 0, 0, 0);
+a:hover,
+a:focus,
+a:active {
+  color: $hover-color;
 }
 
-label[for="nav-trigger"] {
+a.col-1,
+a.col-1:link,
+a.col-1:visited {
+
+}
+
+a.col-1:hover,
+a.col-1:focus,
+a.col-1:active {
+  border-right: 4px solid $col-1;
+}
+
+a.col-2:hover,
+a.col-2:focus,
+a.col-2:active {
+  border-right: 4px solid $col-2;
+}
+
+a.col-3:hover,
+a.col-3:focus,
+a.col-3:active {
+  border-right: 4px solid $col-3;
+}
+
+.toggle-btn {
+  color: $text-color;
   position: fixed;
   left: 1em;
-  top: 3em;
-  z-index: 2;
-  height: 35px;
-  width: 35px;
-  cursor: pointer;
-  background-size: contain;
-  background-image: url('../../images/i-menu.svg');
+  top: 0;
+  height: 40px;
+  width: 40px;
+  margin-top: 1em;
+
+  i {
+    padding: .25em;
+    font-size: 20pt;
+
+  }
+  span {
+    @include hide-text;
+  }
 }
 
-.nav-trigger + label, .site-wrap {
-  transition: left 0.2s;
-}
 
-.nav-trigger:checked + label {
-  left: 215px;
-  background-image: url('../../images/i-close.svg');
-}
+// Sliding Navigation
 
-.nav-trigger:checked ~ .site-wrap {
-  left: 200px;
-  border-left: 1px solid $light-grey;
-  height: 100%;
-}
+//Page should move when nav opens
+// Only time we will ever use max-width
+  .site-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    z-index: 100;
+    .sliding-canvas {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform: translateX(0);
+      @include ease(all, 300ms, ease-in-out);
+      }  // .sliding-canvas
 
-*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
-html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
-
-
-&[data-state='slide-open'] .site-wrap{
-        transform: translateX(-100%);
-}
+&[data-state='slide-open'] .sliding-canvas{
+        transform: translateX(50%);
+         // Allows nav to be greater than page height when open
+} // data-state
 &[data-state='slide-open']{
   overflow: visible;
 }
 
-// Logo
+    // .site-wrapper
+
+  .slide-menu {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: -50%;
+  min-height: 600px;
+  padding: 1em 0 1em 0;
+  border-right: 1px solid $light-grey;
+  }
+
+}
+
 .img-flex {
   width: 250px;
-  display: block;
-  margin: 0 auto;
-  padding-bottom: 1em;
 }
 
-// Donate Button
-.primary-btn {
-  @include button($light-grey, #ccc, $hover-color);
-}
-
-.centered {
-  text-align: center;
-}
-
-// Feature Section
 .feature {
-  background-color: red;
-  display: block;
+  background-color: $light-grey;
+  padding-top: 2em;
 }
-
 
 // Footer
   // Carousel
-  .slick-prev:before, .slick-next:before {
-    color: #222;
+  .single-item {
+    width: 50%;
   }
 
   .carousel-quotes{
     padding-top: 2em;
     text-align: center;
+    margin: 0 auto;
+  }
+
+  footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 2em 0;
   }
 
 // Media Queries - Tablet Size
 @media only screen and (min-width: 768px) {
 
-  label[for="nav-trigger"] {
-  left: 2em;
-  }
-
-  .primary-btn {
-  @include button($light-grey, #ccc, $hover-color);
-  position: absolute;
-  right: 1em;
-  top: 2em;
-  }
 
 }
 
