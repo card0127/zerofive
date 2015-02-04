@@ -525,7 +525,7 @@ footer {
 /* Slider */
 /* line 3, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
 .slick-loading .slick-list {
-  background: #000 url('{{site.baseurl}}/zerofive/images/ajax-loader.gif') center center no-repeat;
+  background: #000 url('../images/ajax-loader.gif') center center no-repeat;
   padding-top: 2em; }
 
 /* Icons */
@@ -533,8 +533,8 @@ footer {
   font-family: 'slick';
   font-weight: normal;
   font-style: normal;
-  src: url('{{site.baseurl}}/zerofive/fonts/slick.eot');
-  src: url('{{site.baseurl}}/zerofive/fonts/slick.eot?#iefix') format('embedded-opentype'), url('{{site.baseurl}}/zerofive/fonts/slick.woff') format('woff'), url('{{site.baseurl}}/zerofive/fonts/slick.ttf') format('truetype'), url('{{site.baseurl}}/zerofive/fonts/slick.svg#slick') format('svg'); }
+  src: url('../fonts/slick.eot');
+  src: url('../fonts/slick.eot?#iefix') format('embedded-opentype'), url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'), url('../fonts/slick.svg#slick') format('svg'); }
 
 /* Arrows */
 /* line 21, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
