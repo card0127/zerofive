@@ -14,7 +14,7 @@
     font-style: normal;
 
     src: url('{{site.baseurl}}/fonts/slick.eot');
-    src: url('{{site.baseurl}}/fonts/slick.eot?#iefix') format('embedded-opentype'), url('../../fonts/slick.woff') format('woff'), url('{{site.baseurl}}/fonts/slick.ttf') format('truetype'), url('../../fonts/slick.svg#slick') format('svg');
+    src: url('{{site.baseurl}}/fonts/slick.eot?#iefix') format('embedded-opentype'), url('{{site.baseurl}}/fonts/slick.woff') format('woff'), url('{{site.baseurl}}/fonts/slick.ttf') format('truetype'), url('{{site.baseurl}}/fonts/slick.svg#slick') format('svg');
 }
 /* Arrows */
 .slick-prev,
