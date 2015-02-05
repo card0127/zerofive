@@ -21,6 +21,9 @@ html {
 
 body{
   font-family: 'Lato', arial, helvetica, sans-serif;
+  background-image: url('../../images/grid.svg');
+  background-size: contain;
+  z-index: 3;
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -211,7 +214,8 @@ a.col-3:active {
 }
 
 .feature {
-  background-color: $light-grey;
+  border-top: 1px solid #000; // Temporary border
+  border-bottom: 1px solid #000; // Temporary border
   padding: 1em;
   overflow: hidden;
 }
@@ -241,7 +245,9 @@ a.col-3:active {
   }
 
   footer {
+    /* Remove comment message once grid is set
     background-color: #fff;
+    */
     text-align: center;
     padding: 2em 0;
   }
