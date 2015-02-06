@@ -10,7 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
+  background: url(../../images/grid.svg) fixed;
+  background-size: 1200px 800px;
 }
 
 
@@ -21,9 +22,8 @@ html {
 
 body{
   font-family: 'Lato', arial, helvetica, sans-serif;
-  background-image: url('../../images/grid.svg');
-  background-size: contain;
-  z-index: 3;
+
+
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,

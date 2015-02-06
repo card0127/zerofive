@@ -306,6 +306,26 @@
   content: '\e834'; }
 
 /* '' */
+/* line 5, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/columns */
+.col-padding {
+  padding: 0.5em; }
+
+/* line 9, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/columns */
+.col-1 {
+  width: 100%; }
+
+/* line 13, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/columns */
+.col-1-2 {
+  width: 50%; }
+
+/* line 17, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/columns */
+.col-1-3 {
+  width: 33.333%; }
+
+/* line 21, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/columns */
+.col-2-3 {
+  width: 66.666%; }
+
 @-moz-viewport {
   width: device-width;
   scale: 1; }
@@ -331,18 +351,17 @@ html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%; }
+  text-size-adjust: 100%;
+  background: url(../../images/grid.svg) fixed;
+  background-size: 1200px 800px; }
 
-/* line 17, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 18, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 *, *:before, *:after {
   box-sizing: inherit; }
 
-/* line 22, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 23, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 body {
   font-family: 'Lato', arial, helvetica, sans-serif;
-  background-image: url('../../images/grid.svg');
-  background-size: contain;
-  z-index: 3;
   margin: 0;
   padding: 0; }
   /* line 30, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
