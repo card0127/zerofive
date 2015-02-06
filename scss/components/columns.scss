@@ -1,1 +1,45 @@
 // Column Grid
+
+// Mobile View
+
+.col-padding {
+	padding: .5em;
+}
+
+.col-1 {
+	width: 100%;
+}
+
+.col-1-2 {
+	width: 50%;
+}
+
+.col-1-3 {
+	width: 33.333%
+}
+
+.col-2-3 {
+	width: 66.666%
+}
+
+// Media Queries - Tablet Size
+@media only screen and (min-width: 768px){
+
+
+
+} // End of Media Query
+
+
+// Media Queries - Desktop Size
+@media only screen and (min-width: 992px){
+
+
+} // End of Media Query
+
+
+// Media Queries - Large Desktop Size
+@media only screen and (min-wight: 1200px){
+
+
+
+} // End of Media Query
