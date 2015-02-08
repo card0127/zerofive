@@ -150,9 +150,9 @@ a.col-3:active {
 
 .toggle-btn {
   color: $text-color;
-  position: fixed;
+  position: absolute;
   left: 1em;
-  top: 0;
+  top: 1em;
   height: 40px;
   width: 40px;
   margin-top: 1em;

@@ -478,9 +478,9 @@ a.col-3:hover, a.col-3:focus, a.col-3:active {
 /* line 151, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .toggle-btn {
   color: #666;
-  position: fixed;
+  position: absolute;
   left: 1em;
-  top: 0;
+  top: 1em;
   height: 40px;
   width: 40px;
   margin-top: 1em; }
