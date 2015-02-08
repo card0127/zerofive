@@ -1,0 +1,46 @@
+# PEOPLE
+
+Project Manager: Pedro Santos
+E-mail: p.santos@me.com
+Location: Ontario, Canada
+Website: pedrosantos.info
+GitHub: http://guthub.com/card0127
+
+Coder: Thalia Bacilio
+E-mail: rebecka.cole@gmail.com
+Location: Ontario, Canada
+Website: rebeckacole.ca
+GitHub: http://guthub.com/cole0228
+
+Coder: Melissa Roy
+E-mail: r.melissa@gmail.com
+Location: Ontario, Canada
+Website: melissaroy.ca
+GitHub: http://guthub.com/heartedmachine
+
+Designer: Katie Situ
+E-mail: katie.situ@gmail.com
+Location: Ontario, Canada
+Website: katiesitu.ca
+GitHub: http://guthub.com/situ0020
+
+Designer: Rebecka Cole
+E-mail: rebecka.cole@gmail.com
+Location: Ontario, Canada
+Website: rebeckacole.ca
+GitHub: http://guthub.com/cole0228
+
+Designer: Lau
+E-mail: rebecka.cole@gmail.com
+Location: Ontario, Canada
+Website: rebeckacole.ca
+GitHub: http://guthub.com/cole0228
+
+
+# THANKS
+
+
+# TOOLS
+
+Sublime Text
+GutHub
