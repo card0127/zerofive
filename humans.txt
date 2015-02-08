@@ -37,10 +37,11 @@ Website: rebeckacole.ca
 GitHub: http://guthub.com/cole0228
 
 
-# THANKS
+# THANKS <---- If took any code/tutorials from anywhere please put here.
 
 
 # TOOLS
 
 Sublime Text
 GutHub
+PrePros <---- Maybe?
