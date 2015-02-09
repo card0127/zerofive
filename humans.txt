@@ -7,9 +7,9 @@ Website: pedrosantos.info
 GitHub: http://guthub.com/card0127
 
 Developer: Thalia Bacilio
-E-mail:
+E-mail: thaliamina.js@gmail.com
 Location: Ontario, Canada
-Website:
+Website: thaliadesign.info
 GitHub: http://guthub.com/baci0008
 
 Developer: Melissa Roy
@@ -46,7 +46,7 @@ http://kenwheeler.github.io/slick/
 # TOOLS
 
 Sublime Text
-GutHub
+GitHub
 PrePros <---- Maybe?
 Illustrator
 Photoshop
