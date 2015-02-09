@@ -636,7 +636,7 @@ footer {
     max-width: 40%; }
  }
 
-@media only screen and (min-wight: 1200px) {
+@media only screen and (min-widht: 1200px) {
   /* line 343, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
   .site-wrapper[data-state='slide-open'] .sliding-canvas {
     -webkit-transform: translateX(10%);
