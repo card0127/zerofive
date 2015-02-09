@@ -356,4 +356,62 @@ a.col-3:active {
 
 } // End of Media Query
 
+//Sub Nav
+
+#accordian {
+	width: 250px;
+	margin: 100px auto 0 auto;
+	box-shadow: 
+		0 5px 15px 1px rgba(0, 0, 0, 0.6), 
+		0 0 200px 1px rgba(255, 255, 255, 0.5);
+}
+
+/*heading styles*/
+#accordian h3 {
+	text-size: 2rem;
+	font-size: 18pt;
+	text-align: right;
+	margin-right: 1rem;
+	a{
+	text-decoration: none;
+	}
+
+}
+/*heading hover effect*/
+#accordian h3:hover {
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+}
+/*iconfont styles*/
+#accordian h3 span {
+	font-size: 20px;
+	margin-right: 10px;
+}
+/*list items*/
+#accordian li {
+	list-style-type: none;
+}
+/*links*/
+#accordian ul ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 27px;
+	display: block;
+	padding: 0 15px;
+	/*transition for smooth hover animation*/
+	transition: all 0.15s;
+}
+/*hover effect on links*/
+#accordian ul ul li a:hover {
+	background: $light-grey;
+	border-left: 5px solid grey;
+}
+/*Lets hide the non active LIs by default*/
+#accordian ul ul {
+	display: none;
+}
+#accordian li.active ul {
+	display: block;
+}
+
 
