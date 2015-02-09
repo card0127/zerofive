@@ -134,14 +134,13 @@ a.col-3:active {
 .toggle-btn {
   color: $text-color;
   position: absolute;
-  left: 1em;
+  left: .7em;
   top: 1em;
   height: 40px;
   width: 40px;
   margin-top: 1em;
 
   i {
-    padding: .25em;
     font-size: 30pt;
 
   }
@@ -160,7 +159,8 @@ a.col-3:active {
 
 // heading styles
 #accordian h3 {
-  font-size: 12px;
+  font-size: 15px;
+  font-weight: 100;
   line-height: 34px;
   padding: 0 10px;
   cursor: pointer;
@@ -172,7 +172,6 @@ a.col-3:active {
 }
 // iconfont styles
 #accordian h3 span {
-  font-size: 20px;
   margin-right: 10px;
 }
 // list items
@@ -187,6 +186,7 @@ a.col-3:active {
 // links
 #accordian ul ul li a {
   color: black;
+  font-weight: 100;
   text-decoration: none;
   font-size: 13px;
   line-height: 27px;
