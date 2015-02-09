@@ -150,8 +150,68 @@ a.col-3:active {
   }
 }
 
+                          //Sub Nav
 
-// Sliding Navigation
+#accordian {
+  margin: 0 auto 0 auto;
+  color: #000;
+}
+
+
+// heading styles
+#accordian h3 {
+  font-size: 12px;
+  line-height: 34px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+// heading hover effect
+#accordian h3:hover {
+  background-color: $light-grey;
+
+}
+// iconfont styles
+#accordian h3 span {
+  font-size: 20px;
+  margin-right: 10px;
+}
+// list items
+#accordian li {
+  list-style-type: none;
+  text-align: right;
+}
+
+#accordian ul {
+  padding-left: 0;
+}
+// links
+#accordian ul ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 27px;
+  display: block;
+  border-bottom: 1px solid transparent;
+  transition: all 0.15s;
+}
+
+// hover effect on links
+#accordian ul ul li a:hover {
+  border-bottom: 1px solid $light-grey;
+  color: #000;
+}
+
+#accordian ul ul {
+  display: none;
+}
+
+#accordian li.active ul {
+  display: block;
+}
+
+                            // End of Sub Nav
+
+                            // Sliding Navigation
 
 //Page should move when nav opens
 // Only time we will ever use max-width
@@ -203,8 +263,8 @@ a.col-3:active {
   overflow: hidden;
 }
 
-// Footer
-  // Carousel
+                            // Footer
+                              // Carousel
   .single-item {
     width: 50%;
   }
@@ -235,7 +295,7 @@ a.col-3:active {
     padding: 2em 0;
   }
 
-// Media Queries - Tablet Size
+      // Media Queries - Tablet Size
 @media only screen and (min-width: 768px){
 
   // Menu width
@@ -283,7 +343,7 @@ a.col-3:active {
 } // End of Media Query
 
 
-// Media Queries - Desktop Size
+        // Media Queries - Desktop Size
 @media only screen and (min-width: 992px){
   // Menu width
   .site-wrapper {
@@ -318,7 +378,7 @@ a.col-3:active {
 } // End of Media Query
 
 
-// Media Queries - Large Desktop Size
+      // Media Queries - Large Desktop Size
 @media only screen and (min-widht: 1200px){
 
   // Menu width
@@ -340,66 +400,4 @@ a.col-3:active {
 } // End of Media Query
 
 
-//Sub Nav
 
-#accordian {
-	margin: 0 auto 0 auto;
-  color: #fff;
-}
-
-
-/*heading styles*/
-#accordian h3 {
-  font-size: 12px;
-  line-height: 34px;
-  padding: 0 10px;
-  cursor: pointer;
-}
-/*heading hover effect*/
-#accordian h3:hover {
-  background-color: $light-grey;
-
-}
-/*iconfont styles*/
-#accordian h3 span {
-  font-size: 16px;
-  margin-right: 10px;
-}
-/*list items*/
-#accordian li {
-  list-style-type: none;
-  text-align: right;
-}
-
-#accordian ul {
-  padding-left: 0;
-}
-/*links*/
-#accordian ul ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 11px;
-  line-height: 27px;
-  display: block;
-
-  transition: all 0.15s;
-}
-
-/*hover effect on links*/
-#accordian ul ul li a:hover {
-  background: $light-grey;
-
-  color: #000;
-}
-
-#accordian ul ul {
-  display: none;
-}
-
-#accordian li.active ul {
-  display: block;
-}
-
-.hov-1 {
-  border-right: 3px solid $col-1;
-}
