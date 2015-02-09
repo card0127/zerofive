@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  background: url(../../images/grid.svg) fixed;
+  background: url(../images/grid.svg) fixed;
   background-size: 1200px 800px;
 }
 
@@ -93,24 +93,7 @@ cite {
   text-align: center;
 }
 
-.navigation ul {
-  @include zero;
-  li {
-    list-style-type: none;
-    a {
-      display: block;
-      padding: .5em 1em;
-      text-align: center;
-      border-bottom: 1px solid $light-grey;
-      text-decoration: none;
-      font-weight: $thin-weight;
-      text-align: right;
-    }
-    &:first-child a{
-      border-top: 1px solid $light-grey;
-    }
-  }
-}
+
 
 a,
 a:link,
@@ -151,15 +134,14 @@ a.col-3:active {
 .toggle-btn {
   color: $text-color;
   position: absolute;
-  left: 1em;
+  left: .7em;
   top: 1em;
   height: 40px;
   width: 40px;
   margin-top: 1em;
 
   i {
-    padding: .25em;
-    font-size: 20pt;
+    font-size: 30pt;
 
   }
   span {
@@ -167,8 +149,69 @@ a.col-3:active {
   }
 }
 
+                          //Sub Nav
 
-// Sliding Navigation
+#accordian {
+  margin: 0 auto 0 auto;
+  color: #000;
+}
+
+
+// heading styles
+#accordian h3 {
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 34px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+// heading hover effect
+#accordian h3:hover {
+  background-color: $light-grey;
+
+}
+// iconfont styles
+#accordian h3 span {
+  margin-right: 10px;
+}
+// list items
+#accordian li {
+  list-style-type: none;
+  text-align: right;
+}
+
+#accordian ul {
+  padding-left: 0;
+}
+// links
+#accordian ul ul li a {
+  color: black;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 27px;
+  display: block;
+  border-bottom: 1px solid transparent;
+  transition: all 0.15s;
+}
+
+// hover effect on links
+#accordian ul ul li a:hover {
+  border-bottom: 1px solid $light-grey;
+  color: #000;
+}
+
+#accordian ul ul {
+  display: none;
+}
+
+#accordian li.active ul {
+  display: block;
+}
+
+                            // End of Sub Nav
+
+                            // Sliding Navigation
 
 //Page should move when nav opens
 // Only time we will ever use max-width
@@ -220,8 +263,8 @@ a.col-3:active {
   overflow: hidden;
 }
 
-// Footer
-  // Carousel
+                            // Footer
+                              // Carousel
   .single-item {
     width: 50%;
   }
@@ -252,7 +295,7 @@ a.col-3:active {
     padding: 2em 0;
   }
 
-// Media Queries - Tablet Size
+      // Media Queries - Tablet Size
 @media only screen and (min-width: 768px){
 
   // Menu width
@@ -300,7 +343,7 @@ a.col-3:active {
 } // End of Media Query
 
 
-// Media Queries - Desktop Size
+        // Media Queries - Desktop Size
 @media only screen and (min-width: 992px){
   // Menu width
   .site-wrapper {
@@ -335,7 +378,7 @@ a.col-3:active {
 } // End of Media Query
 
 
-// Media Queries - Large Desktop Size
+      // Media Queries - Large Desktop Size
 @media only screen and (min-widht: 1200px){
 
   // Menu width
@@ -356,62 +399,5 @@ a.col-3:active {
 
 } // End of Media Query
 
-//Sub Nav
-
-#accordian {
-	width: 250px;
-	margin: 100px auto 0 auto;
-	box-shadow: 
-		0 5px 15px 1px rgba(0, 0, 0, 0.6), 
-		0 0 200px 1px rgba(255, 255, 255, 0.5);
-}
-
-/*heading styles*/
-#accordian h3 {
-	text-size: 2rem;
-	font-size: 15pt;
-	text-align: right;
-	margin-right: 1rem;
-	a{
-	text-decoration: none;
-	}
-
-}
-/*heading hover effect*/
-#accordian h3:hover {
-	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
-}
-/*iconfont styles*/
-#accordian h3 span {
-	font-size: 20px;
-	margin-right: 10px;
-}
-/*list items*/
-#accordian li {
-	list-style-type: none;
-}
-/*links*/
-#accordian ul ul li a {
-	color: black;
-	text-decoration: none;
-	font-size: 15px;
-	line-height: 27px;
-	display: block;
-	padding: 0 15px;
-	/*transition for smooth hover animation*/
-	transition: all 0.15s;
-}
-/*hover effect on links*/
-#accordian ul ul li a:hover {
-	background: $light-grey;
-	border-left: 5px solid grey;
-}
-/*Lets hide the non active LIs by default*/
-#accordian ul ul {
-	display: none;
-}
-#accordian li.active ul {
-	display: block;
-}
 
 

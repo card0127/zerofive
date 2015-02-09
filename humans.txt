@@ -31,9 +31,9 @@ Website: rebeckacole.ca
 GitHub: http://guthub.com/cole0228
 
 Designer: Lau Natalia Garcia
-E-mail:
+E-mail: lauranataliagv@gmail.com
 Location: Ontario, Canada
-Website:
+Website: laugarcia.info
 GitHub: http://guthub.com/lauranatalia
 
 
@@ -46,6 +46,7 @@ http://kenwheeler.github.io/slick/
 # TOOLS
 
 Sublime Text
+Adobe Dreamweaver CC
 GitHub
 PrePros <---- Maybe?
 Illustrator
