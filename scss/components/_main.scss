@@ -93,24 +93,7 @@ cite {
   text-align: center;
 }
 
-.navigation ul {
-  @include zero;
-  li {
-    list-style-type: none;
-    a {
-      display: block;
-      padding: .5em 1em;
-      text-align: center;
-      border-bottom: 1px solid $light-grey;
-      text-decoration: none;
-      font-weight: $thin-weight;
-      text-align: right;
-    }
-    &:first-child a{
-      border-top: 1px solid $light-grey;
-    }
-  }
-}
+
 
 a,
 a:link,
@@ -356,62 +339,67 @@ a.col-3:active {
 
 } // End of Media Query
 
+
 //Sub Nav
 
 #accordian {
-	width: 250px;
-	margin: 100px auto 0 auto;
-	box-shadow: 
-		0 5px 15px 1px rgba(0, 0, 0, 0.6), 
-		0 0 200px 1px rgba(255, 255, 255, 0.5);
+	margin: 0 auto 0 auto;
+  color: #fff;
 }
+
 
 /*heading styles*/
 #accordian h3 {
-	text-size: 2rem;
-	font-size: 15pt;
-	text-align: right;
-	margin-right: 1rem;
-	a{
-	text-decoration: none;
-	}
-
+  font-size: 12px;
+  line-height: 34px;
+  padding: 0 10px;
+  cursor: pointer;
 }
 /*heading hover effect*/
 #accordian h3:hover {
-	text-shadow: 0 0 1px rgba(255, 255, 255, 0.7);
+  background-color: $light-grey;
+
 }
 /*iconfont styles*/
 #accordian h3 span {
-	font-size: 20px;
-	margin-right: 10px;
+  font-size: 16px;
+  margin-right: 10px;
 }
 /*list items*/
 #accordian li {
-	list-style-type: none;
+  list-style-type: none;
+  text-align: right;
+}
+
+#accordian ul {
+  padding-left: 0;
 }
 /*links*/
 #accordian ul ul li a {
-	color: black;
-	text-decoration: none;
-	font-size: 15px;
-	line-height: 27px;
-	display: block;
-	padding: 0 15px;
-	/*transition for smooth hover animation*/
-	transition: all 0.15s;
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+  line-height: 27px;
+  display: block;
+
+  transition: all 0.15s;
 }
+
 /*hover effect on links*/
 #accordian ul ul li a:hover {
-	background: $light-grey;
-	border-left: 5px solid grey;
+  background: $light-grey;
+
+  color: #000;
 }
-/*Lets hide the non active LIs by default*/
+
 #accordian ul ul {
-	display: none;
+  display: none;
 }
+
 #accordian li.active ul {
-	display: block;
+  display: block;
 }
 
-
+.hov-1 {
+  border-right: 3px solid $col-1;
+}
