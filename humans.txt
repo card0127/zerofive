@@ -6,14 +6,14 @@ Location: Ontario, Canada
 Website: pedrosantos.info
 GitHub: http://guthub.com/card0127
 
-Coder: Thalia Bacilio
+Developer: Thalia Bacilio
 E-mail:
 Location: Ontario, Canada
 Website:
 GitHub: http://guthub.com/baci0008
 
-Coder: Melissa Roy
-E-mail: r.melissa@gmail.com
+Developer: Melissa Roy
+E-mail: r.melissadesign@gmail.com
 Location: Ontario, Canada
 Website: melissaroy.ca
 GitHub: http://guthub.com/heartedmachine
@@ -39,9 +39,16 @@ GitHub: http://guthub.com/lauranatalia
 
 # THANKS <---- If took any code/tutorials from anywhere please put here.
 
+Slick Carousel - For many carousels
+http://kenwheeler.github.io/slick/
+
 
 # TOOLS
 
 Sublime Text
 GutHub
 PrePros <---- Maybe?
+Illustrator
+Photoshop
+Fontello
+
