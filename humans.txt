@@ -1,0 +1,54 @@
+# PEOPLE
+
+Project Manager: Pedro Santos
+E-mail: p.santos@me.com
+Location: Ontario, Canada
+Website: pedrosantos.info
+GitHub: http://guthub.com/card0127
+
+Developer: Thalia Bacilio
+E-mail:
+Location: Ontario, Canada
+Website:
+GitHub: http://guthub.com/baci0008
+
+Developer: Melissa Roy
+E-mail: r.melissadesign@gmail.com
+Location: Ontario, Canada
+Website: melissaroy.ca
+GitHub: http://guthub.com/heartedmachine
+
+Designer: Katie Situ
+E-mail: katie.situ@gmail.com
+Location: Ontario, Canada
+Website: katiesitu.ca
+GitHub: http://guthub.com/situ0020
+
+Designer: Rebecka Cole
+E-mail: rebecka.cole@gmail.com
+Location: Ontario, Canada
+Website: rebeckacole.ca
+GitHub: http://guthub.com/cole0228
+
+Designer: Lau Natalia Garcia
+E-mail:
+Location: Ontario, Canada
+Website:
+GitHub: http://guthub.com/lauranatalia
+
+
+# THANKS <---- If took any code/tutorials from anywhere please put here.
+
+Slick Carousel - For many carousels
+http://kenwheeler.github.io/slick/
+
+
+# TOOLS
+
+Sublime Text
+GutHub
+PrePros <---- Maybe?
+Illustrator
+Photoshop
+Fontello
+
