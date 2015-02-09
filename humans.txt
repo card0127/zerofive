@@ -7,10 +7,10 @@ Website: pedrosantos.info
 GitHub: http://guthub.com/card0127
 
 Coder: Thalia Bacilio
-E-mail: rebecka.cole@gmail.com
+E-mail:
 Location: Ontario, Canada
-Website: rebeckacole.ca
-GitHub: http://guthub.com/cole0228
+Website:
+GitHub: http://guthub.com/baci0008
 
 Coder: Melissa Roy
 E-mail: r.melissa@gmail.com
@@ -30,11 +30,11 @@ Location: Ontario, Canada
 Website: rebeckacole.ca
 GitHub: http://guthub.com/cole0228
 
-Designer: Lau
-E-mail: rebecka.cole@gmail.com
+Designer: Lau Natalia Garcia
+E-mail:
 Location: Ontario, Canada
-Website: rebeckacole.ca
-GitHub: http://guthub.com/cole0228
+Website:
+GitHub: http://guthub.com/lauranatalia
 
 
 # THANKS <---- If took any code/tutorials from anywhere please put here.
