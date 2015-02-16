@@ -23,7 +23,6 @@ html {
 body{
   font-family: 'Lato', arial, helvetica, sans-serif;
 
-
   @include zero;
   // Hides close button if there is no js
   &.noscript .close-btn,
@@ -92,8 +91,6 @@ cite {
 .centered {
   text-align: center;
 }
-
-
 
 a,
 a:link,
@@ -253,13 +250,17 @@ a.col-3:active {
 }
 
 .img-flex {
+  width: 70%;
+}
+
+.logo {
   width: 250px;
 }
 
 .feature {
   border-top: 1px solid #000; // Temporary border
   border-bottom: 1px solid #000; // Temporary border
-  padding: 1em;
+  padding: 1em 5em;
   overflow: hidden;
 }
 
@@ -323,6 +324,10 @@ a.col-3:active {
   margin: 0 auto;
 }
 
+  .feature {
+    padding: 3em 8em;
+  }
+
   // Carousel
 
   .carousel {
@@ -369,7 +374,7 @@ a.col-3:active {
 }
 
   .feature {
-    padding: 4em;
+    padding: 4em 10em;
   }
 
    .carousel {
