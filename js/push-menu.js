@@ -1,24 +1,36 @@
-// Needs latest version of jQuery to run
-
 $(function() {
-  $('body').removeClass('noscript');
+  var $menu = $('nav#menu'),
+    $html = $('html, body');
 
-  $('.toggle-btn').click(function() {
-    toggleNav();
+  $menu.mmenu({
+    dragOpen: true
+
   });
+
+  $menu.find( 'li > a' ).on(
+    'click',
+    function( e )
+    {
+      var href = $(this).attr( 'href' );
+
+      //  if the clicked link is linked to an anchor, scroll the page to that anchor
+      if ( href.slice( 0, 1 ) == '#' )
+      {
+        $menu.one(
+          'closed.mm',
+          function()
+          {
+            setTimeout(
+              function()
+              {
+                $html.animate({
+                  scrollTop: $( href ).offset().top
+                });
+              }, 10
+            );
+          }
+        );
+      }
+    }
+  );
 });
-
-function toggleNav() {
-  if ($('.site-wrapper').attr('data-state') == 'slide-closed') {
-    // Display Nav when closed
-    $('.site-wrapper').attr('data-state', 'slide-open');
-    $('#menu-icon').addClass('icon-i-close');
-    $('#menu-icon').removeClass('icon-i-menu');
-  } else {
-    // Hide Nav when open
-    $('.site-wrapper').attr('data-state', 'slide-closed');
-    $('#menu-icon').removeClass('icon-i-close');
-    $('#menu-icon').addClass('icon-i-menu');
-  }
-}
-

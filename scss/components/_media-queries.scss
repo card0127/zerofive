@@ -1,0 +1,81 @@
+      // Media Queries - Tablet Size
+@media only screen and (min-width: 768px){
+
+h1 {
+  font-size: 45pt;
+
+}
+
+	.content {
+		padding: 150px 50px 50px 50px;
+	}
+
+  .intro-text {
+  padding: 0 3em;
+  max-width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+  .feature {
+    padding: 3em 5em;
+
+  }
+
+  // Carousel
+
+  .carousel {
+    float: right;
+    width: 45%;
+  }
+
+  .carousel-quotes{
+    display: block;
+    float: left;
+    width: 45%;
+    padding-top: 2em;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .quotes-mobile {
+    display: none;
+  }
+
+
+
+} // End of Media Query
+
+
+        // Media Queries - Desktop Size
+@media only screen and (min-width: 992px){
+
+
+    .intro-text {
+  padding: 0 4em;
+  max-width: 60%;
+}
+
+  .feature {
+    padding: 4em 10em;
+  }
+
+   .carousel {
+    max-width: 40%;
+  }
+
+  .carousel-quotes{
+    max-width: 40%;
+  }
+} // End of Media Query
+
+
+      // Media Queries - Large Desktop Size
+@media only screen and (min-widht: 1200px){
+
+
+  .feature {
+    padding: 8em;
+  }
+
+} // End of Media Query

@@ -4,12 +4,17 @@
 
 // Component rules
 @import "components/fontello";
-@import "components/columns";
 @import "components/main";
+
 
 // Plugin Extension
 @import "extension/slick-theme";
 @import "extension/slick";
+@import "extension/demo";
+
+@import "components/media-queries";
+@import "components/header";
+
 
 // Google Font
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic);

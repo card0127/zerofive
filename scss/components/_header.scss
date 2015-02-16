@@ -1,0 +1,42 @@
+// for the one page layout
+#intro,
+#first,
+#second,
+#third
+{
+	height: 400px;
+}
+#intro
+{
+	padding-top: 0;
+}
+#first,
+#second,
+#third
+{
+	border-top: 1px solid #ccc;
+	padding-top: 150px;
+}
+
+// Fixed Header
+
+.header,
+{
+	box-sizing: border-box;
+	width: 100%;
+	position: fixed;
+	height: 105px;
+	border-bottom: 1px solid #000;
+}
+.header
+{
+	top: 0;
+}
+
+.header a {
+	top: 30px;
+}
+
+.content {
+	padding-top: 180px;
+}
