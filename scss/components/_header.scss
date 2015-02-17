@@ -58,30 +58,7 @@ a, a:link, a:active, a:visited, a:hover {
 	text-decoration: none;
 }
 
-// Span colours
-
-.mm-list a.mm-subopen + a:hover,
-.mm-list a.mm-subopen + span:hover{
-  color: red;
-}
-
-
-// Sub-nav colours
-
-ul.col-1 a:hover,
-ul.col-1 a:focus,
-ul.col-1 a:active{
+li:hover{
   color: $col-1;
-}
-
-ul.col-2 a:hover,
-ul.col-2 a:focus,
-ul.col-2 a:active{
-  color: $col-2;
-}
-
-ul.col-3 a:hover,
-ul.col-3 a:focus,
-ul.col-3 a:active{
-  color: $col-3;
+  background-color: #222;
 }

@@ -86,13 +86,9 @@ i:visited  {
   color: $text-color;
 }
 
-i:hover,
-i:focus,
-i:active {
-  color: $col-3;
+p.col-1 a:hover{
+  color: red;
 }
-
-
 
 
 .primary-btn {
@@ -104,22 +100,11 @@ i:active {
   margin-top: 1em;
 }
 
-a,
-a:link,
-a:visited  {
-  color: $text-color;
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: $hover-color;
-}
 
 a.col-1,
 a.col-1:link,
 a.col-1:visited {
-
+  color: red;
 }
 
 a.col-1:hover,
