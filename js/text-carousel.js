@@ -1,21 +1,19 @@
  $('.index-carousel').slick({
-     dots: true,
      infinite: true,
-     speed: 400,
-     slidesToShow: 1,
-     slidesToScroll: 1,
+     speed: 300,
+     fade: true,
      autoplay: true,
-     arrows: true
+     arrows: false,
+     cssEase: 'linear'
  });
 
   $('.feature-quotes').slick({
-     dots: true,
      infinite: true,
      speed: 400,
      slidesToShow: 1,
      slidesToScroll: 1,
      autoplay: true,
-     arrows: true
+     arrows: false
  });
 
  $('.blog-carousel').slick({

@@ -19,7 +19,7 @@ $(window).scroll(function(){
         {
             $('#header_nav').data('size','big');
             $('#header_nav').stop().animate({
-                height:'120px'
+                height:'110px'
             },600);
         }
     }

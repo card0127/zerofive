@@ -15,7 +15,7 @@ body
   font-family: 'Lato' Arial, Helvetica, Verdana;
   font-size: 14px;
   line-height: 22px;
-  font-weight: 500;
+  font-weight: 100;
   color: #666;
   position: relative;
   -webkit-text-size-adjust: none;
@@ -46,18 +46,18 @@ h3 {
   font-size: 20pt;
   font-weight: 500;
   text-transform: uppercase;
+  margin-bottom: 0.125em;
 }
 
 p {
   margin: 0;
   padding: 0;
+  line-height: 13pt;
 }
 
 .intro-text {
   padding: 0 2em;
 }
-
-
 
 main {
   padding: 5px;
@@ -73,7 +73,27 @@ blockquote {
 cite {
   display: block;
   text-transform: uppercase;
+  color: $col-1;
 }
+
+i {
+  font-size: 15pt;
+}
+
+i,
+i:link,
+i:visited  {
+  color: $text-color;
+}
+
+i:hover,
+i:focus,
+i:active {
+  color: $col-3;
+}
+
+
+
 
 .primary-btn {
   @include button($light-grey, #ccc, $hover-color);
@@ -81,6 +101,7 @@ cite {
 
 .centered {
   text-align: center;
+  margin-top: 1em;
 }
 
 a,
@@ -155,41 +176,45 @@ a.col-3:active {
 
                             // Footer
                               // Carousel
-  .single-item {
-    width: 50%;
-  }
+.index-carousel img{
+  width: 100%;
+}
 
-  .carousel-quotes{
-    display: none;
-  }
+.carousel-quotes{
+  display: none;
+}
 
-  .carousel,
-  .carousel-fullview {
-    text-align: center;
-    margin: 0 auto;
-  }
+.carousel,
+.carousel-fullview {
+  text-align: center;
+  margin: 0 auto;
+}
 
 .carousel-fullview {
   margin: 0 1em;
 }
 
-  .quotes-mobile {
-    padding: 5px;
-  }
+.quotes-mobile {
+  padding: 5px;
+}
 
-  footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 3.5em 0;
-    position: relative;
-    bottom: 0;
-    left: 0;
-  }
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 3.5em 0;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
 
-  .slick-slide img {
-    margin: 0 auto;
-  }
+.media {
+  padding-top: 1em;
+}
+
+.slick-slide img {
+  margin: 0 auto;
+}
 
 
 
