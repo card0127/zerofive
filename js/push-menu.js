@@ -1,4 +1,13 @@
 $(function(){
+         $(document).ready(function() {
+            $("#menu").mmenu({
+               "classes": "mm-white",
+               "header": true
+            });
+         });
+});
+
+$(function(){
     $('#header_nav').data('size','big');
 });
 

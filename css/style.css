@@ -500,7 +500,7 @@ footer {
   background-color: #222;
   color: white;
   text-align: center;
-  padding: 3.5em 0;
+  padding: 3.5em 2em;
   position: relative;
   bottom: 0;
   left: 0; }
@@ -510,8 +510,8 @@ footer {
   padding-top: 1em; }
 
 /* line 200, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-.slick-slide img {
-  margin: 0 auto; }
+i:hover {
+  color: #ccc; }
 
 /* Slider */
 /* line 3, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
@@ -588,7 +588,7 @@ footer {
 
 /* line 98, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
 .slick-next {
-  right: -30px; }
+  right: 20px; }
 
 /* line 102, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
 [dir='rtl'] .slick-next {
@@ -929,10 +929,14 @@ nav:not(.mm-menu) {
 
 /* line 57, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 a, a:link, a:active, a:visited, a:hover {
-  text-decoration: none; }
+  text-decoration: none !important; }
 
 /* line 61, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 li:hover {
   color: #5eb7b3;
   background-color: #222; }
+
+/* line 68, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+li, li:link, li:visited {
+  color: white; }
 

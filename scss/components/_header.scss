@@ -55,10 +55,16 @@
 }
 
 a, a:link, a:active, a:visited, a:hover {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 li:hover{
   color: $col-1;
   background-color: #222;
+}
+
+li,
+li:link,
+li:visited{
+  color: white;
 }
