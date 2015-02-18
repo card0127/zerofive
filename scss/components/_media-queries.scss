@@ -45,6 +45,46 @@ h1 {
     padding-top: 2em;
   }
 
+  .left {
+  float: left;
+  width: 48%;
+  text-align: left;
+}
+
+.right {
+  float: right;
+  width: 48%;
+}
+
+// Table
+
+.gridtable {
+  table-layout:fixed;
+  width: 100%;
+}
+
+th {
+  font-size: 30pt;
+  font-weight: 500;
+  padding-bottom: .5em;
+  border-bottom: 1px solid $light-grey;
+}
+
+td {
+  margin: 1em 2em;
+  width: 300px;
+  padding: 0 .5em;
+  vertical-align: middle;
+  font-size: 13pt;
+}
+
+.display-tablet {
+  display: block;
+}
+
+.display-mobile {
+  display: none;
+}
 
 
 } // End of Media Query
@@ -70,6 +110,26 @@ h1 {
   .carousel-quotes{
     max-width: 40%;
   }
+
+  .left {
+  float: left;
+  max-width: 40%;
+  text-align: left;
+  margin-left: 8%;
+}
+
+.right {
+  float: right;
+  max-width: 40%;
+  margin-right: 8%;
+}
+
+.gridtable {
+  width: 81%;
+  margin: 0 auto;
+}
+
+
 } // End of Media Query
 
 

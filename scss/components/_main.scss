@@ -36,6 +36,7 @@ h1 {
 
 h2 {
   font-weight: 300;
+  font-size: 20pt;
 }
 
 h2, p {
@@ -48,6 +49,13 @@ h3 {
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 0.125em;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 17pt;
+  line-height: 19pt;
+  padding-bottom: 1em;
 }
 
 p {
@@ -183,6 +191,43 @@ a.col-3:active {
 
 .quotes-mobile {
   padding: 5px;
+}
+
+.container {
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+.container p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 15pt;
+}
+
+// Table
+
+.gridtable {
+  table-layout:fixed;
+  width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  padding-bottom: 4em;
+}
+
+th {
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+td {
+  margin: 0 auto;
+  font-size: 12pt;
+}
+
+.display-tablet {
+  display: none;
 }
 
 // Footer Stuff
