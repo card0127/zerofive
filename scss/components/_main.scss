@@ -31,10 +31,11 @@ h1 {
   font-size: 30pt;
   font-weight: 300;
   margin-bottom: .25em;
+  line-height: 27pt;
 }
 
 h2 {
-
+  font-weight: 300;
 }
 
 h2, p {
@@ -80,6 +81,7 @@ i {
   font-size: 15pt;
 }
 
+
 i,
 i:link,
 i:visited  {
@@ -113,9 +115,9 @@ a.col-1:active {
   border-right: 4px solid $col-1;
 }
 
-a.col-2:hover,
-a.col-2:focus,
-a.col-2:active {
+#col-2:hover,
+#col-2:focus,
+#col-2:active {
   border-right: 4px solid $col-2;
 }
 
@@ -183,6 +185,8 @@ a.col-3:active {
   padding: 5px;
 }
 
+// Footer Stuff
+
 footer {
   background-color: #222;
   color: white;
@@ -197,9 +201,24 @@ footer {
   padding-top: 1em;
 }
 
-i:hover{
-  color: $light-grey;
+#facebook:hover{
+  color: #3C5A99;
 }
+
+#twitter:hover{
+  color: #74C2E8;
+}
+
+#vimeo:hover{
+  color: #1AB7EA;
+}
+
+.icon-facebook-circled,
+.icon-twitter-circled,
+.icon-vimeo-circled {
+  font-size: 23pt;
+}
+
 
 
 

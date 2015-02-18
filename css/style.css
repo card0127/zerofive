@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic);
 @font-face {
   font-family: 'fontello';
-  src: url('../fonts/fontello.eot?66398870');
-  src: url('../fonts/fontello.eot?66398870#iefix') format('embedded-opentype'), url('../fonts/fontello.woff?66398870') format('woff'), url('../fonts/fontello.ttf?66398870') format('truetype'), url('../fonts/fontello.svg?66398870#fontello') format('svg');
+  src: url('../fonts/fontello.eot?41621534');
+  src: url('../fonts/fontello.eot?41621534#iefix') format('embedded-opentype'), url('../fonts/fontello.woff?41621534') format('woff'), url('../fonts/fontello.ttf?41621534') format('truetype'), url('../fonts/fontello.svg?41621534#fontello') format('svg');
   font-weight: normal;
   font-style: normal; }
 
@@ -12,7 +12,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?66398870#fontello') format('svg');
+    src: url('../font/fontello.svg?41621534#fontello') format('svg');
   }
 }
 */
@@ -47,147 +47,147 @@
 
 /* '' */
 /* line 54, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-glyph:before {
+.icon-emo-grin:before {
   content: '\e801'; }
 
 /* '' */
 /* line 55, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-glyph-1:before {
+.icon-pin:before {
   content: '\e802'; }
 
 /* '' */
 /* line 56, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-glyph-2:before {
+.icon-angle-circled-down:before {
   content: '\e803'; }
 
 /* '' */
 /* line 57, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-glyph-3:before {
+.icon-vimeo:before {
   content: '\e804'; }
 
 /* '' */
 /* line 58, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-i-close:before {
+.icon-twitter:before {
   content: '\e805'; }
 
 /* '' */
 /* line 59, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-i-menu:before {
+.icon-facebook:before {
   content: '\e806'; }
 
 /* '' */
 /* line 60, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-a:before {
+.icon-angle-down:before {
   content: '\e807'; }
 
 /* '' */
 /* line 61, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-s:before {
+.icon-user-pair:before {
   content: '\e808'; }
 
 /* '' */
 /* line 62, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-star:before {
+.icon-pencil:before {
   content: '\e809'; }
 
 /* '' */
 /* line 63, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-heart:before {
+.icon-play-circled:before {
   content: '\e80a'; }
 
 /* '' */
 /* line 64, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-star-1:before {
+.icon-lock:before {
   content: '\e80b'; }
 
 /* '' */
 /* line 65, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-emo-grin:before {
+.icon-emo-laugh:before {
   content: '\e80c'; }
 
 /* '' */
 /* line 66, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-emo-laugh:before {
+.icon-glyph:before {
   content: '\e80d'; }
 
 /* '' */
 /* line 67, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-emo-wink:before {
+.icon-glyph-1:before {
   content: '\e80e'; }
 
 /* '' */
 /* line 68, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-search:before {
+.icon-emo-wink:before {
   content: '\e80f'; }
 
 /* '' */
 /* line 69, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-mail-alt:before {
+.icon-link:before {
   content: '\e810'; }
 
 /* '' */
 /* line 70, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-comment:before {
+.icon-art-gallery:before {
   content: '\e811'; }
 
 /* '' */
 /* line 71, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-quote-right:before {
+.icon-lightbulb:before {
   content: '\e812'; }
 
 /* '' */
 /* line 72, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-quote-left:before {
+.icon-vimeo-circled:before {
   content: '\e813'; }
 
 /* '' */
 /* line 73, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-forward:before {
+.icon-search:before {
   content: '\e814'; }
 
 /* '' */
 /* line 74, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-reply:before {
+.icon-info-circled:before {
   content: '\e815'; }
 
 /* '' */
 /* line 75, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-thumbs-up-alt:before {
+.icon-glyph-2:before {
   content: '\e816'; }
 
 /* '' */
 /* line 76, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-bookmark:before {
+.icon-glyph-3:before {
   content: '\e817'; }
 
 /* '' */
 /* line 77, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-pin:before {
+.icon-mail-alt:before {
   content: '\e818'; }
 
 /* '' */
 /* line 78, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-lock:before {
+.icon-help-circled:before {
   content: '\e819'; }
 
 /* '' */
 /* line 79, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-link:before {
+.icon-chat:before {
   content: '\e81a'; }
 
 /* '' */
 /* line 80, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-info-circled:before {
+.icon-minus-circled:before {
   content: '\e81b'; }
 
 /* '' */
 /* line 81, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-help-circled:before {
+.icon-comment:before {
   content: '\e81c'; }
 
 /* '' */
 /* line 82, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-minus-circled:before {
+.icon-quote-right:before {
   content: '\e81d'; }
 
 /* '' */
@@ -197,115 +197,155 @@
 
 /* '' */
 /* line 84, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-cancel-1:before {
+.icon-twitter-circled:before {
   content: '\e81f'; }
 
 /* '' */
 /* line 85, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-ok-circled:before {
+.icon-a:before {
   content: '\e820'; }
 
 /* '' */
 /* line 86, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-trash:before {
+.icon-quote-left:before {
   content: '\e821'; }
 
 /* '' */
 /* line 87, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-mic:before {
+.icon-cancel-1:before {
   content: '\e822'; }
 
 /* '' */
 /* line 88, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-angle-circled-up:before {
+.icon-facebook-circled:before {
   content: '\e823'; }
 
 /* '' */
 /* line 89, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-angle-circled-down:before {
+.icon-s:before {
   content: '\e824'; }
 
 /* '' */
 /* line 90, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-play-circled:before {
+.icon-ok-circled:before {
   content: '\e825'; }
 
 /* '' */
 /* line 91, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-facebook-squared:before {
+.icon-forward:before {
   content: '\e826'; }
 
 /* '' */
 /* line 92, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-vine:before {
-  content: '\e827'; }
-
-/* '' */
-/* line 93, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-vimeo-squared:before {
+.icon-star:before {
   content: '\e828'; }
 
 /* '' */
-/* line 94, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-tumblr-squared:before {
+/* line 93, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-reply:before {
   content: '\e829'; }
 
 /* '' */
-/* line 95, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-facebook:before {
+/* line 94, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-trash:before {
   content: '\e82a'; }
 
 /* '' */
-/* line 96, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-twitter:before {
-  content: '\e82b'; }
-
-/* '' */
-/* line 97, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-youtube-squared:before {
+/* line 95, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-heart:before {
   content: '\e82c'; }
 
 /* '' */
-/* line 98, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-youtube:before {
+/* line 96, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-thumbs-up-alt:before {
   content: '\e82d'; }
 
 /* '' */
-/* line 99, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-camera:before {
+/* line 97, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-mic:before {
   content: '\e82e'; }
 
 /* '' */
-/* line 100, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-comment-inv-alt2:before {
+/* line 98, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-camera:before {
   content: '\e82f'; }
 
 /* '' */
-/* line 101, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-user-pair:before {
+/* line 99, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-comment-inv-alt2:before {
   content: '\e830'; }
 
 /* '' */
-/* line 102, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-pencil:before {
+/* line 100, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-angle-circled-up:before {
   content: '\e831'; }
 
 /* '' */
-/* line 103, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-art-gallery:before {
+/* line 101, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-bookmark:before {
   content: '\e832'; }
 
 /* '' */
-/* line 104, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-lightbulb:before {
+/* line 102, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-star-1:before {
   content: '\e833'; }
 
 /* '' */
-/* line 105, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
-.icon-chat:before {
+/* line 103, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-angle-up:before {
   content: '\e834'; }
 
 /* '' */
+/* line 104, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-angle-right:before {
+  content: '\e835'; }
+
+/* '' */
+/* line 105, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-angle-left:before {
+  content: '\e836'; }
+
+/* '' */
+/* line 106, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-up-open:before {
+  content: '\e837'; }
+
+/* '' */
+/* line 107, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-right-open:before {
+  content: '\e838'; }
+
+/* '' */
+/* line 108, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-left-open:before {
+  content: '\e839'; }
+
+/* '' */
+/* line 109, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-down-open:before {
+  content: '\e83a'; }
+
+/* '' */
+/* line 110, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-right-dir:before {
+  content: '\e83b'; }
+
+/* '' */
+/* line 111, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-left-dir:before {
+  content: '\e83c'; }
+
+/* '' */
+/* line 112, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-up-dir:before {
+  content: '\e83d'; }
+
+/* '' */
+/* line 113, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+.icon-down-dir:before {
+  content: '\e83e'; }
+
+/* '' */
 @-moz-viewport {
   width: device-width;
   scale: 1; }
@@ -352,13 +392,18 @@ h1 {
   margin: 0;
   font-size: 30pt;
   font-weight: 300;
-  margin-bottom: 0.25em; }
+  margin-bottom: 0.25em;
+  line-height: 27pt; }
 
-/* line 40, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 37, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+h2 {
+  font-weight: 300; }
+
+/* line 41, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 h2, p {
   text-align: center; }
 
-/* line 44, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 45, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 h3 {
   text-align: center;
   font-size: 20pt;
@@ -366,46 +411,46 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 0.125em; }
 
-/* line 52, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 53, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 p {
   margin: 0;
   padding: 0;
   line-height: 13pt; }
 
-/* line 58, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 59, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .intro-text {
   padding: 0 2em; }
 
-/* line 62, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 63, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 main {
   padding: 5px; }
 
-/* line 66, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 67, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 blockquote {
   text-align: center;
   padding-bottom: 1.5em;
   max-width: 60%;
   margin: 0 auto; }
 
-/* line 73, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 74, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 cite {
   display: block;
   text-transform: uppercase;
   color: #5eb7b3; }
 
-/* line 79, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 80, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 i {
   font-size: 15pt; }
 
-/* line 85, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 87, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 i, i:link, i:visited {
   color: #666; }
 
-/* line 89, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 91, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 p.col-1 a:hover {
   color: red; }
 
-/* line 94, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 96, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .primary-btn {
   border: 5px solid #ccc;
   padding: 0.5em 1.5em;
@@ -418,28 +463,28 @@ p.col-1 a:hover {
     border-color: #222;
     color: #222; }
 
-/* line 98, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 100, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .centered {
   text-align: center;
   margin-top: 1em; }
 
-/* line 106, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 108, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 a.col-1, a.col-1:link, a.col-1:visited {
   color: red; }
 
-/* line 112, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 114, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 a.col-1:hover, a.col-1:focus, a.col-1:active {
   border-right: 4px solid #5eb7b3; }
 
-/* line 118, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-a.col-2:hover, a.col-2:focus, a.col-2:active {
+/* line 120, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+#col-2:hover, #col-2:focus, #col-2:active {
   border-right: 4px solid #4b314f; }
 
-/* line 124, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 126, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 a.col-3:hover, a.col-3:focus, a.col-3:active {
   border-right: 4px solid #e1b62d; }
 
-/* line 128, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 130, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .toggle-btn {
   color: #666;
   position: absolute;
@@ -448,25 +493,25 @@ a.col-3:hover, a.col-3:focus, a.col-3:active {
   height: 40px;
   width: 40px;
   margin-top: 1em; }
-  /* line 137, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+  /* line 139, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
   .toggle-btn i {
     font-size: 30pt; }
-  /* line 141, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+  /* line 143, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
   .toggle-btn span {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
 
-/* line 146, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 148, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .img-flex {
   width: 70%; }
 
-/* line 150, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 152, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .logo {
   width: 250px; }
 
-/* line 154, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 156, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .feature {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
@@ -474,28 +519,28 @@ a.col-3:hover, a.col-3:focus, a.col-3:active {
   background-color: #ccc;
   padding-top: 2em; }
 
-/* line 164, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 166, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .index-carousel img {
   width: 100%; }
 
-/* line 168, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 170, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .carousel-quotes {
   display: none; }
 
-/* line 173, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 175, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .carousel, .carousel-fullview {
   text-align: center;
   margin: 0 auto; }
 
-/* line 178, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 180, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .carousel-fullview {
   margin: 0 1em; }
 
-/* line 182, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 184, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .quotes-mobile {
   padding: 5px; }
 
-/* line 186, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 190, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 footer {
   background-color: #222;
   color: white;
@@ -505,13 +550,25 @@ footer {
   bottom: 0;
   left: 0; }
 
-/* line 196, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 200, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .media {
   padding-top: 1em; }
 
-/* line 200, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-i:hover {
-  color: #ccc; }
+/* line 204, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+#facebook:hover {
+  color: #3C5A99; }
+
+/* line 208, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+#twitter:hover {
+  color: #74C2E8; }
+
+/* line 212, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+#vimeo:hover {
+  color: #1AB7EA; }
+
+/* line 218, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.icon-facebook-circled, .icon-twitter-circled, .icon-vimeo-circled {
+  font-size: 23pt; }
 
 /* Slider */
 /* line 3, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
@@ -815,29 +872,29 @@ nav:not(.mm-menu) {
 @media only screen and (min-width: 768px) {
   /* line 4, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   h1 {
-    font-size: 45pt; }
+    font-size: 40pt; }
 
-  /* line 9, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 8, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .content {
     padding: 150px 50px 50px 50px; }
 
-  /* line 13, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 12, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .intro-text {
     padding: 0 3em;
     max-width: 80%;
     display: block;
     margin: 0 auto; }
 
-  /* line 20, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 19, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .feature {
     padding: 3em 5em; }
 
-  /* line 27, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 26, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .carousel {
     float: right;
     width: 45%; }
 
-  /* line 32, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 31, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .carousel-quotes {
     display: block;
     float: left;
@@ -846,36 +903,36 @@ nav:not(.mm-menu) {
     text-align: center;
     margin: 0 auto; }
 
-  /* line 41, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 40, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .quotes-mobile {
     display: none; }
 
-  /* line 45, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 44, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .carousel {
     padding-top: 2em; }
  }
 
 @media only screen and (min-width: 992px) {
-  /* line 58, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 57, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .intro-text {
     padding: 0 4em;
     max-width: 60%; }
 
-  /* line 63, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 62, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .feature {
     padding: 4em 10em; }
 
-  /* line 67, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 66, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .carousel {
     max-width: 40%; }
 
-  /* line 71, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 70, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .carousel-quotes {
     max-width: 40%; }
  }
 
 @media only screen and (min-widht: 1200px) {
-  /* line 81, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 80, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .feature {
     padding: 8em; }
  }
@@ -911,9 +968,10 @@ nav:not(.mm-menu) {
 
 /* line 40, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 .content {
-  padding-top: 180px; }
+  padding-top: 180px;
+  margin: 1em 2em; }
 
-/* line 44, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 45, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 #header_nav {
   width: 100%;
   height: 100px;
@@ -922,21 +980,29 @@ nav:not(.mm-menu) {
   top: 0;
   left: 0; }
 
-/* line 52, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 53, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 #header_nav img {
   max-height: 100%;
   max-width: 100%; }
 
-/* line 57, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 62, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 a, a:link, a:active, a:visited, a:hover {
   text-decoration: none !important; }
 
-/* line 61, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 66, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 li:hover {
   color: #5eb7b3;
   background-color: #222; }
 
-/* line 68, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 73, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 li, li:link, li:visited {
   color: white; }
+
+/* line 77, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+#seperator {
+  color: #ccc; }
+
+/* line 81, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+#seperator:hover {
+  color: #ccc; }
 
