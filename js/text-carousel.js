@@ -35,3 +35,12 @@
      autoplay: true,
      arrows: true
  });
+
+  $('.our-staff').slick({
+     infinite: true,
+     dots: true,
+     speed: 400,
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     autoplay: true,
+ });

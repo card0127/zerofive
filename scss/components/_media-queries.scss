@@ -61,6 +61,17 @@ h1 {
     margin-top: 0 !important;
   }
 
+  .profile-pic {
+  width: 100px;
+  float: left;
+  margin: 3.5em 1em 0 1em;
+  }
+
+  .container-family {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
 
 
 // Table
@@ -148,6 +159,11 @@ td {
     margin: 0 auto;
   }
 
+  .executive-board {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
 } // End of Media Query
 
 
@@ -157,6 +173,14 @@ td {
 
   .feature {
     padding: 8em;
+  }
+
+    .executive-board {
+    max-width: 50%;
+  }
+
+  .container-family {
+    max-width: 50%;
   }
 
 } // End of Media Query

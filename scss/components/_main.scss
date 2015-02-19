@@ -58,6 +58,17 @@ h4 {
   padding-bottom: 1em;
 }
 
+h4.staff {
+  margin: .5em 0 0 0;
+  padding-bottom: .5em;
+  text-align: right;
+}
+
+h4 em {
+  font-size: 10pt;
+  display: block;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -84,6 +95,13 @@ cite {
   text-transform: uppercase;
   color: $col-1;
 }
+
+.profile-pic {
+  width: 100px;
+  margin: 2em 1em 0 1em;
+  paadding-bottom: 0;
+}
+
 
 i {
   font-size: 15pt;
@@ -214,6 +232,19 @@ p.col-1 a:hover{
   padding-bottom: 1em;
   line-height: 15pt;
 }
+
+.container-family {
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+.container-family p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 15pt;
+}
+
+
 
 // Table
 
