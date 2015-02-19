@@ -132,6 +132,20 @@ p.col-1 a:hover{
   color: $col-3;
 }
 
+#normal-li,
+#normal-li:link {
+  color: $text-color;
+  list-style: none;
+}
+
+#normal-li:hover,
+#normal-li:focus,
+#normal-li:active {
+  background-color: transparent;
+}
+
+
+
 .toggle-btn {
   color: $text-color;
   position: absolute;
