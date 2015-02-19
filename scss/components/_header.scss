@@ -83,54 +83,130 @@ li:visited{
 
 // Contact Form
 
-  #contactForm {
-      margin: 0 auto;
 
+.form-container {
+  max-width:600px;
+  margin:0 auto;
+  text-align:center;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  background-color:#FAFAFA;
 }
 
-  #contactForm input, textarea {
-      letter-spacing: 2px;
-      font: 200 1em/1.1em 'Helvetica Neue', sans-serif;
-
-      color: #000;
-      background-color: RGBA(204, 204, 204, .1);
-
-      outline: none;
-
-      display:block;
-      margin: 0 auto;
-      padding: 1em;
-      width: 90%;
-      max-width: 400px;
-
-
- }
-
-#contactForm textarea {
-  height: 150px;
-  border: 1px solid $light-grey;
+.head h2 {
+  text-align:center;
+  padding: 1em 0 0 0;
+  margin-bottom: 0;
+  font-size: 1.4em;
 }
-
-#contactForm *:focus {
-   background-color: RGBA(204, 204, 204, 1);
+input {
+  margin-bottom:10px;
 }
-
-#contactForm *:hover {
-   background-color: RGBA(204, 204, 204, 1);
+textarea {
+  height:100px;
+  margin-bottom:10px;
 }
-
+input:first-of-type
+{
+  margin-top:35px;
+}
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro',arial,sans-serif;
+  border: 1px solid #cecece;
+  background: $light-grey;
+  color: #000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px;
+}
 ::-webkit-input-placeholder {
-      color: #777;
+   color: $hover-color;
 }
-
-:-moz-placeholder { /* Firefox 18- */
-      color: #777;
+:-moz-placeholder {
+   color: $hover-color;
 }
-
-::-moz-placeholder {  /* Firefox 19+ */
-    color: #777;
+::-moz-placeholder {
+   color: $hover-color;
 }
-
 :-ms-input-placeholder {
-       color: #777;
+   color: $hover-color;
+}
+button {
+  margin-top:15px;
+  margin-bottom:25px;
+  background-color:#2ABCA7;
+  padding: 5px 45px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #2ABCA7;
+  -webkit-transition: .5s;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  width:30%;
+}
+button:hover, .button:hover {
+  background:#19a08c;
+}
+.icon-plane {
+  display:block;
+  width:32px;
+  height:32px;
+  margin:auto;
+ background:url('http://www.timquincey.me/img/paperplane.svg');
+}
+label.error {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1em;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#d89c9c;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
+}
+/* media queries */
+@media (max-width: 700px) {
+  label.error {
+    width: 90%;
+  }
+  input, textarea {
+    width: 90%;
+  }
+  button {
+    width:90%;
+  }
+  body {
+  padding-top:10px;
+  }
+}
+.message {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1.1em;
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#2ABCA7;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    -webkit-border-radius:6px;
+    -moz-border-radius:6px;
+    border-radius:6px;
 }

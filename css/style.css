@@ -613,54 +613,6 @@ footer {
 .icon-facebook-circled, .icon-twitter-circled, .icon-vimeo-circled {
   font-size: 23pt; }
 
-/* line 276, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-#contactForm {
-  margin: 0 auto; }
-
-/* line 280, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-#contactForm input, textarea {
-  letter-spacing: 2px;
-  font: 200 1em/1.1em 'Helvetica Neue', sans-serif;
-  color: #000;
-  background-color: RGBA(204, 204, 204, 0.1);
-  outline: none;
-  border: none;
-  display: block;
-  margin: 0 auto;
-  padding: 1em;
-  width: 90%;
-  max-width: 400px; }
-
-/* line 296, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-#contactForm textarea {
-  height: 150px; }
-
-/* line 300, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-#contactForm *:focus {
-  background-color: RGBA(254, 191, 4, 1); }
-
-/* line 304, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-#contactForm *:hover {
-  background-color: RGBA(254, 191, 4, 1); }
-
-/* line 308, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-::-webkit-input-placeholder {
-  color: #777; }
-
-/* line 312, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-:-moz-placeholder {
-  /* Firefox 18- */
-  color: #777; }
-
-/* line 316, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #777; }
-
-/* line 320, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-:-ms-input-placeholder {
-  color: #777; }
-
 /* Slider */
 /* line 3, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
 .slick-loading .slick-list {
@@ -1153,51 +1105,132 @@ li, li:link, li:visited {
 #seperator:hover {
   color: #ccc; }
 
-/* line 86, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-#contactForm {
-  margin: 0 auto; }
-
-/* line 91, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-#contactForm input, textarea {
-  letter-spacing: 2px;
-  font: 200 1em/1.1em 'Helvetica Neue', sans-serif;
-  color: #000;
-  background-color: RGBA(204, 204, 204, 0.1);
-  outline: none;
-  display: block;
+/* line 87, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+.form-container {
+  max-width: 600px;
   margin: 0 auto;
-  padding: 1em;
-  width: 90%;
-  max-width: 400px; }
+  text-align: center;
+  border-radius: 6px;
+  background-color: #FAFAFA; }
 
-/* line 109, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-#contactForm textarea {
-  height: 150px;
-  border: 1px solid #ccc; }
+/* line 97, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+.head h2 {
+  text-align: center;
+  padding: 1em 0 0 0;
+  margin-bottom: 0;
+  font-size: 1.4em; }
+
+/* line 103, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+input {
+  margin-bottom: 10px; }
+
+/* line 106, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+textarea {
+  height: 100px;
+  margin-bottom: 10px; }
+
+/* line 110, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+input:first-of-type {
+  margin-top: 35px; }
 
 /* line 114, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-#contactForm *:focus {
-  background-color: RGBA(204, 204, 204, 1); }
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  border: 1px solid #cecece;
+  background: #ccc;
+  color: #000;
+  border-radius: 5px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px; }
 
-/* line 118, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-#contactForm *:hover {
-  background-color: RGBA(204, 204, 204, 1); }
-
-/* line 122, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 133, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 ::-webkit-input-placeholder {
-  color: #777; }
+  color: #222; }
 
-/* line 126, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 136, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 :-moz-placeholder {
-  /* Firefox 18- */
-  color: #777; }
+  color: #222; }
 
-/* line 130, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 139, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 ::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #777; }
+  color: #222; }
 
-/* line 134, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 142, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 :-ms-input-placeholder {
-  color: #777; }
+  color: #222; }
+
+/* line 145, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+button {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  background-color: #2ABCA7;
+  padding: 5px 45px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #2ABCA7;
+  transition: 0.5s;
+  display: inline-block;
+  cursor: pointer;
+  width: 30%; }
+
+/* line 160, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+button:hover, .button:hover {
+  background: #19a08c; }
+
+/* line 163, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+.icon-plane {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  background: url('http://www.timquincey.me/img/paperplane.svg'); }
+
+/* line 170, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+label.error {
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-size: 1em;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #d89c9c;
+  width: 80%;
+  margin: auto;
+  color: #FAFAFA;
+  border-radius: 6px; }
+
+/* media queries */
+@media (max-width: 700px) {
+  /* line 186, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+  label.error {
+    width: 90%; }
+
+  /* line 189, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+  input, textarea {
+    width: 90%; }
+
+  /* line 192, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+  button {
+    width: 90%; }
+
+  /* line 195, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+  body {
+    padding-top: 10px; }
+ }
+
+/* line 199, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+.message {
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-size: 1.1em;
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2ABCA7;
+  width: 80%;
+  margin: auto;
+  color: #FAFAFA;
+  border-radius: 6px; }
 

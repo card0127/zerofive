@@ -4,32 +4,40 @@ layout: default
 
 <h1>Contact Us</h1>
 
-<h2>We'd love to hear from you:</h2>
+<h2>We'd love to hear from you</h2>
+<div class="container">
+	<div class="left">
+	<p>For Grants, Press, Donations or Events: <a href="mailto:Johanna@art-start.org">Johanna@art-start.org</a></p>
+	<p>For Volunteering: <a href="url">Hannah@art-start.org</a></p>
+	<p>For in-kind donations such as art supplies: <a href="mailto:Hannah@art-start.org">Hannah@art-start.org</a></p> *We are not accepting computers at this time.</p>
+	<p>To learn more about Homeless Youth Outreach Programming : <a href="mailto:Hannah@art-start.org">Hannah@art-start.org</a></p>
+	<p>To learn more about Youth Offender Outreach Programming, the One Mic or Emerging Artists-in-Residence program:<a href="mailto:Spirit@art-start.org">Spirit@art-start.org</a></p>
 
-<p>For Grants, Press, Donations or Events: <a href="Johanna@art-start.org">Johanna@art-start.org</a></p>
-<p>For Volunteering: <a href="url">Hannah@art-start.org</a></p>
-<p>For in-kind donations such as art supplies: <a href="Hannah@art-start.org">Hannah@art-start.org</a></p> *We are not accepting computers at this time.</p>
-<p>To learn more about Homeless Youth Outreach Programming : <a href="Hannah@art-start.org">Hannah@art-start.org</a></p>
-<p>To learn more about Youth Offender Outreach Programming & the One Mic program:<a href="Spirit@art-start.org">Spirit@art-start.org</a></p>
-<p>To learn more about the Emerging Artists-in-Residence program: <a href="Spirit@art-start.org">Spirit@art-start.org</a></p>
+	<p>Executive Director, Johanna De Los Santos: <a href="mailto:Johanna@art-start.org">Johanna@art-start.org</a> </p>
 
-<p>Executive Director, Johanna De Los Santos: <a href="Johanna@art-start.org">Johanna@art-start.org</a></p>
 
-<p>Art Start
-526 West 26th Street, Suite 501
-New York, NY 10001
-(212) 460-0019</p>
 
-<h2>Contact Form</h2>
+	<p>Art Start
+	526 West 26th Street, Suite 501
+	New York, NY 10001
+	(212) 460-0019</p>
+	</div>
 
-<form id="contactForm" onsubmit="return validate()" action="contact.php" method="post">
 
-          <input class="formInput" type="text" id="name" name="name" autocorrect="off" placeholder="Name?"/>
-          <input class="formInput" type="email" name="email" id="email" autocapitalize="off" autocorrect="off" placeholder="Email?"/>
-          <textarea class="formInput" name="message" id="message" placeholder="Message?"></textarea>
-
-         <br>
-            <input class="submitForm" type="reset" value="Clear your message" />
-            <input class="submitForm" type="submit" value="Send"/>
-
-  </form>
+	<div class="right">
+		<form id="contact">
+		  <div class="form-container">
+		    <div class="head">
+		      <h2>Contact Form</h2>
+		    </div>
+		    <input type="text" name="name" placeholder="Name" /><br />
+		    <input  type="email" name="email" placeholder="Email" /><br />
+		    <textarea type="text" name="message" placeholder="Message"></textarea><br />
+		    <div class="message">Message Sent</div>
+		    <button id="submit" type="submit">
+		      <i class="icon-plane"></i>
+		    </button>
+		  </div>
+		</form>
+	</div>
+</div>
