@@ -4,7 +4,7 @@
 #second,
 #third
 {
-	height: 400px;
+	height: 600px;
 }
 #intro
 {
@@ -79,10 +79,16 @@ li:visited{
 
 #seperator {
 	color: $light-grey;
+  display: block;
+  margin-top: 2em;
 }
 
 #seperator:hover {
 	color: $light-grey;
 }
 
+.patnership-width {
+  margin-bottom: 4em;
+  clear: both;
+}
 

@@ -1176,17 +1176,22 @@ nav:not(.mm-menu) {
   .sponsor-width {
     width: 800px;
     margin: 0 auto; }
+
+  /* line 146, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  .patnership-width {
+    width: 800px;
+    margin: 0 auto; }
  }
 
 @media only screen and (min-widht: 1200px) {
-  /* line 153, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 158, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .feature {
     padding: 8em; }
  }
 
 /* line 5, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 #about-com-part, #about-indus-part, #second, #third {
-  height: 400px; }
+  height: 600px; }
 
 /* line 9, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 #intro {
@@ -1250,9 +1255,16 @@ li, li:link, li:visited {
 
 /* line 80, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 #seperator {
-  color: #ccc; }
+  color: #ccc;
+  display: block;
+  margin-top: 2em; }
 
-/* line 84, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 86, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 #seperator:hover {
   color: #ccc; }
+
+/* line 90, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+.patnership-width {
+  margin-bottom: 4em;
+  clear: both; }
 
