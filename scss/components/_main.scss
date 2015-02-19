@@ -111,28 +111,25 @@ p.col-1 a:hover{
 }
 
 
-a.col-1,
-a.col-1:link,
-a.col-1:visited {
-  color: red;
-}
-
-a.col-1:hover,
-a.col-1:focus,
-a.col-1:active {
-  border-right: 4px solid $col-1;
+#col-1:hover,
+#col-1:focus,
+#col-1:active {
+  border-left: 4px solid $col-1;
+  color: $col-1;
 }
 
 #col-2:hover,
 #col-2:focus,
 #col-2:active {
-  border-right: 4px solid $col-2;
+  border-left: 4px solid $col-2;
+  color: $col-2;
 }
 
-a.col-3:hover,
-a.col-3:focus,
-a.col-3:active {
-  border-right: 4px solid $col-3;
+#col-3:hover,
+#col-3:focus,
+#col-3:active {
+  border-left: 4px solid $col-3;
+  color: $col-3;
 }
 
 .toggle-btn {
