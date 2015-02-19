@@ -582,7 +582,136 @@ td {
 .display-tablet {
   display: none; }
 
-/* line 232, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 233, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.form-container {
+  max-width: 600px;
+  margin: -1em auto 0 auto;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #FAFAFA; }
+
+/* line 243, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.head h2 {
+  text-align: center;
+  padding: 1em 0 0 0;
+  margin-bottom: 0;
+  font-size: 1.4em; }
+
+/* line 249, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+input {
+  margin-bottom: 10px; }
+
+/* line 252, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+textarea {
+  height: 100px;
+  margin-bottom: 10px; }
+
+/* line 256, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+input:first-of-type {
+  margin-top: 35px; }
+
+/* line 260, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+input, textarea {
+  font-size: 1em;
+  padding: 15px 10px 10px;
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  border: 1px solid #cecece;
+  background: #ccc;
+  color: #000;
+  border-radius: 5px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 600px; }
+
+/* line 279, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+::-webkit-input-placeholder {
+  color: #222; }
+
+/* line 282, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+:-moz-placeholder {
+  color: #222; }
+
+/* line 285, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+::-moz-placeholder {
+  color: #222; }
+
+/* line 288, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+:-ms-input-placeholder {
+  color: #222; }
+
+/* line 291, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+button {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  background-color: #2ABCA7;
+  padding: 5px 45px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #2ABCA7;
+  transition: 0.5s;
+  display: inline-block;
+  cursor: pointer;
+  width: 30%; }
+
+/* line 306, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+button:hover, .button:hover {
+  background: #19a08c; }
+
+/* line 309, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.icon-plane {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: auto;
+  background: url('http://www.timquincey.me/img/paperplane.svg'); }
+
+/* line 316, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+label.error {
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-size: 1em;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #d89c9c;
+  width: 80%;
+  margin: auto;
+  color: #FAFAFA;
+  border-radius: 6px; }
+
+/* media queries */
+@media (max-width: 700px) {
+  /* line 332, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+  label.error {
+    width: 90%; }
+
+  /* line 335, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+  input, textarea {
+    width: 90%; }
+
+  /* line 338, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+  button {
+    width: 90%; }
+
+  /* line 341, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+  body {
+    padding-top: 10px; }
+ }
+
+/* line 345, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.message {
+  font-family: 'Source Sans Pro', arial, sans-serif;
+  font-size: 1.1em;
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2ABCA7;
+  width: 80%;
+  margin: auto;
+  color: #FAFAFA;
+  border-radius: 6px; }
+
+/* line 362, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 footer {
   background-color: #222;
   color: white;
@@ -592,23 +721,23 @@ footer {
   bottom: 0;
   left: 0; }
 
-/* line 242, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 372, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .media {
   padding-top: 1em; }
 
-/* line 246, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 376, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 #facebook:hover {
   color: #3C5A99; }
 
-/* line 250, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 380, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 #twitter:hover {
   color: #74C2E8; }
 
-/* line 254, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 384, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 #vimeo:hover {
   color: #1AB7EA; }
 
-/* line 260, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 390, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .icon-facebook-circled, .icon-twitter-circled, .icon-vimeo-circled {
   font-size: 23pt; }
 
@@ -1103,133 +1232,4 @@ li, li:link, li:visited {
 /* line 80, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 #seperator:hover {
   color: #ccc; }
-
-/* line 87, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-.form-container {
-  max-width: 600px;
-  margin: 0 auto;
-  text-align: center;
-  border-radius: 6px;
-  background-color: #FAFAFA; }
-
-/* line 97, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-.head h2 {
-  text-align: center;
-  padding: 1em 0 0 0;
-  margin-bottom: 0;
-  font-size: 1.4em; }
-
-/* line 103, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-input {
-  margin-bottom: 10px; }
-
-/* line 106, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-textarea {
-  height: 100px;
-  margin-bottom: 10px; }
-
-/* line 110, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-input:first-of-type {
-  margin-top: 35px; }
-
-/* line 114, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-input, textarea {
-  font-size: 1em;
-  padding: 15px 10px 10px;
-  font-family: 'Source Sans Pro', arial, sans-serif;
-  border: 1px solid #cecece;
-  background: #ccc;
-  color: #000;
-  border-radius: 5px;
-  background-clip: padding-box;
-  box-sizing: border-box;
-  width: 80%;
-  max-width: 600px; }
-
-/* line 133, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-::-webkit-input-placeholder {
-  color: #222; }
-
-/* line 136, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-:-moz-placeholder {
-  color: #222; }
-
-/* line 139, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-::-moz-placeholder {
-  color: #222; }
-
-/* line 142, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-:-ms-input-placeholder {
-  color: #222; }
-
-/* line 145, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-button {
-  margin-top: 15px;
-  margin-bottom: 25px;
-  background-color: #2ABCA7;
-  padding: 5px 45px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #2ABCA7;
-  transition: 0.5s;
-  display: inline-block;
-  cursor: pointer;
-  width: 30%; }
-
-/* line 160, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-button:hover, .button:hover {
-  background: #19a08c; }
-
-/* line 163, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-.icon-plane {
-  display: block;
-  width: 32px;
-  height: 32px;
-  margin: auto;
-  background: url('http://www.timquincey.me/img/paperplane.svg'); }
-
-/* line 170, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-label.error {
-  font-family: 'Source Sans Pro', arial, sans-serif;
-  font-size: 1em;
-  display: block;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #d89c9c;
-  width: 80%;
-  margin: auto;
-  color: #FAFAFA;
-  border-radius: 6px; }
-
-/* media queries */
-@media (max-width: 700px) {
-  /* line 186, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-  label.error {
-    width: 90%; }
-
-  /* line 189, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-  input, textarea {
-    width: 90%; }
-
-  /* line 192, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-  button {
-    width: 90%; }
-
-  /* line 195, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-  body {
-    padding-top: 10px; }
- }
-
-/* line 199, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-.message {
-  font-family: 'Source Sans Pro', arial, sans-serif;
-  font-size: 1.1em;
-  display: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #2ABCA7;
-  width: 80%;
-  margin: auto;
-  color: #FAFAFA;
-  border-radius: 6px; }
 
