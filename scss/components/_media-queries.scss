@@ -49,12 +49,19 @@ h1 {
   float: left;
   width: 48%;
   text-align: left;
-}
+  }
 
-.right {
-  float: right;
-  width: 48%;
-}
+  .right {
+    float: right;
+    width: 48%;
+    text-align: left;
+  }
+
+  .the-family-ul {
+    margin-top: 0 !important;
+  }
+
+
 
 // Table
 
@@ -85,6 +92,8 @@ td {
 .display-mobile {
   display: none;
 }
+
+
 
 
 } // End of Media Query
@@ -129,6 +138,10 @@ td {
   margin: 0 auto;
 }
 
+  .sponsor-width{
+    width: 800px;
+    margin: 0 auto;
+  }
 
 } // End of Media Query
 
