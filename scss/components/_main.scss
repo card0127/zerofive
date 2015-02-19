@@ -372,35 +372,7 @@ label.error {
     -moz-border-radius:6px;
     border-radius:6px;
 }
-/* media queries */
-@media (max-width: 700px) {
-  label.error {
-    width: 90%;
-  }
-  input, textarea {
-    width: 90%;
-  }
-  button {
-    width:90%;
-  }
-  body {
-  padding-top:10px;
-  }
-}
-.message {
-    font-family:'Source Sans Pro',arial,sans-serif;
-    font-size:1.1em;
-    display:none;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:#2ABCA7;
-    width: 80%;
-    margin:auto;
-    color: #FAFAFA;
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
-}
+
 
 // Footer Stuff
 
@@ -412,6 +384,7 @@ footer {
   position: relative;
   bottom: 0;
   left: 0;
+  clear: both;
 }
 
 .media {
