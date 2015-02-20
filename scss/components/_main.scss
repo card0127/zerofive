@@ -233,17 +233,21 @@ p.col-1 a:hover{
   line-height: 15pt;
 }
 
-.container-family {
+.container-one-column {
   overflow: hidden;
   margin: 2em 0;
 }
 
-.container-family p {
+.container-one-column p {
   text-align: justify;
   padding-bottom: 1em;
   line-height: 15pt;
 }
 
+.content-pusher {
+  padding: 2em 0 4em 0;
+  display: block;
+}
 
 
 // Table
@@ -291,10 +295,21 @@ textarea {
   height:100px;
   margin-bottom:10px;
 }
+
+.head {
+  padding: 1em 1em 0 1em;
+  margin-bottom: 0;
+}
+
+.head h2 {
+  margin-bottom: 0;
+}
+
 input:first-of-type
 {
   margin-top:35px;
 }
+
 input, textarea {
   font-size: 1em;
   padding: 15px 10px 10px;
@@ -314,18 +329,23 @@ input, textarea {
   width: 80%;
   max-width: 600px;
 }
+
 ::-webkit-input-placeholder {
    color: #FAFAFA;
 }
+
 :-moz-placeholder {
    color: #FAFAFA;
 }
+
 ::-moz-placeholder {
    color: #FAFAFA;
 }
+
 :-ms-input-placeholder {
    color: #FAFAFA;
 }
+
 button {
   margin-top:15px;
   margin-bottom:25px;
@@ -341,9 +361,11 @@ button {
   cursor: pointer;
   width:30%;
 }
+
 button:hover, .button:hover {
   background:#19a08c;
 }
+
 .icon-plane {
   display:block;
   width:32px;
@@ -351,6 +373,7 @@ button:hover, .button:hover {
   margin:auto;
  background:url('http://www.timquincey.me/img/paperplane.svg');
 }
+
 label.error {
     font-family:'Source Sans Pro',arial,sans-serif;
     font-size:1em;
@@ -365,18 +388,7 @@ label.error {
     -moz-border-radius:6px;
     border-radius:6px;
 }
-/* media queries */
-@media (max-width: 700px) {
-  label.error {
-    width: 90%;
-  }
-  input, textarea {
-    width: 90%;
-  }
-  button {
-    width:90%;
-  }
-}
+
 .message {
     font-family:'Source Sans Pro',arial,sans-serif;
     font-size:1.1em;

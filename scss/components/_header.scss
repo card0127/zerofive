@@ -3,39 +3,41 @@
 #about-indus-part,
 #fam-execu,
 #fam-sponsor,
-#third
-{
+#artist-res,
+#youth-off-reach {
 	height: 600px;
 }
 
-#fam-execu {
+#fam-execu,
+#portrait-project {
   height: 100%;
 }
-#intro
-{
+
+#intro {
 	padding-top: 0;
 }
+
 #about-com-part,
 #about-indus-part,
 #fam-execu,
 #fam-sponsor,
-#third
-{
+#artist-res,
+#youth-off-reach,
+#portrait-project {
 	padding-top: 150px;
 }
 
 // Fixed Header
 
-.header,
-{
+.header {
 	box-sizing: border-box;
 	width: 100%;
 	position: fixed;
 	height: 105px;
 	border-bottom: 1px solid #000;
 }
-.header
-{
+
+.header {
 	top: 0;
 }
 
@@ -56,6 +58,7 @@
     top:0;
     left:0;
 }
+
 #header_nav img {
     max-height: 100%;
     max-width: 100%;

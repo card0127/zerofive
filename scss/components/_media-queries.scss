@@ -1,3 +1,18 @@
+// Media Query for Contact Form Button
+@media (max-width: 700px) {
+  label.error {
+    width: 90%;
+  }
+  input, textarea {
+    width: 90%;
+  }
+  button {
+    width:90%;
+  }
+}
+
+// End of Media Query for Form
+
       // Media Queries - Tablet Size
 @media only screen and (min-width: 768px){
 
@@ -67,7 +82,7 @@ h1 {
   margin: 3.5em 1em 0 1em;
   }
 
-  .container-family {
+  .container-one-column {
     max-width: 70%;
     margin: 0 auto;
   }
@@ -182,7 +197,7 @@ td {
     margin: 0 auto;
   }
 
-  .executive-board {
+  .single-column {
     margin: 0 auto;
   }
 
@@ -203,11 +218,11 @@ td {
     padding: 8em;
   }
 
-    .executive-board {
+    .single-column {
     max-width: 50%;
   }
 
-  .container-family {
+  .container-one-column {
     max-width: 50%;
   }
 
