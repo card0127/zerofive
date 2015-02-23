@@ -61,7 +61,7 @@ h4 {
 h4.staff {
   margin: .5em 0 0 0;
   padding-bottom: .5em;
-  text-align: right;
+
 }
 
 h4 em {
@@ -97,7 +97,7 @@ cite {
 }
 
 .profile-pic {
-  width: 100px;
+  width: 150px;
   margin: 2em 1em 0 1em;
   paadding-bottom: 0;
 }
@@ -114,11 +114,6 @@ i:visited  {
   color: $text-color;
 }
 
-p.col-1 a:hover{
-  color: red;
-}
-
-
 .primary-btn {
   @include button($light-grey, #ccc, $hover-color);
 }
@@ -128,6 +123,17 @@ p.col-1 a:hover{
   margin-top: 1em;
 }
 
+.col-1 {
+  color: #5eb7b3;
+}
+
+.col-2 {
+  color: #7B52AB;
+}
+
+.col-3 {
+  color: #e1b62d;
+}
 
 #col-1:hover,
 #col-1:focus,
