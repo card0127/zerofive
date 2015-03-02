@@ -123,6 +123,10 @@ i:visited  {
   margin-top: 1em;
 }
 
+.centered-no-margin{
+  margin: 0;
+}
+
 .col-1 {
   color: #5eb7b3;
 }
@@ -160,6 +164,8 @@ i:visited  {
 #normal-li:link {
   color: $text-color;
   list-style: none;
+  text-align: left;
+  display: block;
 }
 
 #normal-li:hover,
@@ -194,6 +200,10 @@ i:visited  {
 
 .logo {
   width: 170px;
+}
+
+.logo-center {
+  margin: 0 auto;
 }
 
 .feature {

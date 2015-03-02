@@ -1,10 +1,10 @@
 // for the one page layout
-#about-com-part,
 #about-indus-part,
 #fam-execu,
 #fam-sponsor,
 #artist-res,
 #youth-off-reach,
+#port-project
 
  {
 	height: 600px;
@@ -15,7 +15,6 @@
 #volunteer,
 #commitment,
 #the-schedule,
-#port-project,
 #indus-part,
 #supply-list,
 #quote {
@@ -24,8 +23,10 @@
 
 
 #fam-execu,
-#portrait-project {
+#portrait-project,
+#about-com-part {
   height: 100%;
+  display: block;
 }
 
 #intro {
@@ -109,7 +110,12 @@ li:visited{
 
 .patnership-width {
   margin-bottom: 4em;
+  display: block;
   clear: both;
 }
 
+.about-indus-part {
+	display: block;
+
+}
 
