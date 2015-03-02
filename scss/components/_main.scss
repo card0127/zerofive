@@ -212,7 +212,7 @@ i:visited  {
 
 .feature {
   overflow: hidden;
-  background-color: $col-3;
+  background-color: $light-grey;
   padding-top: 2em;
 }
 
@@ -234,6 +234,9 @@ i:visited  {
 
 .carousel-fullview {
   margin: 0 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .quotes-mobile {
@@ -268,7 +271,8 @@ i:visited  {
 }
 
 .content {
-  margin-top: 0;
+  padding-top: 5em;
+  position: relative;
 }
 
 
