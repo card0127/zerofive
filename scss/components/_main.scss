@@ -139,6 +139,10 @@ i:visited  {
   color: #e1b62d;
 }
 
+.header-col {
+  color: $header-col;
+}
+
 #col-1:hover,
 #col-1:focus,
 #col-1:active {
@@ -207,10 +211,8 @@ i:visited  {
 }
 
 .feature {
-  border-top: 1px solid #000; // Temporary border
-  border-bottom: 1px solid #000; // Temporary border
   overflow: hidden;
-  background-color: #ccc;
+  background-color: $col-3;
   padding-top: 2em;
 }
 
