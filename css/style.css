@@ -16,7 +16,7 @@
   }
 }
 */
-/* line 22, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 22, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -41,307 +41,307 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 53, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-cancel:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 54, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-emo-grin:before {
   content: '\e801'; }
 
 /* '' */
-/* line 55, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 55, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-pin:before {
   content: '\e802'; }
 
 /* '' */
-/* line 56, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 56, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-angle-circled-down:before {
   content: '\e803'; }
 
 /* '' */
-/* line 57, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 57, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-vimeo:before {
   content: '\e804'; }
 
 /* '' */
-/* line 58, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 58, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-twitter:before {
   content: '\e805'; }
 
 /* '' */
-/* line 59, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 59, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-facebook:before {
   content: '\e806'; }
 
 /* '' */
-/* line 60, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 60, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-angle-down:before {
   content: '\e807'; }
 
 /* '' */
-/* line 61, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 61, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-user-pair:before {
   content: '\e808'; }
 
 /* '' */
-/* line 62, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 62, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-pencil:before {
   content: '\e809'; }
 
 /* '' */
-/* line 63, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 63, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-play-circled:before {
   content: '\e80a'; }
 
 /* '' */
-/* line 64, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 64, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-lock:before {
   content: '\e80b'; }
 
 /* '' */
-/* line 65, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 65, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-emo-laugh:before {
   content: '\e80c'; }
 
 /* '' */
-/* line 66, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 66, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-glyph:before {
   content: '\e80d'; }
 
 /* '' */
-/* line 67, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 67, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-glyph-1:before {
   content: '\e80e'; }
 
 /* '' */
-/* line 68, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 68, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-emo-wink:before {
   content: '\e80f'; }
 
 /* '' */
-/* line 69, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 69, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-link:before {
   content: '\e810'; }
 
 /* '' */
-/* line 70, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 70, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-art-gallery:before {
   content: '\e811'; }
 
 /* '' */
-/* line 71, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 71, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-lightbulb:before {
   content: '\e812'; }
 
 /* '' */
-/* line 72, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 72, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-vimeo-circled:before {
   content: '\e813'; }
 
 /* '' */
-/* line 73, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 73, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-search:before {
   content: '\e814'; }
 
 /* '' */
-/* line 74, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 74, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-info-circled:before {
   content: '\e815'; }
 
 /* '' */
-/* line 75, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 75, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-glyph-2:before {
   content: '\e816'; }
 
 /* '' */
-/* line 76, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 76, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-glyph-3:before {
   content: '\e817'; }
 
 /* '' */
-/* line 77, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 77, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-mail-alt:before {
   content: '\e818'; }
 
 /* '' */
-/* line 78, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 78, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-help-circled:before {
   content: '\e819'; }
 
 /* '' */
-/* line 79, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 79, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-chat:before {
   content: '\e81a'; }
 
 /* '' */
-/* line 80, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 80, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-minus-circled:before {
   content: '\e81b'; }
 
 /* '' */
-/* line 81, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 81, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-comment:before {
   content: '\e81c'; }
 
 /* '' */
-/* line 82, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 82, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-quote-right:before {
   content: '\e81d'; }
 
 /* '' */
-/* line 83, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 83, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-plus-circled:before {
   content: '\e81e'; }
 
 /* '' */
-/* line 84, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 84, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-twitter-circled:before {
   content: '\e81f'; }
 
 /* '' */
-/* line 85, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 85, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-a:before {
   content: '\e820'; }
 
 /* '' */
-/* line 86, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 86, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-quote-left:before {
   content: '\e821'; }
 
 /* '' */
-/* line 87, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 87, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-cancel-1:before {
   content: '\e822'; }
 
 /* '' */
-/* line 88, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 88, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-facebook-circled:before {
   content: '\e823'; }
 
 /* '' */
-/* line 89, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 89, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-s:before {
   content: '\e824'; }
 
 /* '' */
-/* line 90, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 90, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-ok-circled:before {
   content: '\e825'; }
 
 /* '' */
-/* line 91, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 91, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-forward:before {
   content: '\e826'; }
 
 /* '' */
-/* line 92, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 92, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-star:before {
   content: '\e828'; }
 
 /* '' */
-/* line 93, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 93, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-reply:before {
   content: '\e829'; }
 
 /* '' */
-/* line 94, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 94, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-trash:before {
   content: '\e82a'; }
 
 /* '' */
-/* line 95, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 95, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-heart:before {
   content: '\e82c'; }
 
 /* '' */
-/* line 96, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 96, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-thumbs-up-alt:before {
   content: '\e82d'; }
 
 /* '' */
-/* line 97, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 97, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-mic:before {
   content: '\e82e'; }
 
 /* '' */
-/* line 98, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 98, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-camera:before {
   content: '\e82f'; }
 
 /* '' */
-/* line 99, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 99, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-comment-inv-alt2:before {
   content: '\e830'; }
 
 /* '' */
-/* line 100, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 100, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-angle-circled-up:before {
   content: '\e831'; }
 
 /* '' */
-/* line 101, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 101, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-bookmark:before {
   content: '\e832'; }
 
 /* '' */
-/* line 102, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 102, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-star-1:before {
   content: '\e833'; }
 
 /* '' */
-/* line 103, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 103, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-angle-up:before {
   content: '\e834'; }
 
 /* '' */
-/* line 104, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 104, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-angle-right:before {
   content: '\e835'; }
 
 /* '' */
-/* line 105, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 105, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-angle-left:before {
   content: '\e836'; }
 
 /* '' */
-/* line 106, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 106, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-up-open:before {
   content: '\e837'; }
 
 /* '' */
-/* line 107, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 107, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-right-open:before {
   content: '\e838'; }
 
 /* '' */
-/* line 108, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 108, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-left-open:before {
   content: '\e839'; }
 
 /* '' */
-/* line 109, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 109, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-down-open:before {
   content: '\e83a'; }
 
 /* '' */
-/* line 110, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 110, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-right-dir:before {
   content: '\e83b'; }
 
 /* '' */
-/* line 111, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 111, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-left-dir:before {
   content: '\e83c'; }
 
 /* '' */
-/* line 112, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 112, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-up-dir:before {
   content: '\e83d'; }
 
 /* '' */
-/* line 113, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/fontello */
+/* line 113, /Users/thaliamina/Documents/zerofive/scss/components/fontello */
 .icon-down-dir:before {
   content: '\e83e'; }
 
@@ -366,12 +366,12 @@
   width: device-width;
   scale: 1; }
 
-/* line 7, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 7, /Users/thaliamina/Documents/zerofive/scss/components/main */
 html, body {
   padding: 0;
   margin: 0; }
 
-/* line 12, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 12, /Users/thaliamina/Documents/zerofive/scss/components/main */
 body {
   background-color: #fff;
   font-family: 'Lato' Arial, Helvetica, Verdana;
@@ -382,11 +382,11 @@ body {
   position: relative;
   -webkit-text-size-adjust: none; }
 
-/* line 23, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 23, /Users/thaliamina/Documents/zerofive/scss/components/main */
 body * {
   text-shadow: none; }
 
-/* line 28, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 28, /Users/thaliamina/Documents/zerofive/scss/components/main */
 h1 {
   text-align: center;
   margin: 0;
@@ -395,16 +395,16 @@ h1 {
   margin-bottom: 0.25em;
   line-height: 27pt; }
 
-/* line 37, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 37, /Users/thaliamina/Documents/zerofive/scss/components/main */
 h2 {
   font-weight: 300;
   font-size: 20pt; }
 
-/* line 42, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 42, /Users/thaliamina/Documents/zerofive/scss/components/main */
 h2, p {
   text-align: center; }
 
-/* line 46, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 46, /Users/thaliamina/Documents/zerofive/scss/components/main */
 h3 {
   text-align: center;
   font-size: 20pt;
@@ -412,65 +412,65 @@ h3 {
   text-transform: uppercase;
   margin-bottom: 0.125em; }
 
-/* line 54, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 54, /Users/thaliamina/Documents/zerofive/scss/components/main */
 h4 {
   font-weight: 300;
   font-size: 17pt;
   line-height: 19pt;
   padding-bottom: 1em; }
 
-/* line 61, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 61, /Users/thaliamina/Documents/zerofive/scss/components/main */
 h4.staff {
   margin: 0.5em 0 0 0;
   padding-bottom: 0.5em; }
 
-/* line 67, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 67, /Users/thaliamina/Documents/zerofive/scss/components/main */
 h4 em {
   font-size: 10pt;
   display: block; }
 
-/* line 72, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 72, /Users/thaliamina/Documents/zerofive/scss/components/main */
 p {
   margin: 0;
   padding: 0;
   line-height: 13pt; }
 
-/* line 78, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 78, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .intro-text {
   padding: 0 2em; }
 
-/* line 82, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 82, /Users/thaliamina/Documents/zerofive/scss/components/main */
 main {
   padding: 5px; }
 
-/* line 86, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 86, /Users/thaliamina/Documents/zerofive/scss/components/main */
 blockquote {
   text-align: center;
   padding-bottom: 1.5em;
   max-width: 60%;
   margin: 0 auto; }
 
-/* line 93, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 93, /Users/thaliamina/Documents/zerofive/scss/components/main */
 cite {
   display: block;
   text-transform: uppercase;
   color: #5eb7b3; }
 
-/* line 99, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 99, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .profile-pic {
   width: 150px;
   margin: 2em 1em 0 1em;
   paadding-bottom: 0; }
 
-/* line 106, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 106, /Users/thaliamina/Documents/zerofive/scss/components/main */
 i {
   font-size: 15pt; }
 
-/* line 113, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 113, /Users/thaliamina/Documents/zerofive/scss/components/main */
 i, i:link, i:visited {
   color: #666; }
 
-/* line 117, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 117, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .primary-btn {
   border: 5px solid #EAEAEA;
   padding: 0.5em 1.5em;
@@ -478,63 +478,63 @@ i, i:link, i:visited {
   display: inline-block;
   text-decoration: none;
   color: #ccc; }
-  /* line 37, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/mixins */
+  /* line 37, /Users/thaliamina/Documents/zerofive/scss/mixins */
   .primary-btn:hover {
     border-color: #222;
     color: #222; }
 
-/* line 121, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 121, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .centered {
   text-align: center;
   margin-top: 1em; }
 
-/* line 126, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 126, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .centered-no-margin {
   margin: 0; }
 
-/* line 130, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 130, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .col-1 {
   color: #5eb7b3; }
 
-/* line 134, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 134, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .col-2 {
   color: #7B52AB; }
 
-/* line 138, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 138, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .col-3 {
   color: #e1b62d; }
 
-/* line 142, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 142, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .header-col {
   color: #000; }
 
-/* line 148, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 148, /Users/thaliamina/Documents/zerofive/scss/components/main */
 #col-1:hover, #col-1:focus, #col-1:active {
   border-left: 4px solid #5eb7b3;
   color: #5eb7b3; }
 
-/* line 155, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 155, /Users/thaliamina/Documents/zerofive/scss/components/main */
 #col-2:hover, #col-2:focus, #col-2:active {
   border-left: 4px solid #7B52AB;
   color: #7B52AB; }
 
-/* line 162, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 162, /Users/thaliamina/Documents/zerofive/scss/components/main */
 #col-3:hover, #col-3:focus, #col-3:active {
   border-left: 4px solid #e1b62d;
   color: #e1b62d; }
 
-/* line 168, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 168, /Users/thaliamina/Documents/zerofive/scss/components/main */
 #normal-li, #normal-li:link {
   color: #666;
   list-style: none;
   text-align: left;
   display: block; }
 
-/* line 177, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 177, /Users/thaliamina/Documents/zerofive/scss/components/main */
 #normal-li:hover, #normal-li:focus, #normal-li:active {
   background-color: transparent; }
 
-/* line 183, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 183, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .toggle-btn {
   color: #666;
   position: absolute;
@@ -543,115 +543,115 @@ i, i:link, i:visited {
   height: 40px;
   width: 40px;
   margin-top: 1em; }
-  /* line 192, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+  /* line 192, /Users/thaliamina/Documents/zerofive/scss/components/main */
   .toggle-btn i {
     font-size: 30pt; }
-  /* line 196, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+  /* line 196, /Users/thaliamina/Documents/zerofive/scss/components/main */
   .toggle-btn span {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     display: block; }
 
-/* line 201, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 201, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .img-flex {
   width: 70%; }
 
-/* line 205, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 205, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .logo {
   width: 170px; }
 
-/* line 209, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 209, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .logo-center {
   margin: 0 auto; }
 
-/* line 213, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 213, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .feature {
   overflow: hidden;
   background-color: #EAEAEA;
   padding-top: 2em; }
 
-/* line 221, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 221, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .index-carousel img {
   width: 100%; }
 
-/* line 225, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 225, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .carousel-quotes {
   display: none; }
 
-/* line 230, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 230, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .carousel, .carousel-fullview {
   text-align: center;
   margin: 0 auto; }
 
-/* line 235, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 235, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .carousel-fullview {
   margin: 0 1em;
   position: absolute;
   top: 0;
   left: 0; }
 
-/* line 242, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 242, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .quotes-mobile {
   padding: 5px; }
 
-/* line 246, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 246, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .container {
   overflow: hidden;
   margin: 2em 0; }
 
-/* line 251, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 251, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .container p {
   text-align: justify;
   padding-bottom: 1em;
   line-height: 15pt; }
 
-/* line 257, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 257, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .container-one-column {
   overflow: hidden;
   margin: 2em 0; }
 
-/* line 262, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 262, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .container-one-column p {
   text-align: justify;
   padding-bottom: 1em;
   line-height: 15pt; }
 
-/* line 268, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 268, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .content-pusher {
   padding: 2em 0 4em 0;
   display: block; }
 
-/* line 273, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 273, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .content {
   padding-top: 5em;
   position: relative; }
 
-/* line 281, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 281, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .gridtable {
   table-layout: fixed;
   width: 90%;
   margin: 0 auto; }
 
-/* line 287, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 287, /Users/thaliamina/Documents/zerofive/scss/components/main */
 table {
   padding-bottom: 4em; }
 
-/* line 291, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 291, /Users/thaliamina/Documents/zerofive/scss/components/main */
 th {
   font-size: 20pt;
   font-weight: 500; }
 
-/* line 296, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 296, /Users/thaliamina/Documents/zerofive/scss/components/main */
 td {
   margin: 0 auto;
   font-size: 12pt; }
 
-/* line 301, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 301, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .display-tablet {
   display: none; }
 
-/* line 308, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 308, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .form-container {
   max-width: 600px;
   margin: 0 auto;
@@ -659,29 +659,29 @@ td {
   border-radius: 6px;
   background-color: #FAFAFA; }
 
-/* line 317, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 317, /Users/thaliamina/Documents/zerofive/scss/components/main */
 input {
   margin-bottom: 10px; }
 
-/* line 320, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 320, /Users/thaliamina/Documents/zerofive/scss/components/main */
 textarea {
   height: 100px;
   margin-bottom: 10px; }
 
-/* line 325, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 325, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .head {
   padding: 1em 1em 0 1em;
   margin-bottom: 0; }
 
-/* line 330, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 330, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .head h2 {
   margin-bottom: 0; }
 
-/* line 334, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 334, /Users/thaliamina/Documents/zerofive/scss/components/main */
 input:first-of-type {
   margin-top: 35px; }
 
-/* line 339, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 339, /Users/thaliamina/Documents/zerofive/scss/components/main */
 input, textarea {
   font-size: 1em;
   padding: 15px 10px 10px;
@@ -695,23 +695,23 @@ input, textarea {
   width: 80%;
   max-width: 600px; }
 
-/* line 359, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 359, /Users/thaliamina/Documents/zerofive/scss/components/main */
 ::-webkit-input-placeholder {
   color: #FAFAFA; }
 
-/* line 363, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 363, /Users/thaliamina/Documents/zerofive/scss/components/main */
 :-moz-placeholder {
   color: #FAFAFA; }
 
-/* line 367, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 367, /Users/thaliamina/Documents/zerofive/scss/components/main */
 ::-moz-placeholder {
   color: #FAFAFA; }
 
-/* line 371, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 371, /Users/thaliamina/Documents/zerofive/scss/components/main */
 :-ms-input-placeholder {
   color: #FAFAFA; }
 
-/* line 375, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 375, /Users/thaliamina/Documents/zerofive/scss/components/main */
 button {
   margin-top: 15px;
   margin-bottom: 25px;
@@ -725,11 +725,11 @@ button {
   cursor: pointer;
   width: 30%; }
 
-/* line 391, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 391, /Users/thaliamina/Documents/zerofive/scss/components/main */
 button:hover, .button:hover {
   background: #19a08c; }
 
-/* line 395, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 395, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .icon-plane {
   display: block;
   width: 32px;
@@ -737,7 +737,7 @@ button:hover, .button:hover {
   margin: auto;
   background: url('http://www.timquincey.me/img/paperplane.svg'); }
 
-/* line 403, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 403, /Users/thaliamina/Documents/zerofive/scss/components/main */
 label.error {
   font-family: 'Source Sans Pro', arial, sans-serif;
   font-size: 1em;
@@ -750,7 +750,7 @@ label.error {
   color: #FAFAFA;
   border-radius: 6px; }
 
-/* line 418, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 418, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .message {
   font-family: 'Source Sans Pro', arial, sans-serif;
   font-size: 1.1em;
@@ -763,7 +763,7 @@ label.error {
   color: #FAFAFA;
   border-radius: 6px; }
 
-/* line 436, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 436, /Users/thaliamina/Documents/zerofive/scss/components/main */
 footer {
   background-color: #222;
   color: white;
@@ -774,28 +774,28 @@ footer {
   left: 0;
   clear: both; }
 
-/* line 447, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 447, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .media {
   padding-top: 1em; }
 
-/* line 451, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 451, /Users/thaliamina/Documents/zerofive/scss/components/main */
 #facebook:hover {
   color: #7B52AB; }
 
-/* line 455, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 455, /Users/thaliamina/Documents/zerofive/scss/components/main */
 #twitter:hover {
   color: #7B52AB; }
 
-/* line 459, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 459, /Users/thaliamina/Documents/zerofive/scss/components/main */
 #vimeo:hover {
   color: #7B52AB; }
 
-/* line 465, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 465, /Users/thaliamina/Documents/zerofive/scss/components/main */
 .icon-facebook-circled, .icon-twitter-circled, .icon-vimeo-circled {
   font-size: 23pt; }
 
 /* Slider */
-/* line 3, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 3, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-loading .slick-list {
   background: #000 url('../images/ajax-loader.gif') center center no-repeat;
   padding-top: 2em; }
@@ -809,7 +809,7 @@ footer {
   src: url('../fonts/slick.eot?#iefix') format('embedded-opentype'), url('../fonts/slick.woff') format('woff'), url('../fonts/slick.ttf') format('truetype'), url('../fonts/slick.svg#slick') format('svg'); }
 
 /* Arrows */
-/* line 21, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 21, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-prev, .slick-next {
   font-size: 0;
   line-height: 0;
@@ -826,21 +826,21 @@ footer {
   outline: none;
   background: transparent; }
 
-/* line 46, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 46, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
   color: transparent;
   outline: none;
   background: transparent; }
 
-/* line 55, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 55, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-prev:hover:before, .slick-prev:focus:before, .slick-next:hover:before, .slick-next:focus:before {
   opacity: 1; }
 
-/* line 60, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 60, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-prev.slick-disabled:before, .slick-next.slick-disabled:before {
   opacity: 0.25; }
 
-/* line 66, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 66, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-prev:before, .slick-next:before {
   font-family: 'slick';
   font-size: 20px;
@@ -850,46 +850,46 @@ footer {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 79, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 79, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-prev {
   left: 25px; }
 
-/* line 83, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 83, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 [dir='rtl'] .slick-prev {
   right: 25px;
   left: auto; }
 
-/* line 89, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 89, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-prev:before {
   content: '←'; }
 
-/* line 93, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 93, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 [dir='rtl'] .slick-prev:before {
   content: '→'; }
 
-/* line 98, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 98, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-next {
   right: 20px; }
 
-/* line 102, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 102, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 [dir='rtl'] .slick-next {
   right: auto;
   left: -60px; }
 
-/* line 107, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 107, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-next:before {
   content: '→'; }
 
-/* line 111, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 111, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 [dir='rtl'] .slick-next:before {
   content: '←'; }
 
 /* Dots */
-/* line 117, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 117, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-slider {
   padding: 15px 0; }
 
-/* line 123, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 123, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-dots {
   bottom: 45px;
   display: block;
@@ -898,7 +898,7 @@ footer {
   list-style: none;
   text-align: center; }
 
-/* line 136, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 136, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-dots li {
   position: relative;
   display: inline-block;
@@ -908,7 +908,7 @@ footer {
   padding: 0;
   cursor: pointer; }
 
-/* line 149, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 149, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-dots li button {
   font-size: 0;
   line-height: 0;
@@ -922,15 +922,15 @@ footer {
   outline: none;
   background: transparent; }
 
-/* line 168, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 168, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-dots li button:hover, .slick-dots li button:focus {
   outline: none; }
 
-/* line 173, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 173, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-dots li button:hover:before, .slick-dots li button:focus:before {
   opacity: 1; }
 
-/* line 177, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 177, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-dots li button:before {
   font-family: 'slick';
   font-size: 6px;
@@ -947,13 +947,13 @@ footer {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 199, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
+/* line 199, /Users/thaliamina/Documents/zerofive/scss/extension/slick-theme */
 .slick-dots li.slick-active button:before {
   opacity: 0.75;
   color: black; }
 
 /* Slider */
-/* line 2, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 2, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-slider {
   position: relative;
   display: block;
@@ -968,7 +968,7 @@ footer {
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 23, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 23, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-list {
   position: relative;
   display: block;
@@ -976,43 +976,43 @@ footer {
   margin: 0;
   padding: 0; }
 
-/* line 33, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 33, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-list:focus {
   outline: none; }
 
-/* line 37, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 37, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-list.dragging {
   cursor: pointer;
   cursor: hand; }
 
-/* line 44, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 44, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-slider .slick-track, .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0); }
 
-/* line 53, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 53, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-track {
   position: relative;
   top: 0;
   left: 0;
   display: block; }
 
-/* line 62, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 62, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-track:before, .slick-track:after {
   display: table;
   margin: 0 auto;
   content: ''; }
 
-/* line 68, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 68, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-track:after {
   clear: both; }
 
-/* line 72, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 72, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-loading .slick-track {
   visibility: hidden; }
 
-/* line 77, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 77, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-slide {
   display: none;
   float: left;
@@ -1020,51 +1020,51 @@ footer {
   height: 100%;
   min-height: 1px; }
 
-/* line 85, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 85, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 [dir='rtl'] .slick-slide {
   float: right; }
 
-/* line 89, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 89, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-slide img {
   display: block;
   margin: 0 auto; }
 
-/* line 93, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 93, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-slide.slick-loading img {
   display: none; }
 
-/* line 97, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 97, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-slide.dragging img {
   pointer-events: none; }
 
-/* line 101, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 101, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-initialized .slick-slide {
   display: block; }
 
-/* line 105, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 105, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-loading .slick-slide {
   visibility: hidden; }
 
-/* line 109, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick */
+/* line 109, /Users/thaliamina/Documents/zerofive/scss/extension/slick */
 .slick-vertical .slick-slide {
   display: block;
   height: auto;
   border: 1px solid transparent; }
 
-/* line 1, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo */
+/* line 1, /Users/thaliamina/Documents/zerofive/scss/extension/demo */
 a, a:link, a:active, a:visited, a:hover {
   color: inherit;
   text-decoration: underline; }
 
-/* line 7, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo */
+/* line 7, /Users/thaliamina/Documents/zerofive/scss/extension/demo */
 nav:not(.mm-menu) {
   display: none; }
 
-/* line 14, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo */
+/* line 14, /Users/thaliamina/Documents/zerofive/scss/extension/demo */
 .header, .content, .footer {
   text-align: center; }
 
-/* line 19, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo */
+/* line 19, /Users/thaliamina/Documents/zerofive/scss/extension/demo */
 .header, .footer {
   font-size: 16px;
   font-weight: bold;
@@ -1076,13 +1076,13 @@ nav:not(.mm-menu) {
   height: 70px;
   padding: 0 50px; }
 
-/* line 32, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo */
+/* line 32, /Users/thaliamina/Documents/zerofive/scss/extension/demo */
 .header.fixed {
   position: fixed;
   top: 0;
   left: 0; }
 
-/* line 39, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo */
+/* line 39, /Users/thaliamina/Documents/zerofive/scss/extension/demo */
 .header a {
   background: center center no-repeat transparent;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
@@ -1095,45 +1095,45 @@ nav:not(.mm-menu) {
   left: 10px; }
 
 @media (max-width: 700px) {
-  /* line 3, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 3, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   label.error {
     width: 90%; }
 
-  /* line 6, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 6, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   input, textarea {
     width: 90%; }
 
-  /* line 9, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 9, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   button {
     width: 90%; }
  }
 
 @media only screen and (min-width: 768px) {
-  /* line 19, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 19, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   h1 {
     font-size: 40pt; }
 
-  /* line 23, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 23, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .content {
     padding: 100px 50px 50px 50px; }
 
-  /* line 27, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 27, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .intro-text {
     padding: 0 3em;
     max-width: 80%;
     display: block;
     margin: 0 auto; }
 
-  /* line 34, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 34, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .feature {
     padding: 3em 5em; }
 
-  /* line 41, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 41, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .carousel {
     float: right;
     width: 45%; }
 
-  /* line 46, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 46, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .carousel-quotes {
     display: block;
     float: left;
@@ -1142,57 +1142,57 @@ nav:not(.mm-menu) {
     text-align: center;
     margin: 0 auto; }
 
-  /* line 55, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 55, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .quotes-mobile {
     display: none; }
 
-  /* line 59, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 59, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .carousel {
     padding-top: 2em; }
 
-  /* line 63, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 63, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .left {
     float: left;
     width: 48%;
     text-align: left; }
 
-  /* line 69, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 69, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .right {
     float: right;
     width: 48%;
     text-align: left; }
 
-  /* line 75, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 75, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .the-family-ul {
     margin-top: 0 !important; }
 
-  /* line 79, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 79, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   h4.staff {
     text-align: right; }
 
-  /* line 83, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 83, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .profile-pic {
     float: left;
     margin: 3.5em 1em 0 1em; }
 
-  /* line 88, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 88, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .container-one-column {
     max-width: 70%;
     margin: 0 auto; }
 
-  /* line 97, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 97, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .gridtable {
     table-layout: fixed;
     width: 100%; }
 
-  /* line 102, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 102, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   th {
     font-size: 30pt;
     font-weight: 500;
     padding-bottom: 0.5em;
     border-bottom: 1px solid #EAEAEA; }
 
-  /* line 109, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 109, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   td {
     margin: 1em 2em;
     width: 300px;
@@ -1200,27 +1200,27 @@ nav:not(.mm-menu) {
     vertical-align: middle;
     font-size: 13pt; }
 
-  /* line 117, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 117, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .display-tablet {
     display: block; }
 
-  /* line 121, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 121, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .display-mobile {
     display: none; }
 
-  /* line 128, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 128, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   label.error {
     width: 90%; }
 
-  /* line 131, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 131, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   input, textarea {
     width: 90%; }
 
-  /* line 134, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 134, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   button {
     width: 90%; }
 
-  /* line 138, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 138, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .message {
     font-family: 'Source Sans Pro', arial, sans-serif;
     font-size: 1.1em;
@@ -1235,141 +1235,141 @@ nav:not(.mm-menu) {
  }
 
 @media only screen and (min-width: 992px) {
-  /* line 162, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 162, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .intro-text {
     padding: 0 4em;
     max-width: 60%; }
 
-  /* line 167, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 167, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .carousel {
     max-width: 40%; }
 
-  /* line 171, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 171, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .carousel-quotes {
     max-width: 40%; }
 
-  /* line 175, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 175, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .left {
     float: left;
     max-width: 40%;
     text-align: left;
     margin-left: 8%; }
 
-  /* line 182, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 182, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .right {
     float: right;
     max-width: 40%;
     margin-right: 8%; }
 
-  /* line 188, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 188, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .gridtable {
     width: 81%;
     margin: 0 auto; }
 
-  /* line 193, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 193, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .sponsor-width {
     width: 800px;
     margin: 0 auto; }
 
-  /* line 198, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 198, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .patnership-width {
     width: 800px;
     margin: 0 auto; }
 
-  /* line 203, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 203, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .single-column {
     margin: 0 auto; }
 
-  /* line 207, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 207, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .feature {
     padding: 4em 10em;
     clear: both; }
  }
 
 @media only screen and (min-widht: 1200px) {
-  /* line 220, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 220, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .feature {
     padding: 8em; }
 
-  /* line 224, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 224, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .single-column {
     max-width: 50%; }
 
-  /* line 228, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 228, /Users/thaliamina/Documents/zerofive/scss/components/media-queries */
   .container-one-column {
     max-width: 50%; }
  }
 
-/* line 7, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 7, /Users/thaliamina/Documents/zerofive/scss/components/header */
 #about-indus-part, #fam-execu, #fam-sponsor, #artist-res, #youth-off-reach, #port-project {
   height: 600px; }
 
-/* line 20, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 20, /Users/thaliamina/Documents/zerofive/scss/components/header */
 #cor-sponsor, #monthly-donor, #volunteer, #commitment, #the-schedule, #indus-part, #supply-list, #quote {
   height: 300px; }
 
-/* line 27, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 27, /Users/thaliamina/Documents/zerofive/scss/components/header */
 #fam-execu, #portrait-project, #about-com-part {
   height: 100%;
   display: block; }
 
-/* line 32, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 32, /Users/thaliamina/Documents/zerofive/scss/components/header */
 #intro {
   padding-top: 0; }
 
-/* line 51, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 51, /Users/thaliamina/Documents/zerofive/scss/components/header */
 #about-com-part, #about-indus-part, #fam-execu, #fam-sponsor, #artist-res, #youth-off-reach, #portrait-project, #cor-sponsor, #monthly-donor, #volunteer, #commitment, #the-schedule, #port-project, #indus-part, #supply-list, #quote {
   padding-top: 150px; }
 
-/* line 57, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 57, /Users/thaliamina/Documents/zerofive/scss/components/header */
 .header {
   box-sizing: border-box;
   width: 100%;
   position: fixed;
   height: 105px; }
 
-/* line 64, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 64, /Users/thaliamina/Documents/zerofive/scss/components/header */
 .header {
   top: 0; }
 
-/* line 68, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 68, /Users/thaliamina/Documents/zerofive/scss/components/header */
 .header a {
   top: 30px; }
 
-/* line 76, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 76, /Users/thaliamina/Documents/zerofive/scss/components/header */
 a, a:link, a:active, a:visited, a:hover {
   text-decoration: none !important; }
 
-/* line 80, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 80, /Users/thaliamina/Documents/zerofive/scss/components/header */
 li:hover {
   color: #5eb7b3;
   background-color: #222; }
 
-/* line 87, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 87, /Users/thaliamina/Documents/zerofive/scss/components/header */
 li, li:link, li:visited {
   color: white; }
 
-/* line 91, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 91, /Users/thaliamina/Documents/zerofive/scss/components/header */
 .the-family-ul {
   margin-top: -1em; }
 
-/* line 95, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 95, /Users/thaliamina/Documents/zerofive/scss/components/header */
 #seperator {
   color: #EAEAEA;
   display: block;
   margin-top: 2em; }
 
-/* line 101, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 101, /Users/thaliamina/Documents/zerofive/scss/components/header */
 #seperator:hover {
   color: #EAEAEA; }
 
-/* line 105, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 105, /Users/thaliamina/Documents/zerofive/scss/components/header */
 .patnership-width {
   margin-bottom: 4em;
   display: block;
   clear: both; }
 
-/* line 111, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 111, /Users/thaliamina/Documents/zerofive/scss/components/header */
 .about-indus-part {
   display: block; }
 
