@@ -4,12 +4,10 @@
 #fam-sponsor,
 #artist-res,
 #youth-off-reach,
-#port-project
-
- {
-	height: 600px;
-}
-
+#port-project,
+#fam-execu,
+#portrait-project,
+#about-com-part,
 #cor-sponsor,
 #monthly-donor,
 #volunteer,
@@ -18,13 +16,6 @@
 #indus-part,
 #supply-list,
 #quote {
-  height: 300px;
-}
-
-
-#fam-execu,
-#portrait-project,
-#about-com-part {
   height: 100%;
   display: block;
 }
@@ -72,13 +63,6 @@
 
 // End of Header
 
-a,
-a:link,
-a:active,
-a:visited,
-a:hover {
-	text-decoration: none !important;
-}
 
 li:hover{
   color: $col-1;

@@ -16,12 +16,12 @@
       // Media Queries - Tablet Size
 @media only screen and (min-width: 768px){
 
-h1 {
-  font-size: 40pt;
-}
+  h1 {
+    font-size: 40pt;
+  }
 
 	.content {
-		padding: 0px 50px 50px 50px;
+		padding: 0px 2em 10em 2em;
 	}
 
   .intro-text {
@@ -29,7 +29,7 @@ h1 {
   max-width: 80%;
   display: block;
   margin: 0 auto;
-}
+  }
 
   .feature {
     padding: 3em 5em;
@@ -86,7 +86,7 @@ h4.staff {
   }
 
   .container-one-column {
-    max-width: 70%;
+    max-width: 65%;
     margin: 0 auto;
   }
 
@@ -163,6 +163,11 @@ td {
   padding: 0 4em;
   max-width: 60%;
 }
+
+  .content {
+    max-width: 70%;
+    margin: 0 auto;
+  }
 
    .carousel {
     max-width: 40%;

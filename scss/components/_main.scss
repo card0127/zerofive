@@ -37,6 +37,7 @@ h1 {
 h2 {
   font-weight: 300;
   font-size: 20pt;
+  font-family: 'Lobster Two', cursive;
 }
 
 h2, p {
@@ -103,11 +104,21 @@ cite {
   paadding-bottom: 0;
 }
 
+a,
+a:link,
+a:active,
+a:visited{
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: $col-2;
+}
 
 i {
   font-size: 15pt;
 }
-
 
 i,
 i:link,
@@ -179,8 +190,6 @@ i:visited  {
   background-color: transparent;
 }
 
-
-
 .toggle-btn {
   color: $text-color;
   position: absolute;
@@ -201,6 +210,13 @@ i:visited  {
 
 .img-flex {
   width: 70%;
+}
+
+.section-img-flex {
+  width: 93%;
+  padding: 1em;
+  margin: 0 auto;
+  display: block;
 }
 
 .logo {
@@ -267,12 +283,12 @@ i:visited  {
 }
 
 .content-pusher {
-  padding: 2em 0 4em 0;
+  padding: 4em 0 0 0;
   display: block;
 }
 
 .content {
-  padding-top: 5em;
+  padding: 5em 4.3em;
   position: relative;
 }
 
@@ -465,4 +481,21 @@ footer {
 .icon-twitter-circled,
 .icon-vimeo-circled {
   font-size: 23pt;
+}
+
+
+// Sections
+
+.section-1,
+.section-2 {
+  margin: 100px 0;
+  padding: 2em 4em;
+}
+
+.section-1 {
+  background-color: $light-grey;
+}
+.section-2 {
+
+  background-color: #fff;
 }
