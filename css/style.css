@@ -829,7 +829,7 @@ footer {
 
 /* line 508, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .section-3 {
-  background-image: url("{{site.baseurl}}/images/homepage/night-square.jpg");
+  background-image: url("zerofive/images/homepage/night-square.jpg");
   background-size: cover;
   margin: 100px 0;
   padding: 10em 4em; }
