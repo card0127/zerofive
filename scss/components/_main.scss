@@ -116,7 +116,7 @@ i:visited  {
 }
 
 .primary-btn {
-  @include button($light-grey, #ccc, $hover-color);
+  @include button($light-grey, #ccc, $col-3);
 }
 
 .centered {
@@ -238,7 +238,6 @@ i:visited  {
 
 .carousel-fullview {
   margin: 0 1em;
-  z-index: -2;
 }
 
 .quotes-mobile {

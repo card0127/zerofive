@@ -1,23 +1,20 @@
-a, a:link, a:active, a:visited, a:hover
-{
+a, a:link, a:active, a:visited, a:hover {
 	color: inherit;
 	text-decoration: underline;
 }
 
-nav:not(.mm-menu)
-{
+nav:not(.mm-menu) {
 	display: none;
 }
 
 .header,
 .content,
-.footer
-{
+.footer {
 	text-align: center;
 }
+
 .header,
-.footer
-{
+.footer {
 	font-size: 16px;
 	font-weight: bold;
 	color: #fff;
@@ -29,22 +26,21 @@ nav:not(.mm-menu)
 	height: 70px;
 	padding: 0 50px;
 }
-.header.fixed
-{
+
+.header.fixed {
 	position: fixed;
 	top: 0;
 	left: 0;
 }
 
-.header a
-{
+.header a {
 	background: center center no-repeat transparent;
 	background-image: url( data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
-	background-color: rgba(94, 183, 179, .9);
+	background-color: rgba(225, 182, 45, 1);
 	display: block;
 	width: 40px;
 	height: 40px;
 	position: absolute;
 	top: 1em;
-	right: 1em;
+	left: 1em;
 }

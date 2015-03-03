@@ -54,20 +54,23 @@
 
 // Fixed Header
 
-.header {
+.header,
+.footer
+{
 	box-sizing: border-box;
 	width: 100%;
 	position: fixed;
-	height: 105px;
 }
-
-.header {
+.header
+{
 	top: 0;
 }
-
-.header a {
-	top: 30px;
+.footer
+{
+	bottom: 0;
 }
+
+// End of Header
 
 a,
 a:link,
