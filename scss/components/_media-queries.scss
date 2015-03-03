@@ -64,6 +64,11 @@
     padding-top: 2em;
   }
 
+  .section-img-flex {
+    float: left;
+    width: 60%;
+  }
+
   .left {
   float: left;
   width: 48%;
@@ -194,10 +199,20 @@ td {
   margin-right: 8%;
 }
 
-.gridtable {
-  width: 81%;
-  margin: 0 auto;
-}
+  .section-img-flex {
+    float: left;
+    width: 40%;
+  }
+
+  .section-1,
+  .section-2 {
+    padding: 6em 8em;
+  }
+
+  .gridtable {
+    width: 81%;
+    margin: 0 auto;
+  }
 
   .sponsor-width{
     width: 800px;
