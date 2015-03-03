@@ -211,7 +211,14 @@ i:visited  {
   width: 70%;
 }
 
-.section-img-flex {
+.section-img-flex-left {
+  width: 93%;
+  padding: 1em;
+  margin: 0 auto;
+  display: block;
+}
+
+.section-img-flex-right {
   width: 93%;
   padding: 1em;
   margin: 0 auto;
@@ -495,6 +502,19 @@ footer {
   background-color: $light-grey;
 }
 .section-2 {
-
   background-color: #fff;
+}
+
+.section-3 {
+  background-image: url("/images/homepage/night-square.jpg");
+  background-size: cover;
+  margin: 100px 0;
+  padding: 10em 4em;
+}
+
+.faded-white {
+  background-color: rgba(255, 255, 255, .6);
+  padding: 1em;
+  color: #000;
+  font-weight: 300;
 }
