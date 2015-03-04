@@ -64,18 +64,29 @@
     padding-top: 2em;
   }
 
-  .section-img-flex-left {
-    float: left;
+  .section-img-flex-left,
+  .section-img-flex-right {
     width: 60%;
+    display: block;
+    margin: 2em 0;
   }
 
   .section-img-flex-right {
-    float: right;
-    width: 60%;
+  float: right;
   }
 
-  .section-img-flex-right img {
+  .section-img-flex-left {
+  float: left;
+}
+
+
+  .section-img-flex-right img,
+  .section-img-flex-left img {
     margin-top: 3em;
+  }
+
+  .vertical-aligning {
+    margin-top: 10%;
   }
 
   .left {
@@ -93,6 +104,11 @@
   .the-family-ul {
     margin-top: 0 !important;
   }
+
+  .faded-white {
+    padding: 1em 3em;
+  }
+
 
 h4.staff {
   text-align: right;
@@ -177,9 +193,9 @@ td {
 @media only screen and (min-width: 992px){
 
 
-    .intro-text {
-  padding: 0 4em;
-  max-width: 60%;
+  .intro-text {
+    padding: 0 4em;
+    max-width: 60%;
 }
 
   .content {
@@ -208,23 +224,19 @@ td {
   margin-right: 8%;
 }
 
-  .section-img-flex-left {
-    float: left;
-    width: 40%;
-  }
-  .section-img-flex-right {
-  float: right;
-  width: 40%;
-}
-
-.section-img-flex-left,
-.section-img-flex-right {
-  margin-top: 1em;
-}
 
   .section-1,
   .section-2 {
     padding: 6em 8em;
+  }
+
+  .vertical-aligning {
+    max-width: 750px;
+  }
+
+   .section-img-flex-right,
+   .section-img-flex-left {
+  width: 350px;
   }
 
   .gridtable {
@@ -260,7 +272,7 @@ td {
 
 
       // Media Queries - Large Desktop Size
-@media only screen and (min-widht: 1200px){
+@media only screen and (min-width: 1200px){
 
 
   .feature {
@@ -277,6 +289,11 @@ td {
 
   .faded-white {
     width: 40%;
+  }
+
+  .container-one-column-index {
+    width: 75%;
+    margin: 0 auto;
   }
 
 } // End of Media Query

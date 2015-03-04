@@ -211,15 +211,9 @@ i:visited  {
   width: 70%;
 }
 
-.section-img-flex-left {
-  width: 93%;
-  padding: 1em;
-  margin: 0 auto;
-  display: block;
-}
-
+.section-img-flex-left,
 .section-img-flex-right {
-  width: 93%;
+  width: 70%;
   padding: 1em;
   margin: 0 auto;
   display: block;
@@ -289,6 +283,23 @@ i:visited  {
   padding-bottom: 1em;
   line-height: 15pt;
 }
+
+// For the HOME PAGE ONLY
+
+.container-one-column-index {
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+.container-one-column-index p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 15pt;
+}
+
+  .vertical-aligning {
+    margin: 0 auto;
+  }
 
 .content-pusher {
   padding: 4em 0 0 0;
