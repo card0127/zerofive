@@ -90,6 +90,14 @@ blockquote {
   margin: 0 auto;
 }
 
+.big-quote {
+  font-size: 15pt;
+}
+
+.small-cite {
+  font-size: 10pt;
+}
+
 cite {
   display: block;
   text-transform: uppercase;
@@ -526,7 +534,8 @@ footer {
   padding: 10em 4em;
 }
 
-.section-4 {
+.section-4,
+.section-5 {
   padding: 10em 4em;
   margin: 100px 0 0 0;
 }
@@ -548,12 +557,18 @@ footer {
   background-size: cover;
 }
 
+.section-5 {
+  background-image: url("../images/support/quote-girl.jpg");
+  background-size: cover;
+}
+
 .section-3 p,
-.section-4 p {
+.section-4 p,
+.section-5 p {
   font-weight: 400;
 }
 
-.section-4 {}
+
 
 .faded-white {
   background-color: rgba(238, 238, 238, .8);

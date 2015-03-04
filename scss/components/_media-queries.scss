@@ -93,6 +93,12 @@
   text-align: left;
   }
 
+  .left-monthly-donor {
+      float: left;
+  width: 48%;
+  text-align: left;
+  }
+
   .right {
     float: right;
     width: 48%;
@@ -197,7 +203,6 @@ td {
 }
 
   .content {
-    max-width: 70%;
     margin: 0 auto;
   }
 
@@ -280,6 +285,10 @@ td {
       // Media Queries - Large Desktop Size
 @media only screen and (min-width: 1200px){
 
+  .content {
+    max-width: 70%;
+    margin: 0 auto;
+  }
 
   .feature {
     padding: 8em;
