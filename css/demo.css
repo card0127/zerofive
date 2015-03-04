@@ -1,12 +1,12 @@
-/* line 1, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo.scss */
+/* line 1, /Users/rebeckacole/Desktop/zerofive/scss/extension/demo.scss */
 nav:not(.mm-menu) {
   display: none; }
 
-/* line 7, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo.scss */
+/* line 7, /Users/rebeckacole/Desktop/zerofive/scss/extension/demo.scss */
 .header, .content, .footer {
   text-align: center; }
 
-/* line 12, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo.scss */
+/* line 12, /Users/rebeckacole/Desktop/zerofive/scss/extension/demo.scss */
 .header, .footer {
   font-size: 16px;
   font-weight: bold;
@@ -18,13 +18,13 @@ nav:not(.mm-menu) {
   height: 70px;
   padding: 0 50px; }
 
-/* line 25, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo.scss */
+/* line 25, /Users/rebeckacole/Desktop/zerofive/scss/extension/demo.scss */
 .header.fixed {
   position: fixed;
   top: 0;
   left: 0; }
 
-/* line 31, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/demo.scss */
+/* line 31, /Users/rebeckacole/Desktop/zerofive/scss/extension/demo.scss */
 .header a {
   background: center center no-repeat transparent;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
