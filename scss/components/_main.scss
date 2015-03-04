@@ -56,7 +56,6 @@ h4 {
   font-weight: 300;
   font-size: 17pt;
   line-height: 19pt;
-  padding-bottom: 1em;
 }
 
 h4.staff {
@@ -122,11 +121,11 @@ i {
 
 .primary-btn {
   @include button($light-grey, #ccc, $col-3);
+  margin: 1em 1em 2.5em;
 }
 
 .centered {
   text-align: center;
-  margin-top: 1em;
 }
 
 .centered-no-margin{

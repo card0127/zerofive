@@ -108,9 +108,9 @@
   }
 
 
-h4.staff {
-  text-align: right;
-}
+  h4.staff {
+    text-align: right;
+  }
 
   .profile-pic {
   float: left;
@@ -118,7 +118,7 @@ h4.staff {
   }
 
   .container-one-column {
-    max-width: 65%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -269,6 +269,10 @@ td {
   max-width: 82%;
 }
 
+.container-one-column {
+  max-width: 80%
+}
+
 
 } // End of Media Query
 
@@ -279,10 +283,6 @@ td {
 
   .feature {
     padding: 8em;
-  }
-
-  .container-one-column {
-    max-width: 50%;
   }
 
   .faded-white {
