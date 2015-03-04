@@ -119,11 +119,6 @@ i {
   font-size: 15pt;
 }
 
-i,
-i:link,
-i:visited  {
-  color: $text-color;
-}
 
 .primary-btn {
   @include button($light-grey, #ccc, $col-3);
