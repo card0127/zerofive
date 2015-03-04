@@ -20,12 +20,9 @@
     font-size: 40pt;
   }
 
-  .logo {
-    width: 400px;
-  }
 
 	.content {
-		padding: 0px 2em 10em 2em;
+		padding: 0px 5em 10em 5em;
 	}
 
   .intro-text {
@@ -63,6 +60,7 @@
   .carousel {
     padding-top: 2em;
   }
+
 
   .section-img-flex-left,
   .section-img-flex-right {
@@ -266,6 +264,10 @@ td {
   .faded-white {
     width: 50%;
   }
+
+  .container-banner {
+  max-width: 82%;
+}
 
 
 } // End of Media Query

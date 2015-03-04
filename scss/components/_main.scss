@@ -174,14 +174,18 @@ i {
 #normal-li:link {
   color: $text-color;
   list-style: none;
-  text-align: left;
   display: block;
 }
+
 
 #normal-li:hover,
 #normal-li:focus,
 #normal-li:active {
   background-color: transparent;
+}
+
+.left-padding-none {
+  padding-left: 0;
 }
 
 .toggle-btn {
@@ -214,14 +218,21 @@ i {
   display: block;
 }
 
-.logo {
-  width: 300px;
-  display: block;
-  margin: 0 auto;
-  padding: 1em;
+.img-flex-indus {
+  width: 150px;
 }
 
-.logo-center {
+
+.logo {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  maring: 0 auto;
+}
+
+img.logo-img {
+  display: block;
+  width: 400px;
   margin: 0 auto;
 }
 
@@ -266,6 +277,11 @@ i {
   text-align: justify;
   padding-bottom: 1em;
   line-height: 15pt;
+}
+
+.container-banner {
+  max-width: 100%;
+  padding-bottom: 2em;
 }
 
 .container-one-column {
