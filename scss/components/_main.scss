@@ -240,6 +240,8 @@ i:visited  {
   overflow: hidden;
   background-color: $light-grey;
   padding-top: 2em;
+  border-bottom: 5px solid $col-3;
+  border-top: 1px solid #eee;
 }
 
                             // Footer
@@ -457,7 +459,7 @@ label.error {
 // Footer Stuff
 
 footer {
-  background-color: #222;
+  background-image: url("../images/footer-bg.png");
   color: white;
   text-align: center;
   padding: 3.5em 2em;
@@ -517,4 +519,11 @@ footer {
   padding: 1em;
   color: #000;
   font-weight: 300;
+}
+
+.banner-test {
+  background-size: cover;
+  background-image: url("../images/homepage/night-square.jpg");
+  height: 150px;
+  width: 100% !important;
 }
