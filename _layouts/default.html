@@ -7,6 +7,7 @@
 		<link type="text/css" rel="stylesheet" href="{{site.baseurl}}/css/style.css"/>
 		<link type="text/css" rel="stylesheet" href="{{site.baseurl}}/src/css/jquery.mmenu.css"/>
 		<link type="text/css" rel="stylesheet" href="{{site.baseurl}}/src/css/addons/jquery.mmenu.dragopen.css" />
+		<script type="text/javascript" src="{{site.baseurl}}/js/modernizr.custom.js"></script>
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -23,7 +24,7 @@
 				<a href="#menu"></a>
 			</div>{% include nav.html %}
 			<div class="logo">
-				<a href="/"><img class="logo-img" src="{{site.baseurl}}/images/art-start-logos-purple.svg" alt="Art Start Logo"></a>
+				<a href="{{site.baseurl}}/"><img class="logo-img" src="{{site.baseurl}}/images/art-start-logos-purple.svg" alt="Art Start Logo"></a>
 			</div>
 			<div class="content" id="content">
 
@@ -53,5 +54,14 @@
 	<!-- Contact Form -->
 		<script type="text/javascript" src="{{site.baseurl}}/js/contact-form.js"></script>
 
+	<!-- Thumbnail Grid - News & Press -->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="{{site.baseurl}}/js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+		<script type="text/javascript" src="{{site.baseurl}}/js/modernizr.custom.79639.js"></script>
 	</body>
 </html>
