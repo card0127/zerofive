@@ -822,28 +822,45 @@ footer {
   padding: 6em 4em; }
 
 /* line 503, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-.section-1 {
-  background-color: #f6f6f6; }
-
-/* line 506, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-.section-2 {
-  background-color: #fff; }
-
-/* line 510, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .section-3 {
-  background-image: url("../images/homepage/night-square.jpg");
-  background-size: cover;
   margin: 100px 0;
   padding: 10em 4em; }
 
-/* line 517, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 508, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.section-4 {
+  padding: 10em 4em;
+  margin: 100px 0 0 0; }
+
+/* line 513, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.section-1 {
+  background-color: #f6f6f6; }
+
+/* line 516, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.section-2 {
+  background-color: #fff; }
+
+/* line 520, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.section-3 {
+  background-image: url("../images/homepage/night-square-cropped.jpg");
+  background-size: cover; }
+
+/* line 525, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.section-4 {
+  background-image: url("../images/homepage/girl-at-desk-cropped.jpg");
+  background-size: cover; }
+
+/* line 531, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.section-3 p, .section-4 p {
+  font-weight: 400; }
+
+/* line 537, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .faded-white {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(238, 238, 238, 0.8);
   padding: 1em;
   color: #000;
   font-weight: 300; }
 
-/* line 524, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+/* line 544, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .banner-test {
   background-size: cover;
   background-image: url("../images/homepage/night-square.jpg");
@@ -1376,20 +1393,28 @@ nav:not(.mm-menu) {
   .feature {
     padding: 4em 10em;
     clear: both; }
+
+  /* line 254, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  .faded-white {
+    width: 70%; }
  }
 
 @media only screen and (min-widht: 1200px) {
-  /* line 262, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 266, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .feature {
     padding: 8em; }
 
-  /* line 266, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 270, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .single-column {
     max-width: 50%; }
 
-  /* line 270, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  /* line 274, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .container-one-column {
     max-width: 50%; }
+
+  /* line 278, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
+  .faded-white {
+    width: 50%; }
  }
 
 /* line 18, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */

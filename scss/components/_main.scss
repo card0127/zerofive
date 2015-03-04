@@ -495,9 +495,19 @@ footer {
 // Sections
 
 .section-1,
-.section-2 {
+.section-2, { // For Normal sections with NO backgrounds
   margin: 100px 0;
   padding: 6em 4em;
+}
+
+.section-3 {
+  margin: 100px 0;
+  padding: 10em 4em;
+}
+
+.section-4 {
+  padding: 10em 4em;
+  margin: 100px 0 0 0;
 }
 
 .section-1 {
@@ -508,14 +518,24 @@ footer {
 }
 
 .section-3 {
-  background-image: url("../images/homepage/night-square.jpg");
+  background-image: url("../images/homepage/night-square-cropped.jpg");
   background-size: cover;
-  margin: 100px 0;
-  padding: 10em 4em;
 }
 
+.section-4 {
+  background-image: url("../images/homepage/girl-at-desk-cropped.jpg");
+  background-size: cover;
+}
+
+.section-3 p,
+.section-4 p {
+  font-weight: 400;
+}
+
+.section-4 {}
+
 .faded-white {
-  background-color: rgba(255, 255, 255, .6);
+  background-color: rgba(238, 238, 238, .8);
   padding: 1em;
   color: #000;
   font-weight: 300;
