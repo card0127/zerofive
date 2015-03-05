@@ -87,11 +87,14 @@
     margin-top: 10%;
   }
 
-  .left {
+  .left,
+  .left-list {
   float: left;
   width: 48%;
   text-align: left;
   }
+
+
 
   .left-monthly-donor {
       float: left;
@@ -99,11 +102,14 @@
   text-align: left;
   }
 
-  .right {
+  .right,
+  .right-list {
     float: right;
     width: 48%;
     text-align: left;
   }
+
+
 
   .the-family-ul {
     margin-top: 0 !important;
@@ -214,17 +220,37 @@ td {
     max-width: 40%;
   }
 
-  .left {
-  float: left;
+
+
+  .left,
+  .right {
   max-width: 40%;
   text-align: left;
+}
+
+  .left {
+  float: left;
   margin-left: 8%;
 }
 
-.right {
+  .right {
+    float: right;
+    margin-right: 8%;
+  }
+
+
+  .left-list {
+  float: left;
+  max-width: 47%;
+  text-align: left;
+  margin-left: 10%;
+}
+
+
+.right-list {
   float: right;
-  max-width: 40%;
-  margin-right: 8%;
+  max-width: 47%;
+  margin-right: -10%;
 }
 
 

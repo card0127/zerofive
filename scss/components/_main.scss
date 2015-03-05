@@ -134,6 +134,7 @@ i {
 
 .centered {
   text-align: center;
+  margin: 0 auto;
 }
 
 .centered-no-margin{
@@ -177,18 +178,24 @@ i {
   color: $col-3;
 }
 
-#normal-li,
-#normal-li:link {
+.normal-li,
+.normal-li:link {
   color: $text-color;
   list-style: none;
   display: block;
 }
 
 
-#normal-li:hover,
-#normal-li:focus,
-#normal-li:active {
-  background-color: transparent;
+a.normal-li:hover,
+a.normal-li:focus,
+a.normal-li:active {
+  background-color: #ccc;
+}
+
+a.bg-grey:hover,
+a.bg-grey:focus,
+a.bg-grey:active {
+  background-color: #ccc;
 }
 
 .left-padding-none {
@@ -350,6 +357,7 @@ th {
 td {
   margin: 0 auto;
   font-size: 12pt;
+  padding-bottom: 2em;
 }
 
 .display-tablet {
