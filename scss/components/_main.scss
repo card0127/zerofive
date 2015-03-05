@@ -90,6 +90,40 @@ blockquote {
   margin: 0 auto;
 }
 
+figure {
+    display: block;
+
+}
+figure img {
+    vertical-align: top;
+
+}
+figure figcaption {
+    text-align: center;
+    font-size: 9pt;
+    line-height: 11pt;
+    padding: 1em .5em;
+    color: $col-2;
+    background-color: $light-grey;
+    font-weight: italic;
+}
+
+.fig-align-left {
+  display: block;
+  overflow: hidden;
+  float: left;
+  margin: 1em 1em 1em 0;
+  width: 415px
+}
+
+.fig-align-right {
+  display: block;
+  overflow: hidden;
+  float: right;
+  margin: 1em 1em 1em 0;
+  width: 415px
+}
+
 .big-quote {
   font-size: 15pt;
 }
@@ -129,6 +163,10 @@ i {
 
 .text-align-left {
   text-align: justify;
+}
+
+.text-align-right {
+  text-align: right !important;
 }
 
 .text-align-left p{
@@ -219,13 +257,19 @@ i {
 
   i {
     font-size: 30pt;
-
   }
   span {
     @include hide-text;
   }
 }
 
+strong {
+  font-weight: 500;
+}
+
+em {
+  font-weight: 100italic;
+}
 .img-flex {
   width: 70%;
 }
