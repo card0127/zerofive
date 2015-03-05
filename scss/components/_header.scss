@@ -22,7 +22,8 @@
   display: block;
 }
 
-#intro {
+#intro,
+#news {
 	padding-top: 0;
 }
 
@@ -42,7 +43,6 @@
 #indus-part,
 #supply-list,
 #quote,
-#news,
 #press {
 	padding-top: 50px;
 	overflow: hidden;
@@ -67,9 +67,6 @@
 }
 
 // End of Header
-
-
-
 
 li,
 li:link,
