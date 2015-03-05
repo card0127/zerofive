@@ -113,7 +113,7 @@ figure figcaption {
   overflow: hidden;
   float: left;
   margin: 1em 1em 1em 0;
-  width: 415px
+  width: 100%;
 }
 
 .fig-align-right {
@@ -121,7 +121,7 @@ figure figcaption {
   overflow: hidden;
   float: right;
   margin: 1em 1em 1em 0;
-  width: 415px
+  width: 100%;
 }
 
 .big-quote {
@@ -359,6 +359,16 @@ img.logo-img {
   line-height: 15pt;
 }
 
+.container-one-column-large {
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+.container-one-column-large p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 15pt;
+}
 // For the HOME PAGE ONLY
 
 .container-one-column-index {
