@@ -377,6 +377,40 @@ td {
   display: none;
 }
 
+// News & Press
+
+
+.news-press-container {
+  text-align:center;
+  display:inline-block;
+  width:100%;
+  overflow:hidden;
+  margin: 0 auto;
+}
+
+.news-press-main {
+  margin:1em auto;
+  padding: 1em;
+  background-color: #eee;
+  width: 70%;
+  height: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.news-press-content {
+  padding: .5em;
+}
+
+.news-press-content p {
+  text-align: center;
+  line-height: 15pt;
+}
+
+.img-flex-news-press {
+  width: 100%;
+}
+
 // Contact Form
 
 

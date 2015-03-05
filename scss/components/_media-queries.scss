@@ -194,6 +194,16 @@ td {
     border-radius:6px;
 }
 
+  .news-press-main
+  {
+    margin:1em;
+      width:35%;
+      display:inline-block;
+  }
+
+  .news-press-content {
+    display: inline-block;
+  }
 
 
 } // End of Media Query
@@ -219,8 +229,6 @@ td {
   .carousel-quotes{
     max-width: 40%;
   }
-
-
 
   .left,
   .right {
@@ -303,6 +311,10 @@ td {
 .container-one-column {
   max-width: 80%
 }
+
+  .news-press-main {
+    width:25%;
+  }
 
 } // End of Media Query
 
