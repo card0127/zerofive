@@ -5,16 +5,25 @@
 // Component rules
 @import "components/fontello";
 @import "components/main";
-
+@import "components/footer";
+@import "components/carousel";
+@import "components/table-and-lists";
+@import "components/circle-hovers";
+@import "components/typography";
+@import "components/form-styling";
+@import "components/sections";
+@import "components/images";
 
 // Plugin Extension
 @import "extension/slick-theme";
 @import "extension/slick";
-@import "extension/demo";
+@import "extension/header-styling";
 
+// These two need to be above for overwriting purposes
 @import "components/media-queries";
 @import "components/header";
 
 
 // Google Font
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two);

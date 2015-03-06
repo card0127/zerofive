@@ -25,161 +25,36 @@ body *
   text-shadow: none;
 }
 
-h1 {
-  text-align: center;
-  margin: 0;
-  font-size: 30pt;
-  font-weight: 300;
-  margin-bottom: .25em;
-  line-height: 27pt;
+
+// Links
+a,
+a:link,
+a:active,
+a:visited{
+  text-decoration: none;
+  color: #666;
 }
 
-h2 {
-  font-weight: 300;
-  font-size: 20pt;
-}
-
-h2, p {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-  font-size: 20pt;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 0.125em;
-}
-
-h4 {
-  font-weight: 300;
-  font-size: 17pt;
-  line-height: 19pt;
-  padding-bottom: 1em;
-}
-
-h4.staff {
-  margin: .5em 0 0 0;
-  padding-bottom: .5em;
-
-}
-
-h4 em {
-  font-size: 10pt;
-  display: block;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-  line-height: 13pt;
-}
-
-.intro-text {
-  padding: 0 2em;
-}
-
-
-main {
-  padding: 5px;
-}
-
-blockquote {
-  text-align: center;
-  padding-bottom: 1.5em;
-  max-width: 60%;
-  margin: 0 auto;
-}
-
-cite {
-  display: block;
-  text-transform: uppercase;
-  color: $col-1;
-}
-
-.profile-pic {
-  width: 150px;
-  margin: 2em 1em 0 1em;
-  paadding-bottom: 0;
-}
-
-
-i {
-  font-size: 15pt;
-}
-
-
-i,
-i:link,
-i:visited  {
-  color: $text-color;
-}
-
-.primary-btn {
-  @include button($light-grey, #ccc, $col-3);
-}
-
-.centered {
-  text-align: center;
-  margin-top: 1em;
-}
-
-.centered-no-margin{
-  margin: 0;
-}
-
-.col-1 {
-  color: #5eb7b3;
-}
-
-.col-2 {
-  color: #7B52AB;
-}
-
-.col-3 {
-  color: #e1b62d;
-}
-
-.header-col {
-  color: $header-col;
-}
-
-#col-1:hover,
-#col-1:focus,
-#col-1:active {
-  border-left: 4px solid $col-1;
-  color: $col-1;
-}
-
-#col-2:hover,
-#col-2:focus,
-#col-2:active {
-  border-left: 4px solid $col-2;
+a:hover {
   color: $col-2;
 }
 
-#col-3:hover,
-#col-3:focus,
-#col-3:active {
-  border-left: 4px solid $col-3;
-  color: $col-3;
+// Button
+
+.yellow-btn {
+  @include button($med-color, #ccc, $col-3);
+  margin: 1em 1em 2.5em;
 }
 
-#normal-li,
-#normal-li:link {
-  color: $text-color;
-  list-style: none;
-  text-align: left;
-  display: block;
+.purple-btn {
+  @include button($med-color, #ccc, $col-2);
+  margin: 1em 1em 2.5em;
 }
 
-#normal-li:hover,
-#normal-li:focus,
-#normal-li:active {
-  background-color: transparent;
+.yellow-btn:hover,
+.purple-btn:hover {
+  font-weight: 100;
 }
-
-
 
 .toggle-btn {
   color: $text-color;
@@ -192,58 +67,22 @@ i:visited  {
 
   i {
     font-size: 30pt;
-
   }
   span {
     @include hide-text;
   }
 }
 
-.img-flex {
-  width: 70%;
-}
-
-.logo {
-  width: 400px;
-  display: block;
-  margin: 0 auto;
-  padding: 1em;
-}
-
-.logo-center {
-  margin: 0 auto;
-}
-
+// Feature Section
 .feature {
   overflow: hidden;
   background-color: $light-grey;
   padding-top: 2em;
+  border-bottom: 5px solid $col-3;
+  border-top: 1px solid #eee;
 }
 
-                            // Footer
-                              // Carousel
-.index-carousel img{
-  width: 100%;
-}
-
-.carousel-quotes{
-  display: none;
-}
-
-.carousel,
-.carousel-fullview {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.carousel-fullview {
-  margin: 0 1em;
-}
-
-.quotes-mobile {
-  padding: 5px;
-}
-
+// Containers
 .container {
   overflow: hidden;
   margin: 2em 0;
@@ -253,6 +92,11 @@ i:visited  {
   text-align: justify;
   padding-bottom: 1em;
   line-height: 15pt;
+}
+
+.container-banner {
+  max-width: 100%;
+  padding-bottom: 2em;
 }
 
 .container-one-column {
@@ -266,203 +110,126 @@ i:visited  {
   line-height: 15pt;
 }
 
-.content-pusher {
-  padding: 2em 0 4em 0;
-  display: block;
+.container-one-column-large {
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+.container-one-column-large p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 15pt;
+}
+// For the HOME PAGE ONLY
+
+.container-one-column-index {
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+.container-one-column-index p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 15pt;
 }
 
 .content {
-  padding-top: 5em;
+  padding: 1em 4.3em 5em 4.3em;
   position: relative;
 }
 
+// End of Containers
 
-// Table
 
-.gridtable {
-  table-layout:fixed;
-  width: 90%;
-  margin: 0 auto;
+.content-pusher { // Used for arrows
+  padding: 4em 0 0 0;
+  display: block;
 }
 
-table {
-  padding-bottom: 4em;
-}
-
-th {
-  font-size: 20pt;
-  font-weight: 500;
-}
-
-td {
-  margin: 0 auto;
-  font-size: 12pt;
-}
-
-.display-tablet {
-  display: none;
-}
-
-// Contact Form
 
 
-.form-container {
-  max-width:600px;
-  margin:0 auto;
+// News & Press Styling
+.news-press-container {
   text-align:center;
-  -webkit-border-radius:6px;
-  -moz-border-radius:6px;
-  border-radius:6px;
-  background-color:#FAFAFA;
-}
-input {
-  margin-bottom:10px;
-}
-textarea {
-  height:100px;
-  margin-bottom:10px;
+  display:inline-block;
+  width:100%;
+  overflow:hidden;
+  margin: 0 auto;
 }
 
-.head {
-  padding: 1em 1em 0 1em;
-  margin-bottom: 0;
+.news-press-main {
+  margin:1em auto;
+  padding: 1em;
+  background-color: #eee;
+  width: 70%;
+  height: 100%;
+  vertical-align: top;
+  overflow: hidden;
 }
 
-.head h2 {
-  margin-bottom: 0;
+.news-press-content {
+  padding: .5em;
 }
 
-input:first-of-type
-{
-  margin-top:35px;
-}
-
-input, textarea {
-  font-size: 1em;
-  padding: 15px 10px 10px;
-  font-family: 'Source Sans Pro',arial,sans-serif;
-  border: 1px solid #cecece;
-  background: #B0B0B0;
-  color:#FAFAFA;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 80%;
-  max-width: 600px;
-}
-
-::-webkit-input-placeholder {
-   color: #FAFAFA;
-}
-
-:-moz-placeholder {
-   color: #FAFAFA;
-}
-
-::-moz-placeholder {
-   color: #FAFAFA;
-}
-
-:-ms-input-placeholder {
-   color: #FAFAFA;
-}
-
-button {
-  margin-top:15px;
-  margin-bottom:25px;
-  background-color:#2ABCA7;
-  padding: 5px 45px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #2ABCA7;
-  -webkit-transition: .5s;
-  transition: .5s;
-  display: inline-block;
-  cursor: pointer;
-  width:30%;
-}
-
-button:hover, .button:hover {
-  background:#19a08c;
-}
-
-.icon-plane {
-  display:block;
-  width:32px;
-  height:32px;
-  margin:auto;
- background:url('http://www.timquincey.me/img/paperplane.svg');
-}
-
-label.error {
-    font-family:'Source Sans Pro',arial,sans-serif;
-    font-size:1em;
-    display:block;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:#d89c9c;
-    width: 80%;
-    margin:auto;
-    color: #FAFAFA;
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
-}
-
-.message {
-    font-family:'Source Sans Pro',arial,sans-serif;
-    font-size:1.1em;
-    display:none;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:#2ABCA7;
-    width: 80%;
-    margin:auto;
-    color: #FAFAFA;
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
-}
-
-
-// Footer Stuff
-
-footer {
-  background-color: #222;
-  color: white;
+.news-press-content p {
   text-align: center;
-  padding: 3.5em 2em;
+  line-height: 15pt;
+}
+
+
+// Video Settings
+
+.js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 43%;
+  margin-left: 17%;
+  margin-bottom: 10px;
   position: relative;
-  bottom: 0;
+  overflow: hidden;
+}
+
+.js-video.widescreen {
+  padding-bottom: 56.34%;
+}
+
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
   left: 0;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  margin: 0 auto;
+}
+
+
+//      General (Uncategorized) Properties
+
+#seperator {
+  color: $col-2;
+  display: block;
+  margin-top: 2em;
+}
+
+.patnership-width {
+  margin-bottom: 4em;
+  display: block;
   clear: both;
 }
 
-.media {
-  padding-top: 1em;
+.about-indus-part {
+  display: block;
+
 }
 
-#facebook:hover{
-  color: $col-2;
+.centered-no-margin{
+  margin: 0;
 }
 
-#twitter:hover{
-  color: $col-2;
-}
-
-#vimeo:hover{
-  color: $col-2;
-}
-
-.icon-facebook-circled,
-.icon-twitter-circled,
-.icon-vimeo-circled {
-  font-size: 23pt;
+.no-padding{
+  padding: 0 !important;
 }

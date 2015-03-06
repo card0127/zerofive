@@ -4,12 +4,10 @@
 #fam-sponsor,
 #artist-res,
 #youth-off-reach,
-#port-project
-
- {
-	height: 600px;
-}
-
+#port-project,
+#fam-execu,
+#portrait-project,
+#about-com-part,
 #cor-sponsor,
 #monthly-donor,
 #volunteer,
@@ -17,25 +15,20 @@
 #the-schedule,
 #indus-part,
 #supply-list,
-#quote {
-  height: 300px;
-}
-
-
-#fam-execu,
-#portrait-project,
-#about-com-part {
+#quote,
+#news,
+#press {
   height: 100%;
   display: block;
 }
 
-#intro {
+#intro,
+#news {
 	padding-top: 0;
 }
 
 #about-com-part,
 #about-indus-part,
-#fam-execu,
 #fam-sponsor,
 #artist-res,
 #youth-off-reach,
@@ -48,71 +41,30 @@
 #port-project,
 #indus-part,
 #supply-list,
-#quote {
-	padding-top: 150px;
+#quote,
+#press {
+	padding-top: 50px;
+	overflow: hidden;
+}
+
+#fam-execu {
+	padding-top: 8em;
+	overflow: hidden;
+	margin-top:0;
 }
 
 // Fixed Header
 
-.header,
-.footer
+.header
 {
 	box-sizing: border-box;
 	width: 100%;
 	position: fixed;
 }
+
 .header
 {
 	top: 0;
 }
-.footer
-{
-	bottom: 0;
-}
-
 // End of Header
-
-a,
-a:link,
-a:active,
-a:visited,
-a:hover {
-	text-decoration: none !important;
-}
-
-li:hover{
-  color: $col-1;
-  background-color: #222;
-}
-
-li,
-li:link,
-li:visited{
-  color: white;
-}
-
-.the-family-ul {
-  margin-top: -1em;
-}
-
-#seperator {
-	color: $light-grey;
-  display: block;
-  margin-top: 2em;
-}
-
-#seperator:hover {
-	color: $light-grey;
-}
-
-.patnership-width {
-  margin-bottom: 4em;
-  display: block;
-  clear: both;
-}
-
-.about-indus-part {
-	display: block;
-
-}
 

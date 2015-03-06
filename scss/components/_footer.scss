@@ -1,0 +1,33 @@
+.footer-bottom {
+  background-image: url("../images/footer-bg.png");
+  color: white;
+  text-align: center;
+  padding: 3.5em 2em;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  clear: both;
+}
+
+
+.media {
+  padding-top: 1em;
+}
+
+#facebook:hover{
+  color: $col-2;
+}
+
+#twitter:hover{
+  color: $col-2;
+}
+
+#vimeo:hover{
+  color: $col-2;
+}
+
+.icon-facebook-circled,
+.icon-twitter-circled,
+.icon-vimeo-circled {
+  font-size: 23pt;
+}

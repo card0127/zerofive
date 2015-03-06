@@ -56,9 +56,16 @@ Illustrator
 Photoshop
 Fontello
 
+<<<<<<< HEAD
 # Photos
 
 Thank you for providing stock Images
 http://www.freeforcommercialuse.net/
 
 
+=======
+# IMAGE RESOURCE
+Thank you to all these websites for their free stock images:
+http://pixabay.com/
+https://www.flickr.com/
+>>>>>>> origin/gh-pages

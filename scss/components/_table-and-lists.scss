@@ -1,0 +1,64 @@
+// Table on About us Page
+
+.gridtable {
+  table-layout:fixed;
+  width: 90%;
+  margin: 0 auto;
+}
+
+table {
+  padding-bottom: 4em;
+}
+
+th {
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+td {
+  margin: 0 auto;
+  font-size: 12pt;
+  padding-bottom: 2em;
+}
+
+.display-tablet {
+  display: none;
+}
+
+
+// Li styling
+li,
+li:link,
+li:visited{
+  color: white;
+  list-style: none;
+}
+
+li:hover{
+  color: $col-3;
+  cursor: pointer;
+}
+
+li:before {
+  color: $col-3;
+}
+
+li:before:hover {
+  color: #000;
+}
+
+.the-family-ul {
+  margin-top: -1em;
+}
+
+.normal-li,
+.normal-li:link {
+  color: $text-color;
+  list-style: none;
+  display: block;
+}
+
+
+.left-padding-none {
+  padding-left: 0;
+}

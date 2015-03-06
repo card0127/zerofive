@@ -1,0 +1,73 @@
+// Sections
+
+.section-1,
+.section-2, { // For Normal sections with NO backgrounds
+  margin: 100px 0;
+  padding: 6em 4em;
+}
+
+.section-3 {
+  margin: 100px 0;
+  padding: 10em 4em;
+}
+
+.section-4,
+.section-5,
+.section-6 {
+  padding: 10em 4em;
+  margin: 100px 0 0 0;
+}
+
+.section-1-no-bottom {
+  margin-top: 100px;
+  margin-bottom: -11em;
+  padding: 10em 4em;
+}
+
+.section-1-no-top {
+  margin-top: 0;
+  padding: 10em 4em;
+}
+
+.section-1,
+.section-1-no-bottom,
+.section-1-no-top {
+  background-color: $light-grey;
+}
+.section-2 {
+  background-color: #fff;
+}
+
+.section-3 {
+  background-image: url("../images/homepage/night-square-cropped.jpg");
+  background-size: cover;
+}
+
+.section-4 {
+  background-image: url("../images/homepage/girl-at-desk-cropped.jpg");
+  background-size: cover;
+}
+
+.section-5 {
+  background-image: url("../images/support/quote-girl.jpg");
+  background-size: cover;
+}
+
+.section-6 {
+  background-image: url("../images/the-family/family-banner.jpg");
+  background-size: cover;
+}
+
+.section-3 p,
+.section-4 p,
+.section-5 p,
+.section-6 {
+  font-weight: 400;
+}
+
+.faded-white {
+  background-color: rgba(238, 238, 238, .8);
+  padding: 1em;
+  color: #000;
+  font-weight: 300;
+}

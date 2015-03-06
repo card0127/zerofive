@@ -34,8 +34,10 @@
   display: inline-block;
   text-decoration: none;
   color: $color;
+  text-transform: uppercase;
   &:hover {
     border-color: $hover-color;
     color: $hover-color;
+    text-transform: uppercase;
   }
 }
