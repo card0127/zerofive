@@ -50,3 +50,15 @@ li:before:hover {
 .the-family-ul {
   margin-top: -1em;
 }
+
+.normal-li,
+.normal-li:link {
+  color: $text-color;
+  list-style: none;
+  display: block;
+}
+
+
+.left-padding-none {
+  padding-left: 0;
+}

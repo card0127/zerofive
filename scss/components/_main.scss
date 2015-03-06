@@ -25,125 +25,8 @@ body *
   text-shadow: none;
 }
 
-h1 {
-  text-align: center;
-  margin: 0;
-  font-size: 30pt;
-  font-weight: 300;
-  margin-bottom: .25em;
-  line-height: 27pt;
-}
 
-h2 {
-  font-weight: 300;
-  font-size: 20pt;
-  font-family: 'Lobster Two', cursive;
-}
-
-h2, p {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-  font-size: 20pt;
-  font-weight: 500;
-  text-transform: uppercase;
-  margin-bottom: 0.125em;
-}
-
-h4 {
-  font-weight: 300;
-  font-size: 17pt;
-  line-height: 19pt;
-}
-
-h4.staff {
-  margin: .5em 0 0 0;
-  padding-bottom: .5em;
-
-}
-
-h4 em {
-  font-size: 10pt;
-  display: block;
-}
-
-p {
-  margin: 0;
-  padding: 0;
-  line-height: 13pt;
-}
-
-.intro-text {
-}
-
-
-main {
-  padding: 5px;
-}
-
-blockquote {
-  text-align: center;
-  padding-bottom: 1.5em;
-  max-width: 60%;
-  margin: 0 auto;
-}
-
-figure {
-    display: block;
-
-}
-figure img {
-    vertical-align: top;
-
-}
-figure figcaption {
-    text-align: center;
-    font-size: 9pt;
-    line-height: 11pt;
-    padding: 1em .5em;
-    color: $col-2;
-    background-color: $light-grey;
-    font-weight: italic;
-}
-
-.fig-align-left {
-  display: block;
-  overflow: hidden;
-  float: left;
-  margin: 1em 1em 1em 0;
-  width: 100%;
-}
-
-.fig-align-right {
-  display: block;
-  overflow: hidden;
-  float: right;
-  margin: 1em 1em 1em 0;
-  width: 100%;
-}
-
-.big-quote {
-  font-size: 15pt;
-}
-
-.small-cite {
-  font-size: 10pt;
-}
-
-cite {
-  display: block;
-  text-transform: uppercase;
-  color: $col-1;
-}
-
-.profile-pic {
-  width: 150px;
-  margin: 2em 1em 0 1em;
-  paadding-bottom: 0;
-}
-
+// Links
 a,
 a:link,
 a:active,
@@ -154,96 +37,23 @@ a:visited{
 
 a:hover {
   color: $col-2;
-  font-weight: 500;
 }
 
-i {
-  font-size: 15pt;
-}
+// Button
 
-.text-align-left {
-  text-align: justify;
-}
-
-.text-align-right {
-  text-align: right !important;
-}
-
-.text-align-left p{
-  text-align: justify;
-  padding-top: 1em;
-}
-
-.text-align-center {
-  text-align: center;
-}
-
-
-.primary-btn {
+.yellow-btn {
   @include button($med-color, #ccc, $col-3);
   margin: 1em 1em 2.5em;
 }
 
-.primary-btn:hover {
+.purple-btn {
+  @include button($med-color, #ccc, $col-2);
+  margin: 1em 1em 2.5em;
+}
+
+.yellow-btn:hover,
+.purple-btn:hover {
   font-weight: 100;
-}
-
-.centered {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.centered-no-margin{
-  margin: 0;
-}
-
-.col-1 {
-  color: #5eb7b3;
-}
-
-.col-2 {
-  color: #7B52AB;
-}
-
-.col-3 {
-  color: #e1b62d;
-}
-
-.header-col {
-  color: $header-col;
-}
-
-#col-1:hover,
-#col-1:focus,
-#col-1:active {
-  border-left: 4px solid $col-1;
-  color: $col-1;
-}
-
-#col-2:hover,
-#col-2:focus,
-#col-2:active {
-  border-left: 4px solid $col-2;
-  color: $col-2;
-}
-
-#col-3:hover,
-#col-3:focus,
-#col-3:active {
-  border-left: 4px solid $col-3;
-  color: $col-3;
-}
-
-.normal-li,
-.normal-li:link {
-  color: $text-color;
-  list-style: none;
-  display: block;
-}
-
-
-.left-padding-none {
-  padding-left: 0;
 }
 
 .toggle-btn {
@@ -263,43 +73,7 @@ i {
   }
 }
 
-strong {
-  font-weight: 500;
-}
-
-em {
-  font-weight: 100italic;
-}
-.img-flex {
-  width: 70%;
-}
-
-.section-img-flex-left,
-.section-img-flex-right {
-  width: 70%;
-  padding: 1em;
-  margin: 0 auto;
-  display: block;
-}
-
-.img-flex-indus {
-  width: 150px;
-}
-
-
-.logo {
-  width: 100%;
-  height: 150px;
-  text-align: center;
-  maring: 0 auto;
-}
-
-img.logo-img {
-  display: block;
-  width: 300px;
-  margin: 0 auto;
-}
-
+// Feature Section
 .feature {
   overflow: hidden;
   background-color: $light-grey;
@@ -308,6 +82,7 @@ img.logo-img {
   border-top: 1px solid #eee;
 }
 
+// Containers
 .container {
   overflow: hidden;
   margin: 2em 0;
@@ -358,25 +133,22 @@ img.logo-img {
   line-height: 15pt;
 }
 
-  .vertical-aligning {
-    margin: 0 auto;
-  }
-
-.content-pusher {
-  padding: 4em 0 0 0;
-  display: block;
-}
-
 .content {
   padding: 1em 4.3em 5em 4.3em;
   position: relative;
 }
 
+// End of Containers
+
+
+.content-pusher { // Used for arrows
+  padding: 4em 0 0 0;
+  display: block;
+}
 
 
 
-// News & Press
-
+// News & Press Styling
 .news-press-container {
   text-align:center;
   display:inline-block;
@@ -404,219 +176,6 @@ img.logo-img {
   line-height: 15pt;
 }
 
-.img-flex-news-press {
-  width: 100%;
-}
-
-// Contact Form
-
-
-.form-container {
-  max-width:600px;
-  margin:0 auto;
-  text-align:center;
-  -webkit-border-radius:6px;
-  -moz-border-radius:6px;
-  border-radius:6px;
-  background-color:#FAFAFA;
-}
-input {
-  margin-bottom:10px;
-}
-textarea {
-  height:100px;
-  margin-bottom:10px;
-}
-
-.head {
-  padding: 1em 1em 0 1em;
-  margin-bottom: 0;
-}
-
-.head h2 {
-  margin-bottom: 0;
-}
-
-input:first-of-type
-{
-  margin-top:35px;
-}
-
-input, textarea {
-  font-size: 1em;
-  padding: 15px 10px 10px;
-  font-family: 'Source Sans Pro',arial,sans-serif;
-  border: 1px solid #cecece;
-  background: #B0B0B0;
-  color:#FAFAFA;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 80%;
-  max-width: 600px;
-}
-
-::-webkit-input-placeholder {
-   color: #FAFAFA;
-}
-
-:-moz-placeholder {
-   color: #FAFAFA;
-}
-
-::-moz-placeholder {
-   color: #FAFAFA;
-}
-
-:-ms-input-placeholder {
-   color: #FAFAFA;
-}
-
-button {
-  margin-top:15px;
-  margin-bottom:25px;
-  background-color:#2ABCA7;
-  padding: 5px 45px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  border: 1px solid #2ABCA7;
-  -webkit-transition: .5s;
-  transition: .5s;
-  display: inline-block;
-  cursor: pointer;
-  width:30%;
-}
-
-button:hover, .button:hover {
-  background:#19a08c;
-}
-
-.icon-plane {
-  display:block;
-  width:32px;
-  height:32px;
-  margin:auto;
- background:url('http://www.timquincey.me/img/paperplane.svg');
-}
-
-label.error {
-    font-family:'Source Sans Pro',arial,sans-serif;
-    font-size:1em;
-    display:block;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:#d89c9c;
-    width: 80%;
-    margin:auto;
-    color: #FAFAFA;
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
-}
-
-.message {
-    font-family:'Source Sans Pro',arial,sans-serif;
-    font-size:1.1em;
-    display:none;
-    padding-top:10px;
-    padding-bottom:10px;
-    background-color:#2ABCA7;
-    width: 80%;
-    margin:auto;
-    color: #FAFAFA;
-    -webkit-border-radius:6px;
-    -moz-border-radius:6px;
-    border-radius:6px;
-}
-
-
-
-
-
-// Sections
-
-.section-1,
-.section-2, { // For Normal sections with NO backgrounds
-  margin: 100px 0;
-  padding: 6em 4em;
-}
-
-.section-3 {
-  margin: 100px 0;
-  padding: 10em 4em;
-}
-
-.section-4,
-.section-5,
-.section-6 {
-  padding: 10em 4em;
-  margin: 100px 0 0 0;
-}
-
-.section-1-no-bottom {
-  margin-top: 100px;
-  margin-bottom: -11em;
-  padding: 10em 4em;
-}
-
-.section-1-no-top {
-  margin-top: 0;
-  padding: 10em 4em;
-}
-
-.section-1,
-.section-1-no-bottom,
-.section-1-no-top {
-  background-color: $light-grey;
-}
-.section-2 {
-  background-color: #fff;
-}
-
-.section-3 {
-  background-image: url("../images/homepage/night-square-cropped.jpg");
-  background-size: cover;
-}
-
-.section-4 {
-  background-image: url("../images/homepage/girl-at-desk-cropped.jpg");
-  background-size: cover;
-}
-
-.section-5 {
-  background-image: url("../images/support/quote-girl.jpg");
-  background-size: cover;
-}
-
-.section-6 {
-  background-image: url("../images/the-family/family-banner.jpg");
-  background-size: cover;
-}
-
-.section-3 p,
-.section-4 p,
-.section-5 p,
-.section-6 {
-  font-weight: 400;
-}
-
-
-
-
-
-.faded-white {
-  background-color: rgba(238, 238, 238, .8);
-  padding: 1em;
-  color: #000;
-  font-weight: 300;
-}
 
 // Video Settings
 
@@ -638,7 +197,6 @@ label.error {
   padding-top: 0;
 }
 
-
 .js-video embed, .js-video iframe, .js-video object, .js-video video {
   top: 0;
   left: 0;
@@ -646,4 +204,28 @@ label.error {
   height: 80%;
   position: absolute;
   margin: 0 auto;
+}
+
+
+//      General (Uncategorized) Properties
+
+#seperator {
+  color: $col-2;
+  display: block;
+  margin-top: 2em;
+}
+
+.patnership-width {
+  margin-bottom: 4em;
+  display: block;
+  clear: both;
+}
+
+.about-indus-part {
+  display: block;
+
+}
+
+.centered-no-margin{
+  margin: 0;
 }
