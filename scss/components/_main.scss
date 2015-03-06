@@ -637,7 +637,8 @@ footer {
 }
 
 .section-4,
-.section-5 {
+.section-5,
+.section-6 {
   padding: 10em 4em;
   margin: 100px 0 0 0;
 }
@@ -677,9 +678,15 @@ footer {
   background-size: cover;
 }
 
+.section-6 {
+  background-image: url("../images/the-family/family-banner.jpg");
+  background-size: cover;
+}
+
 .section-3 p,
 .section-4 p,
-.section-5 p {
+.section-5 p,
+.section-6 {
   font-weight: 400;
 }
 
