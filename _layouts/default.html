@@ -5,10 +5,9 @@
 		<title>Art Start</title>
 
 		<link type="text/css" rel="stylesheet" href="{{site.baseurl}}/css/style.css"/>
-		<link type="text/css" rel="stylesheet" href="{{site.baseurl}}/css/demo.css"/>
 		<link type="text/css" rel="stylesheet" href="{{site.baseurl}}/src/css/jquery.mmenu.css"/>
-
-<script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="{{site.baseurl}}/src/css/addons/jquery.mmenu.dragopen.css" />
+		<script type="text/javascript" src="{{site.baseurl}}/js/modernizr.custom.js"></script>
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
@@ -21,39 +20,44 @@
 	</head>
 	<body>
 		<div id="page">
-			<div class="header">
+			<div class="header FixedTop">
 				<a href="#menu"></a>
+			</div>{% include nav.html %}
+			<div class="logo">
+				<a href="{{site.baseurl}}/"><img class="logo-img" src="{{site.baseurl}}/images/art-start-logos-purple.svg" alt="Art Start Logo"></a>
 			</div>
-
-			<img class="logo centered" src="{{site.baseurl}}/images/art-start-logos-blue.svg" alt="Art Start Logo">
-
-			{% include nav.html %}
 			<div class="content" id="content">
 				{{content}}
 			</div>
 			<div class="feature">{% include feature.html %}</div>
 			<footer>{% include footer.html %}</footer>
-
 		</div>
 
-		<!-- jQuery -->
+	<!-- Main jQuery -->
 
-
-	 <!-- Carousel -->
 		<script type="text/javascript" src="http://thecodeplayer.com/uploads/js/jquery-1.7.1.min.js"></script>
-	  <script type="text/javascript" src="js/slick.min.js"></script>
-	  <script type="text/javascript" src="js/text-carousel.js"></script>
-		<script type="text/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/1.2.1/jquery-migrate.min.js'></script>
-	 <!-- Push Nav -->
 
-	  <script type="text/javascript" src="js/push-menu.js" ></script>
+ <!-- Push Nav -->
+	  <script type="text/javascript" src="{{site.baseurl}}/js/push-menu.js" ></script>
 	  <script type="text/javascript" src="http://hammerjs.github.io/dist/hammer.min.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-
 		<script type="text/javascript" src="{{site.baseurl}}/src/js/jquery.mmenu.min.js"></script>
 		<script type="text/javascript" src="{{site.baseurl}}/src/js/addons/jquery.mmenu.fixedelements.min.js"></script>
+		<script type="text/javascript" src="{{site.baseurl}}/src/js/addons/jquery.mmenu.dragopen.min.js"></script>
 
-		<script type="text/javascript" src="js/contact-form.js"></script>
+	 <!-- Carousel -->
+	  <script type="text/javascript" src="{{site.baseurl}}/js/slick.min.js"></script>
+	  <script type="text/javascript" src="{{site.baseurl}}/js/text-carousel.js"></script>
 
+
+	<!-- Thumbnail Grid - News & Press -->
+
+		<script src="{{site.baseurl}}/js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+		<script type="text/javascript" src="{{site.baseurl}}/js/modernizr.custom.79639.js"></script>
 	</body>
 </html>

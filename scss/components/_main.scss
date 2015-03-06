@@ -37,6 +37,7 @@ h1 {
 h2 {
   font-weight: 300;
   font-size: 20pt;
+  font-family: 'Lobster Two', cursive;
 }
 
 h2, p {
@@ -55,7 +56,6 @@ h4 {
   font-weight: 300;
   font-size: 17pt;
   line-height: 19pt;
-  padding-bottom: 1em;
 }
 
 h4.staff {
@@ -76,7 +76,6 @@ p {
 }
 
 .intro-text {
-  padding: 0 2em;
 }
 
 
@@ -91,6 +90,48 @@ blockquote {
   margin: 0 auto;
 }
 
+figure {
+    display: block;
+
+}
+figure img {
+    vertical-align: top;
+
+}
+figure figcaption {
+    text-align: center;
+    font-size: 9pt;
+    line-height: 11pt;
+    padding: 1em .5em;
+    color: $col-2;
+    background-color: $light-grey;
+    font-weight: italic;
+}
+
+.fig-align-left {
+  display: block;
+  overflow: hidden;
+  float: left;
+  margin: 1em 1em 1em 0;
+  width: 100%;
+}
+
+.fig-align-right {
+  display: block;
+  overflow: hidden;
+  float: right;
+  margin: 1em 1em 1em 0;
+  width: 100%;
+}
+
+.big-quote {
+  font-size: 15pt;
+}
+
+.small-cite {
+  font-size: 10pt;
+}
+
 cite {
   display: block;
   text-transform: uppercase;
@@ -103,25 +144,53 @@ cite {
   paadding-bottom: 0;
 }
 
+a,
+a:link,
+a:active,
+a:visited{
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: $col-2;
+  font-weight: 500;
+}
 
 i {
   font-size: 15pt;
 }
 
-
-i,
-i:link,
-i:visited  {
-  color: $text-color;
+.text-align-left {
+  text-align: justify;
 }
 
+.text-align-right {
+  text-align: right !important;
+}
+
+.text-align-left p{
+  text-align: justify;
+  padding-top: 1em;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+
 .primary-btn {
-  @include button($light-grey, #ccc, $hover-color);
+  @include button($med-color, #ccc, $col-3);
+  margin: 1em 1em 2.5em;
+}
+
+.primary-btn:hover {
+  font-weight: 100;
 }
 
 .centered {
   text-align: center;
-  margin-top: 1em;
+  margin: 0 auto;
 }
 
 .centered-no-margin{
@@ -165,21 +234,17 @@ i:visited  {
   color: $col-3;
 }
 
-#normal-li,
-#normal-li:link {
+.normal-li,
+.normal-li:link {
   color: $text-color;
   list-style: none;
-  text-align: left;
   display: block;
 }
 
-#normal-li:hover,
-#normal-li:focus,
-#normal-li:active {
-  background-color: transparent;
+
+.left-padding-none {
+  padding-left: 0;
 }
-
-
 
 .toggle-btn {
   color: $text-color;
@@ -192,25 +257,46 @@ i:visited  {
 
   i {
     font-size: 30pt;
-
   }
   span {
     @include hide-text;
   }
 }
 
+strong {
+  font-weight: 500;
+}
+
+em {
+  font-weight: 100italic;
+}
 .img-flex {
   width: 70%;
 }
 
-.logo {
-  width: 400px;
-  display: block;
-  margin: 0 auto;
+.section-img-flex-left,
+.section-img-flex-right {
+  width: 70%;
   padding: 1em;
+  margin: 0 auto;
+  display: block;
 }
 
-.logo-center {
+.img-flex-indus {
+  width: 150px;
+}
+
+
+.logo {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  maring: 0 auto;
+}
+
+img.logo-img {
+  display: block;
+  width: 300px;
   margin: 0 auto;
 }
 
@@ -218,6 +304,8 @@ i:visited  {
   overflow: hidden;
   background-color: $light-grey;
   padding-top: 2em;
+  border-bottom: 5px solid $col-3;
+  border-top: 1px solid #eee;
 }
 
                             // Footer
@@ -238,7 +326,6 @@ i:visited  {
 
 .carousel-fullview {
   margin: 0 1em;
-  z-index: -2;
 }
 
 .quotes-mobile {
@@ -256,6 +343,11 @@ i:visited  {
   line-height: 15pt;
 }
 
+.container-banner {
+  max-width: 100%;
+  padding-bottom: 2em;
+}
+
 .container-one-column {
   overflow: hidden;
   margin: 2em 0;
@@ -267,13 +359,40 @@ i:visited  {
   line-height: 15pt;
 }
 
+.container-one-column-large {
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+.container-one-column-large p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 15pt;
+}
+// For the HOME PAGE ONLY
+
+.container-one-column-index {
+  overflow: hidden;
+  margin: 2em 0;
+}
+
+.container-one-column-index p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 15pt;
+}
+
+  .vertical-aligning {
+    margin: 0 auto;
+  }
+
 .content-pusher {
-  padding: 2em 0 4em 0;
+  padding: 4em 0 0 0;
   display: block;
 }
 
 .content {
-  padding-top: 5em;
+  padding: 1em 4.3em 5em 4.3em;
   position: relative;
 }
 
@@ -298,10 +417,45 @@ th {
 td {
   margin: 0 auto;
   font-size: 12pt;
+  padding-bottom: 2em;
 }
 
 .display-tablet {
   display: none;
+}
+
+// News & Press
+
+
+.news-press-container {
+  text-align:center;
+  display:inline-block;
+  width:100%;
+  overflow:hidden;
+  margin: 0 auto;
+}
+
+.news-press-main {
+  margin:1em auto;
+  padding: 1em;
+  background-color: #eee;
+  width: 70%;
+  height: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.news-press-content {
+  padding: .5em;
+}
+
+.news-press-content p {
+  text-align: center;
+  line-height: 15pt;
+}
+
+.img-flex-news-press {
+  width: 100%;
 }
 
 // Contact Form
@@ -436,7 +590,7 @@ label.error {
 // Footer Stuff
 
 footer {
-  background-color: #222;
+  background-image: url("../images/footer-bg.png");
   color: white;
   text-align: center;
   padding: 3.5em 2em;
@@ -466,4 +620,113 @@ footer {
 .icon-twitter-circled,
 .icon-vimeo-circled {
   font-size: 23pt;
+}
+
+
+// Sections
+
+.section-1,
+.section-2, { // For Normal sections with NO backgrounds
+  margin: 100px 0;
+  padding: 6em 4em;
+}
+
+.section-3 {
+  margin: 100px 0;
+  padding: 10em 4em;
+}
+
+.section-4,
+.section-5,
+.section-6 {
+  padding: 10em 4em;
+  margin: 100px 0 0 0;
+}
+
+.section-1-no-bottom {
+  margin-top: 100px;
+  margin-bottom: -11em;
+  padding: 10em 4em;
+}
+
+.section-1-no-top {
+  margin-top: 0;
+  padding: 10em 4em;
+}
+
+.section-1,
+.section-1-no-bottom,
+.section-1-no-top {
+  background-color: $light-grey;
+}
+.section-2 {
+  background-color: #fff;
+}
+
+.section-3 {
+  background-image: url("../images/homepage/night-square-cropped.jpg");
+  background-size: cover;
+}
+
+.section-4 {
+  background-image: url("../images/homepage/girl-at-desk-cropped.jpg");
+  background-size: cover;
+}
+
+.section-5 {
+  background-image: url("../images/support/quote-girl.jpg");
+  background-size: cover;
+}
+
+.section-6 {
+  background-image: url("../images/the-family/family-banner.jpg");
+  background-size: cover;
+}
+
+.section-3 p,
+.section-4 p,
+.section-5 p,
+.section-6 {
+  font-weight: 400;
+}
+
+
+
+
+
+.faded-white {
+  background-color: rgba(238, 238, 238, .8);
+  padding: 1em;
+  color: #000;
+  font-weight: 300;
+}
+
+// Video Settings
+
+.js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 43%;
+  margin-left: 17%;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.js-video.widescreen {
+  padding-bottom: 56.34%;
+}
+
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  margin: 0 auto;
 }

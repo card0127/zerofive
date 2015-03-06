@@ -4,12 +4,10 @@
 #fam-sponsor,
 #artist-res,
 #youth-off-reach,
-#port-project
-
- {
-	height: 600px;
-}
-
+#port-project,
+#fam-execu,
+#portrait-project,
+#about-com-part,
 #cor-sponsor,
 #monthly-donor,
 #volunteer,
@@ -17,19 +15,15 @@
 #the-schedule,
 #indus-part,
 #supply-list,
-#quote {
-  height: 300px;
-}
-
-
-#fam-execu,
-#portrait-project,
-#about-com-part {
+#quote,
+#news,
+#press {
   height: 100%;
   display: block;
 }
 
-#intro {
+#intro,
+#news {
 	padding-top: 0;
 }
 
@@ -48,44 +42,50 @@
 #port-project,
 #indus-part,
 #supply-list,
-#quote {
-	padding-top: 150px;
+#quote,
+#press {
+	padding-top: 50px;
+	overflow: hidden;
 }
 
 // Fixed Header
 
-.header {
+.header,
+.footer
+{
 	box-sizing: border-box;
 	width: 100%;
 	position: fixed;
-	height: 105px;
 }
-
-.header {
+.header
+{
 	top: 0;
 }
-
-.header a {
-	top: 30px;
+.footer
+{
+	bottom: 0;
 }
 
-a,
-a:link,
-a:active,
-a:visited,
-a:hover {
-	text-decoration: none !important;
-}
-
-li:hover{
-  color: $col-1;
-  background-color: #222;
-}
+// End of Header
 
 li,
 li:link,
 li:visited{
   color: white;
+  list-style: none;
+}
+
+li:hover{
+	color: $col-3;
+	cursor: pointer;
+}
+
+li:before {
+	color: $col-3;
+}
+
+li:before:hover {
+	color: #000;
 }
 
 .the-family-ul {
@@ -93,13 +93,9 @@ li:visited{
 }
 
 #seperator {
-	color: $light-grey;
+	color: $col-2;
   display: block;
   margin-top: 2em;
-}
-
-#seperator:hover {
-	color: $light-grey;
 }
 
 .patnership-width {

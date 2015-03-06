@@ -3,8 +3,8 @@ $(function() {
     $html = $('html, body');
 
   $menu.mmenu({
-    dragOpen: true
-
+    dragOpen: true,
+    searchfield: true
   });
 
   $menu.find( 'li > a' ).on(
@@ -34,3 +34,4 @@ $(function() {
     }
   );
 });
+
