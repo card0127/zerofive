@@ -50,43 +50,20 @@
 
 // Fixed Header
 
-.header,
-.footer
+.header
 {
 	box-sizing: border-box;
 	width: 100%;
 	position: fixed;
 }
+
 .header
 {
 	top: 0;
 }
-.footer
-{
-	bottom: 0;
-}
-
 // End of Header
 
-li,
-li:link,
-li:visited{
-  color: white;
-  list-style: none;
-}
 
-li:hover{
-	color: $col-3;
-	cursor: pointer;
-}
-
-li:before {
-	color: $col-3;
-}
-
-li:before:hover {
-	color: #000;
-}
 
 .the-family-ul {
   margin-top: -1em;

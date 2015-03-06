@@ -308,30 +308,6 @@ img.logo-img {
   border-top: 1px solid #eee;
 }
 
-                            // Footer
-                              // Carousel
-.index-carousel img{
-  width: 100%;
-}
-
-.carousel-quotes{
-  display: none;
-}
-
-.carousel,
-.carousel-fullview {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.carousel-fullview {
-  margin: 0 1em;
-}
-
-.quotes-mobile {
-  padding: 5px;
-}
-
 .container {
   overflow: hidden;
   margin: 2em 0;
@@ -397,35 +373,9 @@ img.logo-img {
 }
 
 
-// Table
 
-.gridtable {
-  table-layout:fixed;
-  width: 90%;
-  margin: 0 auto;
-}
-
-table {
-  padding-bottom: 4em;
-}
-
-th {
-  font-size: 20pt;
-  font-weight: 500;
-}
-
-td {
-  margin: 0 auto;
-  font-size: 12pt;
-  padding-bottom: 2em;
-}
-
-.display-tablet {
-  display: none;
-}
 
 // News & Press
-
 
 .news-press-container {
   text-align:center;
@@ -587,40 +537,7 @@ label.error {
 }
 
 
-// Footer Stuff
 
-footer {
-  background-image: url("../images/footer-bg.png");
-  color: white;
-  text-align: center;
-  padding: 3.5em 2em;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  clear: both;
-}
-
-.media {
-  padding-top: 1em;
-}
-
-#facebook:hover{
-  color: $col-2;
-}
-
-#twitter:hover{
-  color: $col-2;
-}
-
-#vimeo:hover{
-  color: $col-2;
-}
-
-.icon-facebook-circled,
-.icon-twitter-circled,
-.icon-vimeo-circled {
-  font-size: 23pt;
-}
 
 
 // Sections
