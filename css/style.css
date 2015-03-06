@@ -592,6 +592,10 @@ a:hover {
 .centered-no-margin {
   margin: 0; }
 
+/* line 233, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.no-padding {
+  padding: 0 !important; }
+
 /* line 1, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
 .footer-bottom {
   background-image: url("../images/footer-bg.png");
@@ -808,11 +812,11 @@ li:before:hover {
 /* line 125, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/circle-hovers */
 .ch-info p a:hover {
   color: #fff222;
-  color: rgba(255, 242, 34, 0.8); }
+  color: rgba(137, 105, 175, 0.8); }
 
 /* line 130, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/circle-hovers */
 .ch-item:hover {
-  box-shadow: inset 0 0 0 110px rgba(225, 182, 45, 0.4), inset 0 0 0 16px rgba(208, 208, 208, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1); }
+  box-shadow: inset 0 0 0 110px rgba(137, 105, 175, 0.4), inset 0 0 0 16px rgba(137, 105, 175, 0.5), 0 1px 2px rgba(0, 0, 0, 0.1); }
 
 /* line 137, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/circle-hovers */
 .ch-item:hover .ch-info {
@@ -1844,18 +1848,24 @@ nav:not(.mm-menu) {
 #intro, #news {
   padding-top: 0; }
 
-/* line 46, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-#about-com-part, #about-indus-part, #fam-execu, #fam-sponsor, #artist-res, #youth-off-reach, #portrait-project, #cor-sponsor, #monthly-donor, #volunteer, #commitment, #the-schedule, #port-project, #indus-part, #supply-list, #quote, #press {
+/* line 45, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+#about-com-part, #about-indus-part, #fam-sponsor, #artist-res, #youth-off-reach, #portrait-project, #cor-sponsor, #monthly-donor, #volunteer, #commitment, #the-schedule, #port-project, #indus-part, #supply-list, #quote, #press {
   padding-top: 50px;
   overflow: hidden; }
 
-/* line 53, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 50, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+#fam-execu {
+  padding-top: 8em;
+  overflow: hidden;
+  margin-top: 0; }
+
+/* line 58, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 .header {
   box-sizing: border-box;
   width: 100%;
   position: fixed; }
 
-/* line 60, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
+/* line 65, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
 .header {
   top: 0; }
 
