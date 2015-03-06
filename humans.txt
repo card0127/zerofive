@@ -59,7 +59,4 @@ Fontello
 # IMAGE RESOURCE
 Thank you to all these websites for their free stock images:
 http://pixabay.com/
-<<<<<<< HEAD
 https://www.flickr.com/
-=======
->>>>>>> origin/gh-pages
