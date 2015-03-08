@@ -1440,11 +1440,11 @@ section figure figcaption {
 
 /* line 79, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
 .slick-prev {
-  left: 25px; }
+  left: 5px; }
 
 /* line 83, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
 [dir='rtl'] .slick-prev {
-  right: 25px;
+  right: 5px;
   left: auto; }
 
 /* line 89, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
@@ -1457,7 +1457,7 @@ section figure figcaption {
 
 /* line 98, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
 .slick-next {
-  right: 20px; }
+  right: 5px; }
 
 /* line 102, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/slick-theme */
 [dir='rtl'] .slick-next {
