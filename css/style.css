@@ -598,19 +598,23 @@ a:hover {
 
 /* line 233, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .more-margin-top {
-  margin-top: 2.5em; }
+  margin-top: 3.5em !important; }
 
 /* line 237, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .small-padding-top {
-  padding-top: 0.5em; }
+  padding-top: 0.5em !important; }
 
 /* line 241, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
-.more-margin-contact {
-  margin-top: 5.5em; }
+.more-padding-top {
+  padding-top: 2em !important; }
 
 /* line 245, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
+.more-margin-contact {
+  margin-top: 5.5em !important; }
+
+/* line 249, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/main */
 .more-padding-bottom {
-  padding-bottom: 2em; }
+  padding-bottom: 2em !important; }
 
 /* line 1, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
 .footer-bottom {
