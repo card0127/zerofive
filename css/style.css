@@ -605,25 +605,26 @@ a:hover {
   position: relative;
   bottom: 0;
   left: 0;
-  clear: both; }
+  clear: both;
+  height: 150px; }
 
-/* line 13, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
+/* line 14, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
 .media {
   padding-top: 1em; }
 
-/* line 17, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
+/* line 18, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
 #facebook:hover {
   color: #8969AF; }
 
-/* line 21, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
+/* line 22, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
 #twitter:hover {
   color: #8969AF; }
 
-/* line 25, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
+/* line 26, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
 #vimeo:hover {
   color: #8969AF; }
 
-/* line 31, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
+/* line 32, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/footer */
 .icon-facebook-circled, .icon-twitter-circled, .icon-vimeo-circled {
   font-size: 23pt; }
 
@@ -1511,8 +1512,8 @@ nav:not(.mm-menu) {
 /* line 31, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/extension/header-styling */
 .header a {
   background: center center no-repeat transparent;
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAADhJREFUeNpi/P//PwOtARMDHQBdLGFBYtMq3BiHT3DRPU4YR4NrNAmPJuHRJDyahEeT8Ii3BCDAAF0WBj5Er5idAAAAAElFTkSuQmCC );
-  background-color: #e1b62d;
+  background-image: url(../images/menu_yellow.svg);
+  background-color: transparent;
   display: block;
   width: 40px;
   height: 40px;
