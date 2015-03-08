@@ -1291,7 +1291,7 @@ textarea:focus, input:focus, button:focus {
 /* line 113, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .faded-white {
   background-color: rgba(238, 238, 238, 0.8);
-  padding: 1em;
+  padding: 1em 2em 2em 2em;
   color: #000;
   font-weight: 300; }
 
