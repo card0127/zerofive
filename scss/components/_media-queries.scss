@@ -33,7 +33,7 @@ img.logo-img {
   }
 
   .feature {
-    padding: 3em 5em;
+    padding: 3em 4em;
 
   }
 
@@ -42,7 +42,7 @@ img.logo-img {
   overflow: hidden;
   float: left;
   margin: 1em 1em 1em 0;
-  width: 415px
+  width: 415px;
 }
 
 .fig-align-right {
@@ -53,7 +53,6 @@ img.logo-img {
   width: 415px
 }
 
-
   // Carousel
 
   .carousel {
@@ -61,13 +60,19 @@ img.logo-img {
     width: 45%;
   }
 
-  .carousel-quotes{
+  .carousel-quotes,
+  .blog-section {
     display: block;
     float: left;
-    width: 45%;
+    width: 100%;
     padding-top: 2em;
     text-align: center;
     margin: 0 auto;
+  }
+
+  .blog-section {
+    width: 100%;
+    padding: 0;
   }
 
   .quotes-mobile {
@@ -109,7 +114,8 @@ img.logo-img {
   }
 
   .left,
-  .left-list {
+  .left-list,
+  .left-blog {
   float: left;
   width: 48%;
   text-align: left;
@@ -252,9 +258,6 @@ td {
     max-width: 40%;
   }
 
-  .carousel-quotes{
-    max-width: 40%;
-  }
 
 .img-carousel-full-width{
   width: 60%;
@@ -271,6 +274,10 @@ td {
   .left {
   float: left;
   margin-left: 8%;
+}
+
+  .left-blog {
+  width: 45%;
 }
 
   .right {
@@ -317,7 +324,7 @@ td {
   }
 
     .feature {
-    padding: 4em 10em;
+    padding: 4em 6em;
     clear: both;
   }
 
@@ -361,6 +368,11 @@ td {
     width: 75%;
     margin: 0 auto;
   }
+
+  .left-blog {
+    margin-left: 8%;
+    width: 37%;
+}
 
 } // End of Media Query
 

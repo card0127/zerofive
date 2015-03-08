@@ -45,6 +45,14 @@ h4 em {
   line-height: 13pt;
 }
 
+h5 {
+  font-size: 11pt;
+  font-weight: 500;
+  margin: 0;
+  color: $col-2;
+  text-align: center;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -100,7 +108,7 @@ i {
 }
 
 .text-align-center {
-  text-align: center;
+  text-align: center !important;
 }
 
 .centered {
