@@ -6,7 +6,6 @@
   -webkit-border-radius:6px;
   -moz-border-radius:6px;
   border-radius:6px;
-  background-color:#FAFAFA;
 }
 
 input {
@@ -28,7 +27,7 @@ textarea {
 
 input:first-of-type
 {
-  margin-top:35px;
+  margin-top:16px;
 }
 
 input, textarea {
@@ -36,8 +35,8 @@ input, textarea {
   padding: 15px 10px 10px;
   font-family: 'Source Sans Pro',arial,sans-serif;
   border: 1px solid #cecece;
-  background: #B0B0B0;
-  color:#FAFAFA;
+  background: $light-grey;
+  color: $col-3;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -52,30 +51,30 @@ input, textarea {
 }
 
 ::-webkit-input-placeholder {
-   color: #FAFAFA;
+   color: $col-2;
 }
 
 :-moz-placeholder {
-   color: #FAFAFA;
+   color: $col-2;
 }
 
 ::-moz-placeholder {
-   color: #FAFAFA;
+   color: $col-2;
 }
 
 :-ms-input-placeholder {
-   color: #FAFAFA;
+   color: $col-2;
 }
 
 button {
   margin-top:15px;
   margin-bottom:25px;
-  background-color:#2ABCA7;
+  background-color: $col-2;
   padding: 5px 45px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
-  border: 1px solid #2ABCA7;
+  border: 1px solid $dark-col-2;
   -webkit-transition: .5s;
   transition: .5s;
   display: inline-block;
@@ -84,7 +83,8 @@ button {
 }
 
 button:hover, .button:hover {
-  background:#19a08c;
+  background: $col-3;
+  border: 1px solid $dark-col-3;
 }
 
 .icon-plane {
@@ -94,6 +94,8 @@ button:hover, .button:hover {
   margin:auto;
  background:url('http://www.timquincey.me/img/paperplane.svg');
 }
+
+
 
 label.error {
     font-family:'Source Sans Pro',arial,sans-serif;
@@ -123,4 +125,68 @@ label.error {
     -webkit-border-radius:6px;
     -moz-border-radius:6px;
     border-radius:6px;
+}
+
+textarea:focus,
+input:focus,
+button:focus{
+    outline: 0;
+    border: 1px solid $col-3;
+}
+
+// News Letter input
+
+
+#search-box {
+  position: relative;
+  max-width: 80%;
+  margin: 1em auto;
+}
+
+#search-form {
+  height: 30px;
+  border: 1px solid #999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: $light-grey;
+  overflow: hidden;
+}
+
+#search-text {
+  font-size: 14px;
+  color: #ddd;
+  border-width: 0;
+  background: transparent;
+}
+
+#search-box input[type="text"] {
+  width: 100%;
+  padding: 6px 0 12px 10px;
+  color: $col-3;
+  outline: none;
+  margin-top: 0;
+  vertical-align: middle;
+}
+
+#search-button {
+  font-family: 'Lato', helvetica, sans-serif;
+  font-weight: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 32px;
+  width: 80px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: 32px;
+  border-width: 0;
+  background-color: $col-2;
+  -webkit-border-radius: 0px 5px 5px 0px;
+  -moz-border-radius: 0px 5px 5px 0px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  margin-top: 0;
+  padding: 0 5em 0 1.5em;
 }

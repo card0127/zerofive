@@ -27,6 +27,7 @@ td {
 
 
 // Li styling
+
 li,
 li:link,
 li:visited{
@@ -43,9 +44,32 @@ li:before {
   color: $col-3;
 }
 
-li:before:hover {
-  color: #000;
+// No <li> Hover
+
+li.no-hover,
+li.no-hover:link,
+li.no-hover:visited{
+  color: $text-color;
+  list-style: none;
 }
+
+li.no-hover:hover{
+  color: $text-color;
+  cursor: auto;
+}
+
+li.no-color,
+li.no-color:link,
+li.no-color:visited{
+  color: $text-color;
+  list-style: none;
+}
+
+li.no-color:hover{
+  color: #aaa;
+  cursor: auto;
+}
+
 
 .the-family-ul {
   margin-top: -1em;

@@ -59,22 +59,35 @@ img.logo-img {
   width: 100%;
 }
 
-figure {
-    display: block;
+section figure {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
 
-}
-figure img {
-    vertical-align: top;
-
-}
-figure figcaption {
+    font-size: 15px;
     text-align: center;
+}
+section figure img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+section figure span{
+    display: inline-block;
+    position: relative;
+}
+
+section figure figcaption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     font-size: 9pt;
     line-height: 11pt;
-    padding: 1em .5em;
+    background: black; /* fallback */
+    background: $light-grey;
     color: $col-2;
-    background-color: $light-grey;
-    font-weight: italic;
+    padding: 10px;
 }
 
 
@@ -82,6 +95,7 @@ figure figcaption {
 
 .profile-pic {
   width: 150px;
-  margin: 2em 1em 0 1em;
-  paadding-bottom: 0;
+  margin: 2em auto;
+  padding-bottom: 0;
+  display: block;
 }

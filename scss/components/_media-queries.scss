@@ -16,16 +16,13 @@
       // Media Queries - Tablet Size
 @media only screen and (min-width: 768px){
 
-  h1 {
-    font-size: 40pt;
-  }
 
 img.logo-img {
   width: 400px;
 }
 
 	.content {
-		padding: 0px 5em 10em 5em;
+		padding: 0px 5em 0em 5em;
 	}
 
   .intro-text {
@@ -56,10 +53,6 @@ img.logo-img {
   width: 415px
 }
 
-  .fig-img {
-  margin: 0 0 0 .5em;
-  padding: 0 0 0 .5em;
-}
 
   // Carousel
 
@@ -95,20 +88,18 @@ img.logo-img {
 
   .section-img-flex-right {
   float: right;
+  padding-left: 3em;
   }
 
   .section-img-flex-left {
   float: left;
+  padding-right: 3em;
 }
 
 
   .section-img-flex-right img,
   .section-img-flex-left img {
     margin-top: 3em;
-  }
-
-  .vertical-aligning {
-    margin-top: 10%;
   }
 
   .left,
@@ -140,17 +131,17 @@ img.logo-img {
   }
 
   .faded-white {
-    padding: 1em 3em;
+    padding: 2em 3em;
   }
 
 
   h4.staff {
-    text-align: right;
+    text-align: left;
   }
 
   .profile-pic {
   float: left;
-  margin: 3.5em 1em 0 1em;
+  margin: 0 1em 0 1em;
   }
 
   .container-one-column {
@@ -204,7 +195,6 @@ td {
   }
 
 .message {
-    font-family:'Source Sans Pro',arial,sans-serif;
     font-size:1.1em;
     display:none;
     padding-top:10px;
@@ -228,6 +218,12 @@ td {
   .news-press-content {
     display: inline-block;
   }
+
+  // News Letter Input
+  #search-box {
+  width: 410px;
+
+}
 
 
 } // End of Media Query
@@ -270,7 +266,6 @@ td {
     margin-right: 8%;
   }
 
-
   .left-list {
   float: left;
   max-width: 47%;
@@ -278,22 +273,16 @@ td {
   margin-left: 10%;
 }
 
-
 .right-list {
   float: right;
   max-width: 47%;
   margin-right: -10%;
 }
 
-
-  .section-1,
-  .section-2 {
-    padding: 6em 8em;
-  }
-
-  .vertical-aligning {
-
-  }
+.about-indus-part {
+  max-width: 80%;
+  margin: 0 auto;
+}
 
    .section-img-flex-right,
    .section-img-flex-left {
@@ -322,6 +311,7 @@ td {
 
   .faded-white {
     width: 50%;
+    padding: 3em;
   }
 
   .container-banner {
