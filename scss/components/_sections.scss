@@ -1,7 +1,11 @@
 // Sections
 
-.section-1,
-.section-2, { // For Normal sections with NO backgrounds
+.section-1 { // Background color
+  padding: 30px 4em 48px 4em;
+}
+
+
+.section-2 {  // No background color
   margin: 30px 0;
   padding: 0em 4em 3em 4em;
 }
@@ -33,6 +37,12 @@
 .section-1-no-bottom {
   margin-bottom: -7em;
   padding: 0 4em 4em 4em;
+}
+
+.section-7 {
+  margin-top: 5em;
+  padding: 16em;
+
 }
 
 .section-1-no-top {
@@ -85,10 +95,9 @@
   background-size: cover;
 }
 
-.background-section-home {
-  background-image: url("../images/programs/program-banner.jpg");
+.section-7 {
+  background-image: url("../images/news-and-press/news-press-banner.jpg");
   background-size: cover;
-  height: 70px;
 }
 
 
