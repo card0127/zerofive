@@ -25,6 +25,11 @@
   margin: 0 0 2em 0;
 }
 
+.background-section-home {
+  padding: 0em;
+  color: #000 !important;
+}
+
 .section-1-no-bottom {
   margin-bottom: -7em;
   padding: 0 4em 4em 4em;
@@ -79,6 +84,13 @@
   background-image: url("../images/programs/program-banner.jpg");
   background-size: cover;
 }
+
+.background-section-home {
+  background-image: url("../images/programs/program-banner.jpg");
+  background-size: cover;
+  height: 70px;
+}
+
 
 .section-3 p,
 .section-4 p,
