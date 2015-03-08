@@ -1752,7 +1752,7 @@ nav:not(.mm-menu) {
 
   /* line 89, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/media-queries */
   .section-img-flex-left, .section-img-flex-right {
-    width: 60%;
+    width: 40%;
     display: block;
     margin: 2em 0; }
 
