@@ -1260,29 +1260,31 @@ textarea:focus, input:focus, button:focus {
 
 /* line 83, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .background-section-about {
+  margin: 2em 0;
   background-image: url("../images/about/about-us-img.jpg");
   background-size: cover; }
 
-/* line 88, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
+/* line 89, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .background-section-support {
   background-image: url("../images/support/support-banner.jpg");
   background-size: cover; }
 
-/* line 93, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
+/* line 94, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .background-section-program {
+  margin-top: 2em;
   background-image: url("../images/programs/program-banner.jpg");
   background-size: cover; }
 
-/* line 98, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
+/* line 100, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .section-7 {
   background-image: url("../images/news-and-press/news-press-banner.jpg");
   background-size: cover; }
 
-/* line 107, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
+/* line 109, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .section-3 p, .section-4 p, .section-5 p, .section-6 p {
   font-weight: 400; }
 
-/* line 111, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
+/* line 113, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .faded-white {
   background-color: rgba(238, 238, 238, 0.8);
   padding: 1em;
