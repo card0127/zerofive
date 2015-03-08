@@ -2040,7 +2040,7 @@ nav:not(.mm-menu) {
  }
 
 /* line 20, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-#about-indus-part, #fam-execu, #fam-sponsor, #artist-res, #youth-off-reach, #port-project, #fam-execu, #portrait-project, #about-com-part, #cor-sponsor, #monthly-donor, #volunteer, #commitment, #the-schedule, #indus-part, #supply-list, #quote, #news, #press {
+#about-indus-part, #fam-execu, #fam-sponsor, #artist-res, #youth-off-reach, #port-project, #fam-execu, #portrait-project, #about-com-part, #cor-sponsor, #monthly-donor, #volunteer, #commitment, #the-schedule, #indus-part, #corp-list, #quote, #news, #press {
   height: 100%;
   display: block; }
 
@@ -2049,7 +2049,7 @@ nav:not(.mm-menu) {
   padding-top: 0; }
 
 /* line 45, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/header */
-#about-com-part, #about-indus-part, #fam-sponsor, #artist-res, #youth-off-reach, #portrait-project, #cor-sponsor, #monthly-donor, #volunteer, #commitment, #the-schedule, #port-project, #indus-part, #supply-list, #quote, #press {
+#about-com-part, #about-indus-part, #fam-sponsor, #artist-res, #youth-off-reach, #portrait-project, #cor-sponsor, #monthly-donor, #volunteer, #commitment, #the-schedule, #port-project, #indus-part, #corp-list, #quote, #press {
   padding-top: 50px;
   overflow: hidden; }
 
