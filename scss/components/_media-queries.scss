@@ -17,9 +17,9 @@
 @media only screen and (min-width: 768px){
 
 
-img.logo-img {
-  width: 400px;
-}
+  img.logo-img {
+    width: 400px;
+  }
 
 	.content {
 		padding: 0px 5em 0em 5em;
@@ -37,21 +37,21 @@ img.logo-img {
 
   }
 
-.fig-align-left {
-  display: block;
-  overflow: hidden;
-  float: left;
-  margin: 1em 1em 1em 0;
-  width: 415px;
-}
+  .fig-align-left {
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin: 1em 1em 1em 0;
+    width: 415px;
+  }
 
-.fig-align-right {
-  display: block;
-  overflow: hidden;
-  float: right;
-  margin: 1em 1em 1em 0;
-  width: 415px
-}
+  .fig-align-right {
+    display: block;
+    overflow: hidden;
+    float: right;
+    margin: 1em 1em 1em 0;
+    width: 415px
+  }
 
   // Carousel
 
@@ -86,9 +86,7 @@ img.logo-img {
   .img-carousel-full-width{
   width: 80%;
   margin: 0 auto;
-}
-
-
+  }
 
   .section-img-flex-left,
   .section-img-flex-right {
@@ -105,7 +103,7 @@ img.logo-img {
   .section-img-flex-left {
   float: left;
   padding-right: 3em;
-}
+  }
 
 
   .section-img-flex-right img,
@@ -163,36 +161,35 @@ img.logo-img {
   }
 
 
+  // Table
 
-// Table
+  .gridtable {
+    table-layout:fixed;
+    width: 100%;
+  }
 
-.gridtable {
-  table-layout:fixed;
-  width: 100%;
-}
+  th {
+    font-size: 30pt;
+    font-weight: 500;
+    padding-bottom: .5em;
+    border-bottom: 1px solid $light-grey;
+  }
 
-th {
-  font-size: 30pt;
-  font-weight: 500;
-  padding-bottom: .5em;
-  border-bottom: 1px solid $light-grey;
-}
+  td {
+    margin: 1em 2em;
+    width: 300px;
+    padding: 0 .5em;
+    vertical-align: middle;
+    font-size: 13pt;
+  }
 
-td {
-  margin: 1em 2em;
-  width: 300px;
-  padding: 0 .5em;
-  vertical-align: middle;
-  font-size: 13pt;
-}
+  .display-tablet {
+    display: block;
+  }
 
-.display-tablet {
-  display: block;
-}
-
-.display-mobile {
-  display: none;
-}
+  .display-mobile {
+    display: none;
+  }
 
 
 // Contact Form
@@ -207,7 +204,7 @@ td {
     width:90%;
   }
 
-.message {
+  .message {
     font-size:1.1em;
     display:none;
     padding-top:10px;
@@ -219,7 +216,7 @@ td {
     -webkit-border-radius:6px;
     -moz-border-radius:6px;
     border-radius:6px;
-}
+  }
 
   .news-press-main {
     margin:1em;
@@ -234,8 +231,11 @@ td {
   // News Letter Input
   #search-box {
   width: 410px;
+  }
 
-}
+  .more-margin-contact {
+    margin-top: 5.5em !important;
+  }
 
 
 } // End of Media Query
@@ -248,7 +248,7 @@ td {
   .intro-text {
     padding: 0 4em;
     max-width: 60%;
-}
+  }
 
   .content {
     margin: 0 auto;
@@ -259,26 +259,25 @@ td {
   }
 
 
-.img-carousel-full-width{
-  width: 60%;
-  margin: 0 auto;
-}
-
+  .img-carousel-full-width{
+    width: 60%;
+    margin: 0 auto;
+  }
 
   .left,
   .right {
   max-width: 40%;
   text-align: left;
-}
+  }
 
   .left {
   float: left;
   margin-left: 8%;
-}
+  }
 
   .left-blog {
   width: 45%;
-}
+  }
 
   .right {
     float: right;
@@ -290,18 +289,18 @@ td {
   max-width: 47%;
   text-align: left;
   margin-left: 10%;
-}
+  }
 
-.right-list {
-  float: right;
-  max-width: 47%;
-  margin-right: -10%;
-}
+  .right-list {
+    float: right;
+    max-width: 47%;
+    margin-right: -10%;
+  }
 
-.about-indus-part {
-  max-width: 80%;
-  margin: 0 auto;
-}
+  .about-indus-part {
+    max-width: 80%;
+    margin: 0 auto;
+  }
 
    .section-img-flex-right,
    .section-img-flex-left {
@@ -335,11 +334,11 @@ td {
 
   .container-banner {
   max-width: 82%;
-}
+  }
 
-.container-one-column {
-  max-width: 80%
-}
+  .container-one-column {
+    max-width: 80%
+  }
 
   .news-press-main {
     width:25%;
@@ -372,7 +371,7 @@ td {
   .left-blog {
     margin-left: 8%;
     width: 37%;
-}
+  }
 
 } // End of Media Query
 
