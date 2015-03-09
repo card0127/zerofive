@@ -51,6 +51,11 @@ a:hover {
   margin: 1em 1em 2.5em;
 }
 
+.yellow-btn-footer {
+  @include button($med-color, #ccc, $col-3);
+  margin: 0;
+}
+
 .yellow-btn:hover,
 .purple-btn:hover {
   font-weight: 100;
@@ -263,6 +268,10 @@ a:hover {
 
 .no-margin-top {
   margin-top: 0;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 .small-header-mobile {
