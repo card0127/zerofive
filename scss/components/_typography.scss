@@ -59,10 +59,6 @@ p {
   line-height: 13pt;
 }
 
-.intro-text {
-}
-
-
 main {
   padding: 5px;
 }
@@ -87,7 +83,7 @@ blockquote {
 cite {
   display: block;
   text-transform: uppercase;
-  color: $col-3;
+  color: $col-2;
 }
 
 i {
@@ -168,8 +164,13 @@ em {
   font-weight: 100italic;
 }
 
-
 .vertical-aligning {
   margin: 0 auto;
   vertical-align: middle;
+}
+
+.read-more {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
