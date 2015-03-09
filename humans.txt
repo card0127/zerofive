@@ -37,7 +37,9 @@ Website: laugarcia.info
 GitHub: http://guthub.com/lauranatalia
 
 
+
 # THANKS
+For these amazing plugins.
 
 Slick Carousel - For many carousels
 http://kenwheeler.github.io/slick/
@@ -58,20 +60,16 @@ http://tympanus.net/codrops/2012/08/08/circle-hover-effects-with-css-transitions
 Sublime Text
 Adobe Dreamweaver CC
 GitHub
-PrePros <---- Maybe?
+PrePros
 Illustrator
 Photoshop
 Fontello
 
-<<<<<<< HEAD
-# Photos
 
-Thank you for providing stock Images
-http://www.freeforcommercialuse.net/
 
 
 # IMAGE RESOURCE
 Thank you to all these websites for their free stock images:
 http://pixabay.com/
 https://www.flickr.com/
->>>>>>> origin/gh-pages
+http://www.freeforcommercialuse.net/
