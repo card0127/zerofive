@@ -1327,15 +1327,22 @@ textarea:focus, input:focus, button:focus {
   padding: 10em; }
 
 /* line 107, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
+.background-section-contact-bottom {
+  background-image: url("../images/contact/contact-banner-bottom.jpg");
+  background-size: cover;
+  margin-top: -2em;
+  padding: 10em; }
+
+/* line 114, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .section-7 {
   background-image: url("../images/news-and-press/news-press-banner.jpg");
   background-size: cover; }
 
-/* line 116, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
+/* line 123, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .section-3 p, .section-4 p, .section-5 p, .section-6 p {
   font-weight: 400; }
 
-/* line 120, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
+/* line 127, /Users/scribble-lies/Documents/Graphic Design VI/Interactive Design/art-start/zerofive/scss/components/sections */
 .faded-white {
   background-color: rgba(238, 238, 238, 0.8);
   padding: 1em 2em 2em 2em;
